@@ -48,8 +48,8 @@ public class HomePage extends BasePage {
     public void goToTestStore() {
         /* Need to scroll due to an error ElementClickInterceptedException */
         WebElement storeLink = driver.findElement(testStoreLink);
-        WebDriverWait wait = new WebDriverWait(WebDriverInstance.getDriverInstance(), Duration.ofSeconds(5));
-        wait.until(ExpectedConditions.presenceOfElementLocated(testStoreLink));
+        WebDriverWait wait = new WebDriverWait(WebDriverInstance.getDriverInstance(), Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.elementToBeClickable(storeLink));
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
         jse.executeScript("arguments[0].scrollIntoView()", storeLink);
         storeLink.click();
