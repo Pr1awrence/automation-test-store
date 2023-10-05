@@ -2,7 +2,9 @@ package pages.home;
 
 import core.BasePage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 /* Page link: https://www.automationtesting.co.uk/ */
 public class HomePage extends BasePage {
@@ -39,6 +41,10 @@ public class HomePage extends BasePage {
     }
 
     public void goToTestStore() {
-        driver.findElement(testStoreLink).click();
+        /* Need to scroll due to an error ElementClickInterceptedException */
+        WebElement storeLink = driver.findElement(testStoreLink);
+        JavascriptExecutor jse = (JavascriptExecutor)getDriver();
+        jse.executeScript("arguments[0].scrollIntoView()", storeLink);
+        storeLink.click();
     }
 }
