@@ -2,6 +2,9 @@ package core;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -31,11 +34,23 @@ public final class WebDriverInstance {
 
         // How to setup parametrized webdriver https://bonigarcia.dev/webdrivermanager/
         if (prop.getProperty("browser").equals("chrome")) {
-            driver = WebDriverManager.chromedriver().create();
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--window-size=1920,1080");
+            options.addArguments("--start-maximized");
+
+            driver = WebDriverManager.chromedriver().capabilities(options).create();
         } else if (prop.getProperty("browser").equals("firefox")) {
-            driver = WebDriverManager.firefoxdriver().create();
+            FirefoxOptions options = new FirefoxOptions();
+            options.addArguments("--window-size=1920,1080");
+            options.addArguments("--start-maximized");
+
+            driver = WebDriverManager.firefoxdriver().capabilities(options).create();
         } else {
-            driver = WebDriverManager.edgedriver().create();
+            EdgeOptions options = new EdgeOptions();
+            options.addArguments("--window-size=1920,1080");
+            options.addArguments("--start-maximized");
+
+            driver = WebDriverManager.edgedriver().capabilities(options).create();
         }
 
         driver.manage().window().maximize();
