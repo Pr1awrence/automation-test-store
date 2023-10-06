@@ -1,21 +1,17 @@
 package pages.home;
 
 import core.BasePage;
-import core.WebDriverInstance;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
 
 /* Page link: https://www.automationtesting.co.uk/ */
 public class HomePage extends BasePage {
     public WebDriver driver;
 
     By toggle = By.cssSelector(".toggle");
+    By inactiveSidebar = By.cssSelector("#sidebar.inactive");
     By homeLink = By.linkText("HOMEPAGE");
     By accordionLink = By.linkText("ACCORDION");
     By browserTabLink = By.linkText("BROWSER TABS");
@@ -46,12 +42,13 @@ public class HomePage extends BasePage {
     }
 
     public void goToTestStore() {
-        /* Need to scroll due to an error ElementClickInterceptedException */
-        WebElement storeLink = driver.findElement(testStoreLink);
-        WebDriverWait wait = new WebDriverWait(WebDriverInstance.getDriverInstance(), Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.elementToBeClickable(storeLink));
+        WebElement testStoreLink = driver.findElement(this.testStoreLink);
+        boolean isSidebarInactive = !driver.findElements(this.inactiveSidebar).isEmpty();
+        if (isSidebarInactive) {
+            driver.findElement(toggle).click();
+        }
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
-        jse.executeScript("arguments[0].scrollIntoView()", storeLink);
-        storeLink.click();
+        jse.executeScript("arguments[0].scrollIntoView()", testStoreLink);
+        testStoreLink.click();
     }
 }

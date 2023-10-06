@@ -13,7 +13,7 @@ public class ShopProductPage extends BasePage {
     By quantityIncrease = By.cssSelector(".touchspin-up");
     By quantityDecrease = By.cssSelector(".touchspin-down");
     By addToCartBtn = By.cssSelector(".add-to-cart.btn.btn-primary");
-    By homepageLink = By.xpath("//span[.='Home']");
+    By homepageLink = By.xpath("//a[@href='http://teststore.automationtesting.co.uk/']");
 
     public ShopProductPage() {
         this.driver = getDriver();
