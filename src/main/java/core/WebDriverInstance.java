@@ -35,6 +35,7 @@ public final class WebDriverInstance {
         // How to setup parametrized webdriver https://bonigarcia.dev/webdrivermanager/
         if (prop.getProperty("browser").equals("chrome")) {
             ChromeOptions options = new ChromeOptions();
+            options.addArguments("--headless");
             options.addArguments("--window-size=1920,1080");
             options.addArguments("--start-maximized");
 
