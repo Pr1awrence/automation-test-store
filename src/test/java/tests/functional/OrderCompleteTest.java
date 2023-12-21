@@ -1,16 +1,15 @@
-package tests.e2e;
+package tests.functional;
 
 import core.Hooks;
 import listeners.TestFailureScreenshotListener;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import pages.home.HomePage;
 import pages.order.OrderFormDelivery;
 import pages.order.OrderFormPayment;
 import pages.order.OrderFormPersonalInfo;
 import pages.order.OrderFormShippingMethod;
 import pages.shop.ShopContentModal;
-import pages.shop.ShopHomePage;
+import pages.home.HomePage;
 import pages.shop.ShopProductPage;
 import pages.shop.ShoppingCart;
 
@@ -20,14 +19,9 @@ public class OrderCompleteTest extends Hooks {
     @Test
     /* напиши тест кейс */
     public void orderCompleteTest() {
-        HomePage homePage = new HomePage();
-        homePage.closeCookiesPopup();
-
-        homePage.goToTestStore();
-
         // Choose first product from the popular products section
-        ShopHomePage shopHomePage = new ShopHomePage();
-        shopHomePage.clickFirstProduct();
+        HomePage homePage = new HomePage();
+        homePage.clickFirstProduct();
 
         // Change size, quantity and add product to the cart
         ShopProductPage shopProductPage = new ShopProductPage();

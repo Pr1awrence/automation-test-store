@@ -3,9 +3,11 @@
     <test name="parallel-tests">
         <classes>
             <class
-                name="tests.e2e.RemoveItemBasketTest" />
+                    name="tests.pages.home.HomePageTest" />
             <class
-                name="tests.e2e.OrderCompleteTest" />
+                    name="tests.functional.RemoveItemBasketTest" />
+            <class
+                    name="tests.functional.OrderCompleteTest" />
         </classes>
     </test>
 </suite>

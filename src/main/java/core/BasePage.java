@@ -34,6 +34,14 @@ public class BasePage {
         Files.move(screenshot.toPath(), destination, REPLACE_EXISTING);
     }
 
+    public String getCurrentUrl() {
+        return getDriver().getCurrentUrl();
+    }
+
+    public void driverNavigateBack() {
+        getDriver().navigate().back();
+    }
+
     private String timestamp() {
         return new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(new Date());
     }

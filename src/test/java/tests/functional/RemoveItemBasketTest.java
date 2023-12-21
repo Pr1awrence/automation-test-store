@@ -1,4 +1,4 @@
-package tests.e2e;
+package tests.functional;
 
 import core.Hooks;
 import core.WebDriverInstance;
@@ -8,9 +8,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import pages.home.HomePage;
 import pages.shop.ShopContentModal;
-import pages.shop.ShopHomePage;
+import pages.home.HomePage;
 import pages.shop.ShopProductPage;
 import pages.shop.ShoppingCart;
 
@@ -22,13 +21,8 @@ public class RemoveItemBasketTest extends Hooks {
     @Test
     /* напиши тест кейс */
     public void removeItemTest() {
-        HomePage home = new HomePage();
-        home.closeCookiesPopup();
-
-        home.goToTestStore();
-
         // Choose first product from the popular products section
-        ShopHomePage shopHome = new ShopHomePage();
+        HomePage shopHome = new HomePage();
         shopHome.clickFirstProduct();
 
         // Change size, quantity and add product to the cart
