@@ -13,15 +13,17 @@ import pages.home.HomePage;
 import java.time.Duration;
 
 public class ClothesPageTest extends Hooks {
+    private ClothesPage clothesPage;
+
     @BeforeMethod
     public void clothesPageSetup() {
         HomePage homePage = new HomePage();
         homePage.clickClothesMenuLink();
+        clothesPage = new ClothesPage();
     }
 
     @Test
     public void leftMenuMenCategoryLinkTest() {
-        ClothesPage clothesPage = new ClothesPage();
         clothesPage.clickLeftMenuClothesMenCategory();
 
         String currentUrl = clothesPage.getCurrentUrl();
@@ -30,7 +32,6 @@ public class ClothesPageTest extends Hooks {
 
     @Test
     public void leftMenuWomenCategoryLinkTest() {
-        ClothesPage clothesPage = new ClothesPage();
         clothesPage.clickLeftMenuClothesWomenCategory();
 
         String currentUrl = clothesPage.getCurrentUrl();
@@ -39,18 +40,14 @@ public class ClothesPageTest extends Hooks {
 
     @Test
     public void leftMenuSearchFiltersAreDisplayedTest() {
-        ClothesPage clothesPage = new ClothesPage();
-
         Assert.assertTrue(clothesPage.leftMenuSearchFiltersAreDisplayed());
     }
 
     @Test
     public void leftMenuFilterByMenCategoryCheckboxTest() {
-        ClothesPage clothesPage = new ClothesPage();
         clothesPage.clickLeftMenuFilterByMenCategoryCheckbox();
 
-        WebDriverWait wait = new WebDriverWait(WebDriverInstance.getDriverInstance(), Duration.ofSeconds(2));
-        wait.until(ExpectedConditions.urlContains("Categories-Men"));
+        waitUntilUrlContains("Categories-Men");
 
         String currentUrl = clothesPage.getCurrentUrl();
         Assert.assertEquals(currentUrl, "http://teststore.automationtesting.co.uk/3-clothes?q=Categories-Men");
@@ -58,13 +55,96 @@ public class ClothesPageTest extends Hooks {
 
     @Test
     public void leftMenuFilterByWomenCategoryCheckboxTest() {
-        ClothesPage clothesPage = new ClothesPage();
         clothesPage.clickLeftMenuFilterByWomenCategoryCheckbox();
 
-        WebDriverWait wait = new WebDriverWait(WebDriverInstance.getDriverInstance(), Duration.ofSeconds(2));
-        wait.until(ExpectedConditions.urlContains("Categories-Women"));
+        waitUntilUrlContains("Categories-Women");
 
         String currentUrl = clothesPage.getCurrentUrl();
         Assert.assertEquals(currentUrl, "http://teststore.automationtesting.co.uk/3-clothes?q=Categories-Women");
+    }
+
+    @Test
+    public void leftMenuFilterBySizeSCheckboxTest() {
+        clothesPage.clickLeftMenuFilterBySizeSCheckbox();
+
+        waitUntilUrlContains("Size-S");
+
+        String currentUrl = clothesPage.getCurrentUrl();
+        Assert.assertEquals(currentUrl, "http://teststore.automationtesting.co.uk/3-clothes?q=Size-S");
+    }
+
+    @Test
+    public void leftMenuFilterBySizeMCheckboxTest() {
+        clothesPage.clickLeftMenuFilterBySizeMCheckbox();
+
+        waitUntilUrlContains("Size-M");
+
+        String currentUrl = clothesPage.getCurrentUrl();
+        Assert.assertEquals(currentUrl, "http://teststore.automationtesting.co.uk/3-clothes?q=Size-M");
+    }
+
+    @Test
+    public void leftMenuFilterBySizeLCheckboxTest() {
+        clothesPage.clickLeftMenuFilterBySizeLCheckbox();
+
+        waitUntilUrlContains("Size-L");
+
+        String currentUrl = clothesPage.getCurrentUrl();
+        Assert.assertEquals(currentUrl, "http://teststore.automationtesting.co.uk/3-clothes?q=Size-L");
+    }
+
+    @Test
+    public void leftMenuFilterBySizeXLCheckboxTest() {
+        clothesPage.clickLeftMenuFilterBySizeXLCheckbox();
+
+        waitUntilUrlContains("Size-XL");
+
+        String currentUrl = clothesPage.getCurrentUrl();
+        Assert.assertEquals(currentUrl, "http://teststore.automationtesting.co.uk/3-clothes?q=Size-XL");
+    }
+
+    @Test
+    public void leftMenuFilterByColorWhiteCheckboxTest() {
+        clothesPage.clickLeftMenuFilterByColorWhiteCheckbox();
+
+        waitUntilUrlContains("Color-White");
+
+        String currentUrl = clothesPage.getCurrentUrl();
+        Assert.assertEquals(currentUrl, "http://teststore.automationtesting.co.uk/3-clothes?q=Color-White");
+    }
+
+    @Test
+    public void leftMenuFilterByColorBlackCheckboxTest() {
+        clothesPage.clickLeftMenuFilterByColorBlackCheckbox();
+
+        waitUntilUrlContains("Color-Black");
+
+        String currentUrl = clothesPage.getCurrentUrl();
+        Assert.assertEquals(currentUrl, "http://teststore.automationtesting.co.uk/3-clothes?q=Color-Black");
+    }
+
+    @Test
+    public void leftMenuFilterByPropertyLongSleevesCheckboxTest() {
+        clothesPage.clickLeftMenuFilterByPropertyLongSleevesCheckbox();
+
+        waitUntilUrlContains("Property-Long+sleeves");
+
+        String currentUrl = clothesPage.getCurrentUrl();
+        Assert.assertEquals(currentUrl, "http://teststore.automationtesting.co.uk/3-clothes?q=Property-Long+sleeves");
+    }
+
+    @Test
+    public void leftMenuFilterByPropertyShortSleevesCheckboxTest() {
+        clothesPage.clickLeftMenuFilterByPropertyShortSleevesCheckbox();
+
+        waitUntilUrlContains("Property-Short+sleeves");
+
+        String currentUrl = clothesPage.getCurrentUrl();
+        Assert.assertEquals(currentUrl, "http://teststore.automationtesting.co.uk/3-clothes?q=Property-Short+sleeves");
+    }
+
+    private void waitUntilUrlContains(String url) {
+        WebDriverWait wait = new WebDriverWait(WebDriverInstance.getDriverInstance(), Duration.ofSeconds(2));
+        wait.until(ExpectedConditions.urlContains(url));
     }
 }
