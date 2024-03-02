@@ -12,11 +12,15 @@ import java.io.ByteArrayInputStream;
 
 import static io.qameta.allure.Allure.addAttachment;
 
+/**
+ * <p>The {@code AllureListener} class intercepts the control of the dropped test
+ * to take a screenshot before the program throws an error (the {@link #beforeTestStop(TestResult result)} method).
+ */
 /*
-* There is no guarantee that TestNG onTestFailure will be executed before closing the Allure context.
-* So need to use AllureLifeCycle Listener instead of TestNG Listener
-* https://github.com/testng-team/testng/issues/2791
-* */
+ * There is no guarantee that TestNG onTestFailure will be executed before closing the Allure context.
+ * So need to use AllureLifeCycle Listener instead of TestNG Listener
+ * https://github.com/testng-team/testng/issues/2791
+ * */
 public class AllureListener implements TestLifecycleListener {
     @Override
     public void beforeTestStop(TestResult result) {

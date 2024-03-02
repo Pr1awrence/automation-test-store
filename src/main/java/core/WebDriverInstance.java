@@ -8,6 +8,12 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+/**
+ * <p>The {@code WebDriverInstance} class is responsible for creating, providing, and cleaning up the {@code WebDriver}.
+ * <p> It also manages the {@code localDriver} for safe and reliable operation during parallelization.
+ * <p> The class has static methods such as
+ * {@link #getDriverInstance()}, {@link #createDriver()}, and {@link #cleanupLocalDriver()}.
+ */
 public final class WebDriverInstance {
     public static ThreadLocal<WebDriver> localDriver = new ThreadLocal<>();
 

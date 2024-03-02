@@ -3,6 +3,9 @@ package core;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+/**
+ * <p> The {@code Hooks} class sets up and tears down all test pages.
+ */
 public class Hooks {
     ConfigReader reader;
 

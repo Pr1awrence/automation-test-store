@@ -14,11 +14,17 @@ import java.util.Date;
 
 import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 
+/**
+ * <p>The {@code BasePage} class provides info for all the child pages
+ * (the {@link #getDriver()} and {@link #getCurrentUrl()} methods).
+ * <p>The class also contains reusable methods for children (the {@link #driverNavigateBack()} method).
+ */
 public class BasePage {
     public WebDriver getDriver() {
         return WebDriverInstance.getDriverInstance();
     }
 
+    @Deprecated(since = "Allure listener has already implemented and creates an attachment when a test fails")
     public void takeSnapShot() throws IOException {
         File screenshot = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
 
