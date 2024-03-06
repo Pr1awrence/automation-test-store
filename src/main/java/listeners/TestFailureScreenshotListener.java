@@ -1,6 +1,6 @@
 package listeners;
 
-import core.BasePage;
+import pages.BasePage;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 

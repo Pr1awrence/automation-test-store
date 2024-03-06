@@ -9,7 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.shop.ShopContentModal;
-import pages.home.HomePage;
+import pages.main.MainPage;
 import pages.shop.ShopProductPage;
 import pages.shop.ShoppingCart;
 
@@ -22,7 +22,7 @@ public class RemoveItemBasketTest extends Hooks {
     /* напиши тест кейс */
     public void removeItemTest() {
         // Choose first product from the popular products section
-        HomePage shopHome = new HomePage();
+        MainPage shopHome = new MainPage();
         shopHome.clickFirstProduct();
 
         // Change size, quantity and add product to the cart

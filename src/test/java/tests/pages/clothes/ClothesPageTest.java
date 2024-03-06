@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.clothes.ClothesPage;
-import pages.home.HomePage;
+import pages.main.MainPage;
 
 import java.time.Duration;
 
@@ -17,8 +17,8 @@ public class ClothesPageTest extends Hooks {
 
     @BeforeMethod
     public void clothesPageSetup() {
-        HomePage homePage = new HomePage();
-        homePage.clickClothesMenuLink();
+        MainPage mainPage = new MainPage();
+        mainPage.clickClothesMenuLink();
         clothesPage = new ClothesPage();
     }
 

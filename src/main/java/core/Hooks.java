@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeMethod;
  * <p> The {@code Hooks} class sets up and tears down all test pages.
  */
 public class Hooks {
-    ConfigReader reader;
+    protected ConfigReader reader;
 
     public Hooks() {
         this.reader = new ConfigReader();
@@ -16,7 +16,7 @@ public class Hooks {
     @BeforeMethod
     public void setup() {
         var driver = WebDriverInstance.getDriverInstance();
-        driver.get(reader.getUrl());
+        driver.get(reader.getMainPageUrl());
     }
 
     @AfterMethod

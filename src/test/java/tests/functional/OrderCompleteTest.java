@@ -4,12 +4,12 @@ import core.Hooks;
 import listeners.TestFailureScreenshotListener;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import pages.main.MainPage;
 import pages.order.OrderFormDelivery;
 import pages.order.OrderFormPayment;
 import pages.order.OrderFormPersonalInfo;
 import pages.order.OrderFormShippingMethod;
 import pages.shop.ShopContentModal;
-import pages.home.HomePage;
 import pages.shop.ShopProductPage;
 import pages.shop.ShoppingCart;
 
@@ -20,8 +20,8 @@ public class OrderCompleteTest extends Hooks {
     /* напиши тест кейс */
     public void orderCompleteTest() {
         // Choose first product from the popular products section
-        HomePage homePage = new HomePage();
-        homePage.clickFirstProduct();
+        MainPage mainPage = new MainPage();
+        mainPage.clickFirstProduct();
 
         // Change size, quantity and add product to the cart
         ShopProductPage shopProductPage = new ShopProductPage();

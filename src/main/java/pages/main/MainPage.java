@@ -1,6 +1,6 @@
-package pages.home;
+package pages.main;
 
-import core.BasePage;
+import pages.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 /* Page link: http://teststore.automationtesting.co.uk/ */
-public class HomePage extends BasePage {
+public class MainPage extends BasePage {
     public WebDriver driver;
 
     By clothesMenuLink = By.linkText("CLOTHES");
@@ -34,7 +34,7 @@ public class HomePage extends BasePage {
     By inputEmailSubscription = By.cssSelector("input[name='email']");
     By footer = By.cssSelector(".footer-container");
 
-    public HomePage() {
+    public MainPage() {
         this.driver = getDriver();
     }
 

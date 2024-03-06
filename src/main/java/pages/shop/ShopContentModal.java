@@ -1,6 +1,6 @@
 package pages.shop;
 
-import core.BasePage;
+import pages.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
