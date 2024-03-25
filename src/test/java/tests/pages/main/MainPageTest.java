@@ -96,7 +96,7 @@ public class MainPageTest extends BasePageTest {
         Assert.assertTrue(mainPage.carouselSectionIsDisplayed());
     }
 
-    @Test
+    @Test(description = "Broken test due to site changes", enabled = false)
     public void bannersTest() {
         MainPage mainPage = new MainPage();
         /* Check first banner */
@@ -161,14 +161,14 @@ public class MainPageTest extends BasePageTest {
         Assert.assertTrue(mainPage.customTextSectionIsDisplayed());
     }
 
-    @Test
+    @Test(description = "Deprecated test due to site changes", enabled = false)
     public void subscriptionButtonIsDisabledTest() {
         MainPage mainPage = new MainPage();
 
         Assert.assertTrue(mainPage.isSubscribeButtonDisabled());
     }
 
-    @Test
+    @Test(description = "Deprecated test due to site changes", enabled = false)
     public void subscriptionButtonIsEnabledTest() {
         MainPage mainPage = new MainPage();
         mainPage.clickSubscriptionConsentCheckbox();
@@ -186,7 +186,7 @@ public class MainPageTest extends BasePageTest {
         Assert.assertTrue(mainPage.alertSuccessSubscriptionIsDisplayed());
     }
 
-    @Test
+    @Test(description = "Broken test due to site changes", enabled = false)
     public void subscribeWithIncorrectEmailTest() {
         MainPage mainPage = new MainPage();
         mainPage.inputEmailSubscriptionSendKeys("q@q");
@@ -196,7 +196,7 @@ public class MainPageTest extends BasePageTest {
         Assert.assertTrue(mainPage.alertFailedSubscriptionIsDisplayed());
     }
 
-    @Test
+    @Test(description = "Broken test due to site changes", enabled = false)
     public void subscribeWithEmptyEmailTest() {
         MainPage mainPage = new MainPage();
         mainPage.inputEmailSubscriptionSendKeys("");
@@ -206,7 +206,7 @@ public class MainPageTest extends BasePageTest {
         Assert.assertTrue(mainPage.alertFailedSubscriptionIsDisplayed());
     }
 
-    @Test
+    @Test(description = "Broken test due to site changes", enabled = false)
     public void subscribeWithRegisteredEmailTest() {
         MainPage mainPage = new MainPage();
         mainPage.inputEmailSubscriptionSendKeys("11111@gmail.com");

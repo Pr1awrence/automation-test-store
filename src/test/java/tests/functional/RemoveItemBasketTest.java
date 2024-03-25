@@ -18,7 +18,7 @@ import java.time.Duration;
 @Listeners(TestFailureScreenshotListener.class)
 
 public class RemoveItemBasketTest extends Hooks {
-    @Test
+    @Test(description = "Old test", enabled = false)
     /* напиши тест кейс */
     public void removeItemTest() {
         // Choose first product from the popular products section

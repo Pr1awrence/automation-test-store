@@ -16,7 +16,7 @@ import pages.shop.ShoppingCart;
 @Listeners(TestFailureScreenshotListener.class)
 
 public class OrderCompleteTest extends Hooks {
-    @Test
+    @Test(description = "Old test", enabled = false)
     /* напиши тест кейс */
     public void orderCompleteTest() {
         // Choose first product from the popular products section

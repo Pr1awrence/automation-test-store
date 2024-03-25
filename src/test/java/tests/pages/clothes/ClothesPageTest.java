@@ -1,6 +1,5 @@
 package tests.pages.clothes;
 
-import core.Hooks;
 import core.WebDriverInstance;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -9,10 +8,11 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.clothes.ClothesPage;
 import pages.main.MainPage;
+import tests.pages.BasePageTest;
 
 import java.time.Duration;
 
-public class ClothesPageTest extends Hooks {
+public class ClothesPageTest extends BasePageTest {
     private ClothesPage clothesPage;
 
     @BeforeMethod
@@ -141,6 +141,16 @@ public class ClothesPageTest extends Hooks {
 
         String currentUrl = clothesPage.getCurrentUrl();
         Assert.assertEquals(currentUrl, "http://teststore.automationtesting.co.uk/3-clothes?q=Property-Short+sleeves");
+    }
+
+    @Test
+    public void leftMenuPriceRangeTest() {
+
+    }
+
+    @Test
+    public void leftMenuPriceSliderLeftHandleTest() {
+        clothesPage.setValueLeftMenuPriceSliderLeftHandle(50);
     }
 
     private void waitUntilUrlContains(String url) {

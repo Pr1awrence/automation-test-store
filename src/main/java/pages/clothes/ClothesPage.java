@@ -1,5 +1,6 @@
 package pages.clothes;
 
+import org.openqa.selenium.JavascriptExecutor;
 import pages.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -24,6 +25,10 @@ public class ClothesPage extends BasePage {
     By leftMenuFilterByColorBlackCheckbox = By.xpath("//section[@class='facet clearfix'][3]//a[contains(text(), 'Black')]");
     By leftMenuFilterByPropertyLongSleevesCheckbox = By.xpath("//section[@class='facet clearfix'][4]//a[contains(text(), 'Long sleeves')]");
     By leftMenuFilterByPropertyShortSleevesCheckbox = By.xpath("//section[@class='facet clearfix'][4]//a[contains(text(), 'Short sleeves')]");
+    By leftMenuPriceRange = By.xpath("//section[@class='facet clearfix'][5]//p[contains(text(), 'facet_label')]");
+    By leftMenuPriceSliderLeftHandle = By.xpath("//section[@class='facet clearfix'][5]//a[@class='ui-slider-handle ui-state-default ui-corner-all'][1]");
+    By leftMenuPriceSliderRightHandle = By.xpath("//section[@class='facet clearfix'][5]//a[@class='ui-slider-handle ui-state-default ui-corner-all'][2]");
+
 
     public ClothesPage() {
         this.driver = getDriver();
@@ -83,5 +88,20 @@ public class ClothesPage extends BasePage {
 
     public void clickLeftMenuFilterByPropertyShortSleevesCheckbox(){
         driver.findElement(leftMenuFilterByPropertyShortSleevesCheckbox).click();
+    }
+
+    public String getTextLeftMenuPriceRange(){
+        return driver.findElement(leftMenuPriceRange).getText();
+    }
+
+    /* TODO: need to refactor - remove js executor to the base page */
+    public void setValueLeftMenuPriceSliderLeftHandle(int value){
+        WebElement leftHandle = driver.findElement(leftMenuPriceSliderLeftHandle);
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].style.left = arguments[1];", leftHandle, value);
+
+
+        System.out.println(leftHandle.getCssValue("left"));
     }
 }
