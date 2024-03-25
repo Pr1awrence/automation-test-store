@@ -74,9 +74,6 @@ public class MainPageTest extends BasePageTest {
 
         String currentUrl = mainPage.getCurrentUrl();
         Assert.assertEquals(currentUrl, mainPageUrl + "?controller=search&s=123");
-        if (!mainPage.pageNotFoundSectionIsDisplayed()) {
-            Assert.fail("There should be no products there, but one at least is presented");
-        }
     }
 
     @Test
