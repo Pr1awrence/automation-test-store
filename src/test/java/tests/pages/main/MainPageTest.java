@@ -49,7 +49,7 @@ public class MainPageTest extends BasePageTest {
         mainPage.searchInputSendKeys("Sweater");
 
         String currentUrl = mainPage.getCurrentUrl();
-        Assert.assertEquals(currentUrl, mainPageUrl + "/search?controller=search&s=Sweater");
+        Assert.assertEquals(currentUrl, mainPageUrl + "?controller=search&s=Sweater");
         if (mainPage.getProductsList().isEmpty()) {
             Assert.fail("There should be one product for this search value, but there is none");
         }
@@ -61,7 +61,7 @@ public class MainPageTest extends BasePageTest {
         mainPage.searchInputSendKeys("S");
 
         String currentUrl = mainPage.getCurrentUrl();
-        Assert.assertEquals(currentUrl, mainPageUrl + "/search?controller=search&s=S");
+        Assert.assertEquals(currentUrl, mainPageUrl + "?controller=search&s=S");
         if (mainPage.getProductsList().isEmpty()) {
             Assert.fail("There should be at least one product for this search value, but there is none");
         }
@@ -73,7 +73,7 @@ public class MainPageTest extends BasePageTest {
         mainPage.searchInputSendKeys("123");
 
         String currentUrl = mainPage.getCurrentUrl();
-        Assert.assertEquals(currentUrl, mainPageUrl + "/search?controller=search&s=123");
+        Assert.assertEquals(currentUrl, mainPageUrl + "?controller=search&s=123");
         if (!mainPage.pageNotFoundSectionIsDisplayed()) {
             Assert.fail("There should be no products there, but one at least is presented");
         }
@@ -85,7 +85,7 @@ public class MainPageTest extends BasePageTest {
         mainPage.searchInputSendKeys("");
 
         String currentUrl = mainPage.getCurrentUrl();
-        Assert.assertEquals(currentUrl, mainPageUrl + "/search?controller=search&s=");
+        Assert.assertEquals(currentUrl, mainPageUrl + "?controller=search&s=");
         Assert.assertTrue(mainPage.pageNotFoundSectionIsDisplayed(), "There should be no products there, but one at least is presented");
     }
 
