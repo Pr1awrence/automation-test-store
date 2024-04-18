@@ -1,11 +1,11 @@
 {
-  "uid" : "258b71abcc6ec375",
+  "uid" : "4f436b544cadec6b",
   "name" : "Should be fixed on FE side",
   "fullName" : "tests.pages.main.MainPageTest.searchInputOneCharTest",
   "historyId" : "d060b48f2d596b32482c8c562853a166",
   "time" : {
-    "start" : 1713470894889,
-    "stop" : 1713470894889,
+    "start" : 1713471277838,
+    "stop" : 1713471277838,
     "duration" : 0
   },
   "status" : "unknown",
@@ -35,7 +35,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "16552@GalinaSM.main(1)"
+    "value" : "15880@GalinaSM.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "258b71abcc6ec375.json",
+  "source" : "4f436b544cadec6b.json",
   "parameterValues" : [ ]
 }

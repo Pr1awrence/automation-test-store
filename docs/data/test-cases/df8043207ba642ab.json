@@ -1,48 +1,48 @@
 {
-  "uid" : "a174692446b82a53",
+  "uid" : "df8043207ba642ab",
   "name" : "footerIsDisplayedTest",
   "fullName" : "tests.pages.main.MainPageTest.footerIsDisplayedTest",
   "historyId" : "48da1fc1f20232ad05a07f184fa039d3",
   "time" : {
-    "start" : 1713470909547,
-    "stop" : 1713470909570,
-    "duration" : 23
+    "start" : 1713471293042,
+    "stop" : 1713471293066,
+    "duration" : 24
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713470905648,
-      "stop" : 1713470909544,
-      "duration" : 3896
+      "start" : 1713471289713,
+      "stop" : 1713471293041,
+      "duration" : 3328
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713470909572,
-      "stop" : 1713470909645,
-      "duration" : 73
+      "start" : 1713471293068,
+      "stop" : 1713471293168,
+      "duration" : 100
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -67,7 +67,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "16552@GalinaSM.TestNG-test=parallel-tests-1(43)"
+    "value" : "15880@GalinaSM.TestNG-test=parallel-tests-1(40)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a174692446b82a53.json",
+  "source" : "df8043207ba642ab.json",
   "parameterValues" : [ ]
 }
