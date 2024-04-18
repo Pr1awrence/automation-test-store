@@ -1,11 +1,11 @@
 {
-  "uid" : "f3f63f686bcedf",
-  "name" : "Broken test due to site changes",
-  "fullName" : "tests.pages.main.MainPageTest.subscribeWithRegisteredEmailTest",
-  "historyId" : "c9544946f763fd370b66ae144d78d32",
+  "uid" : "de6ca4548cbb8c97",
+  "name" : "Must unsubscribe the user or delete an existing email from the DB",
+  "fullName" : "tests.pages.main.MainPageTest.subscribeWithRealEmailTest",
+  "historyId" : "4e394ef802f9f9c32b118f937a287901",
   "time" : {
-    "start" : 1713482048772,
-    "stop" : 1713482048772,
+    "start" : 1713482844060,
+    "stop" : 1713482844060,
     "duration" : 0
   },
   "status" : "unknown",
@@ -20,7 +20,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "subscribeWithRegisteredEmailTest"
+    "value" : "subscribeWithRealEmailTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -35,7 +35,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "12740@GalinaSM.main(1)"
+    "value" : "6452@GalinaSM.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f3f63f686bcedf.json",
+  "source" : "de6ca4548cbb8c97.json",
   "parameterValues" : [ ]
 }

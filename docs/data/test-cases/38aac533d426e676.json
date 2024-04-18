@@ -1,48 +1,48 @@
 {
-  "uid" : "6727f26dbc36f28d",
+  "uid" : "38aac533d426e676",
   "name" : "saleBannerIsDisplayedTest",
   "fullName" : "tests.pages.main.MainPageTest.saleBannerIsDisplayedTest",
   "historyId" : "404133ea965bb34dc436e66acb2cb92a",
   "time" : {
-    "start" : 1713482082692,
-    "stop" : 1713482082716,
-    "duration" : 24
+    "start" : 1713482876178,
+    "stop" : 1713482876200,
+    "duration" : 22
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713482079631,
-      "stop" : 1713482082690,
-      "duration" : 3059
+      "start" : 1713482873138,
+      "stop" : 1713482876176,
+      "duration" : 3038
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713482082718,
-      "stop" : 1713482082784,
-      "duration" : 66
+      "start" : 1713482876201,
+      "stop" : 1713482876307,
+      "duration" : 106
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -67,7 +67,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "12740@GalinaSM.TestNG-test=parallel-tests-1(43)"
+    "value" : "6452@GalinaSM.TestNG-test=parallel-tests-1(38)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6727f26dbc36f28d.json",
+  "source" : "38aac533d426e676.json",
   "parameterValues" : [ ]
 }
