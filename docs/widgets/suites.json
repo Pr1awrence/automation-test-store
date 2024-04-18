@@ -1,1 +1,15 @@
-{"total":1,"items":[{"uid":"ca0d9d3784445f6df02c6232fe06b8e8","name":"parallel-suite","statistic":{"failed":0,"broken":0,"skipped":0,"passed":13,"unknown":11,"total":24}}]}
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "ca0d9d3784445f6df02c6232fe06b8e8",
+    "name" : "parallel-suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 11,
+      "total" : 24
+    }
+  } ]
+}
