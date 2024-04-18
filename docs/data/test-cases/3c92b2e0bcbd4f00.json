@@ -1,46 +1,46 @@
 {
-  "uid" : "817468ca411ea100",
+  "uid" : "3c92b2e0bcbd4f00",
   "name" : "searchInputIncorrectValueTest",
   "fullName" : "tests.pages.main.MainPageTest.searchInputIncorrectValueTest",
   "historyId" : "d9edc11cc9ca906301bd84ef85d4eac6",
   "time" : {
-    "start" : 1713480987498,
-    "stop" : 1713480988359,
-    "duration" : 861
+    "start" : 1713482092809,
+    "stop" : 1713482093609,
+    "duration" : 800
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713480984756,
-      "stop" : 1713480987496,
-      "duration" : 2740
+      "start" : 1713482090111,
+      "stop" : 1713482092807,
+      "duration" : 2696
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
+    "hasContent" : false,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713480988360,
-      "stop" : 1713480988428,
-      "duration" : 68
+      "start" : 1713482093610,
+      "stop" : 1713482093707,
+      "duration" : 97
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
+    "hasContent" : false,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   } ],
@@ -67,7 +67,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "2676@GalinaSM.TestNG-test=parallel-tests-1(41)"
+    "value" : "12740@GalinaSM.TestNG-test=parallel-tests-1(43)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "817468ca411ea100.json",
+  "source" : "3c92b2e0bcbd4f00.json",
   "parameterValues" : [ ]
 }
