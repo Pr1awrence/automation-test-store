@@ -1,11 +1,11 @@
 {
-  "uid" : "3d63e5ca512da1f5",
-  "name" : "Should be fixed on FE side",
-  "fullName" : "tests.pages.main.MainPageTest.saleBannerTest",
-  "historyId" : "45993425ff70991da1561cc2150be187",
+  "uid" : "206efa948a627f8d",
+  "name" : "Deprecated test due to site changes",
+  "fullName" : "tests.pages.main.MainPageTest.subscriptionButtonIsDisabledTest",
+  "historyId" : "a694c9bb4a9428bf51a8952401828463",
   "time" : {
-    "start" : 1713471277828,
-    "stop" : 1713471277828,
+    "start" : 1713480652558,
+    "stop" : 1713480652558,
     "duration" : 0
   },
   "status" : "unknown",
@@ -20,7 +20,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "saleBannerTest"
+    "value" : "subscriptionButtonIsDisabledTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -35,7 +35,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "15880@GalinaSM.main(1)"
+    "value" : "5316@GalinaSM.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3d63e5ca512da1f5.json",
+  "source" : "206efa948a627f8d.json",
   "parameterValues" : [ ]
 }

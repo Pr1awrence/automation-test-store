@@ -1,48 +1,48 @@
 {
-  "uid" : "eae70aa2d4fad1ef",
-  "name" : "headerAccessoriesLinkTest",
-  "fullName" : "tests.pages.main.MainPageTest.headerAccessoriesLinkTest",
-  "historyId" : "bc4fa3282b08a89b2d0a17f410c36c78",
+  "uid" : "5010ffa3f2860193",
+  "name" : "footerIsDisplayedTest",
+  "fullName" : "tests.pages.main.MainPageTest.footerIsDisplayedTest",
+  "historyId" : "48da1fc1f20232ad05a07f184fa039d3",
   "time" : {
-    "start" : 1713471296186,
-    "stop" : 1713471297292,
-    "duration" : 1106
+    "start" : 1713480665827,
+    "stop" : 1713480665851,
+    "duration" : 24
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713471293169,
-      "stop" : 1713471296183,
-      "duration" : 3014
+      "start" : 1713480663041,
+      "stop" : 1713480665825,
+      "duration" : 2784
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713471297296,
-      "stop" : 1713471297404,
-      "duration" : 108
+      "start" : 1713480665853,
+      "stop" : 1713480665932,
+      "duration" : 79
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -52,7 +52,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "headerAccessoriesLinkTest"
+    "value" : "footerIsDisplayedTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -67,7 +67,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "15880@GalinaSM.TestNG-test=parallel-tests-1(40)"
+    "value" : "5316@GalinaSM.TestNG-test=parallel-tests-1(43)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "eae70aa2d4fad1ef.json",
+  "source" : "5010ffa3f2860193.json",
   "parameterValues" : [ ]
 }
