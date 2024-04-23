@@ -1,48 +1,48 @@
 {
-  "uid" : "13b4d11f8ff97123",
+  "uid" : "4336c56829d6baa5",
   "name" : "headerArtLinkTest",
   "fullName" : "tests.pages.main.MainPageTest.headerArtLinkTest",
   "historyId" : "a143b10cedfe3768e795006315e6cd17",
   "time" : {
-    "start" : 1713482864513,
-    "stop" : 1713482865584,
-    "duration" : 1071
+    "start" : 1713890582748,
+    "stop" : 1713890583694,
+    "duration" : 946
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713482861581,
-      "stop" : 1713482864511,
-      "duration" : 2930
+      "start" : 1713890579711,
+      "stop" : 1713890582745,
+      "duration" : 3034
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713482865586,
-      "stop" : 1713482865721,
-      "duration" : 135
+      "start" : 1713890583696,
+      "stop" : 1713890583771,
+      "duration" : 75
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -67,7 +67,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "6452@GalinaSM.TestNG-test=parallel-tests-1(38)"
+    "value" : "11024@GalinaSM.TestNG-test=parallel-tests-1(40)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "13b4d11f8ff97123.json",
+  "source" : "4336c56829d6baa5.json",
   "parameterValues" : [ ]
 }

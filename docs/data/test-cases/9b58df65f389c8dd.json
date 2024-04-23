@@ -1,48 +1,48 @@
 {
-  "uid" : "71cbc9fa8b61c080",
+  "uid" : "9b58df65f389c8dd",
   "name" : "carouselIsDisplayedTest",
   "fullName" : "tests.pages.main.MainPageTest.carouselIsDisplayedTest",
   "historyId" : "1df6a3a5851a540675704b1214288be2",
   "time" : {
-    "start" : 1713482851048,
-    "stop" : 1713482851079,
-    "duration" : 31
+    "start" : 1713890568747,
+    "stop" : 1713890568828,
+    "duration" : 81
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713482848276,
-      "stop" : 1713482851047,
-      "duration" : 2771
+      "start" : 1713890565792,
+      "stop" : 1713890568738,
+      "duration" : 2946
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713482851079,
-      "stop" : 1713482851183,
-      "duration" : 104
+      "start" : 1713890568830,
+      "stop" : 1713890569111,
+      "duration" : 281
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -67,7 +67,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "6452@GalinaSM.TestNG-test=parallel-tests-1(38)"
+    "value" : "11024@GalinaSM.TestNG-test=parallel-tests-1(40)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "71cbc9fa8b61c080.json",
+  "source" : "9b58df65f389c8dd.json",
   "parameterValues" : [ ]
 }
