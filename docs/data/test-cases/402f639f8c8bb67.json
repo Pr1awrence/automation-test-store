@@ -1,48 +1,48 @@
 {
-  "uid" : "4e3f7986a4ae1742",
-  "name" : "footerIsDisplayedTest",
-  "fullName" : "tests.pages.main.MainPageTest.footerIsDisplayedTest",
-  "historyId" : "48da1fc1f20232ad05a07f184fa039d3",
+  "uid" : "402f639f8c8bb67",
+  "name" : "headerAccessoriesLinkTest",
+  "fullName" : "tests.pages.main.MainPageTest.headerAccessoriesLinkTest",
+  "historyId" : "bc4fa3282b08a89b2d0a17f410c36c78",
   "time" : {
-    "start" : 1713892839527,
-    "stop" : 1713892839556,
-    "duration" : 29
+    "start" : 1713892842438,
+    "stop" : 1713892843577,
+    "duration" : 1139
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713892836138,
-      "stop" : 1713892839525,
-      "duration" : 3387
+      "start" : 1713892839673,
+      "stop" : 1713892842436,
+      "duration" : 2763
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
+    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713892839558,
-      "stop" : 1713892839672,
-      "duration" : 114
+      "start" : 1713892843582,
+      "stop" : 1713892843659,
+      "duration" : 77
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
+    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -52,7 +52,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "footerIsDisplayedTest"
+    "value" : "headerAccessoriesLinkTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4e3f7986a4ae1742.json",
+  "source" : "402f639f8c8bb67.json",
   "parameterValues" : [ ]
 }

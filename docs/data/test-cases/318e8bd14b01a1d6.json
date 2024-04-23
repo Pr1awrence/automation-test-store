@@ -1,11 +1,11 @@
 {
-  "uid" : "4e0e5dc3599af34b",
-  "name" : "Deprecated test due to site changes",
-  "fullName" : "tests.pages.main.MainPageTest.subscriptionButtonIsDisabledTest",
-  "historyId" : "a694c9bb4a9428bf51a8952401828463",
+  "uid" : "318e8bd14b01a1d6",
+  "name" : "Should be fixed on FE side",
+  "fullName" : "tests.pages.main.MainPageTest.searchInputOneCharTest",
+  "historyId" : "d060b48f2d596b32482c8c562853a166",
   "time" : {
-    "start" : 1713892825592,
-    "stop" : 1713892825592,
+    "start" : 1713892825595,
+    "stop" : 1713892825595,
     "duration" : 0
   },
   "status" : "unknown",
@@ -20,7 +20,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "subscriptionButtonIsDisabledTest"
+    "value" : "searchInputOneCharTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4e0e5dc3599af34b.json",
+  "source" : "318e8bd14b01a1d6.json",
   "parameterValues" : [ ]
 }
