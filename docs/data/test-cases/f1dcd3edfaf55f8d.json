@@ -1,5 +1,5 @@
 {
-  "uid" : "549f0ea56f60b02e",
+  "uid" : "f1dcd3edfaf55f8d",
   "name" : "Should be fixed on FE side",
   "fullName" : "tests.pages.main.MainPageTest.searchInputOneCharTest",
   "historyId" : "d060b48f2d596b32482c8c562853a166",
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "549f0ea56f60b02e.json",
+  "source" : "f1dcd3edfaf55f8d.json",
   "parameterValues" : [ ]
 }

@@ -1,11 +1,11 @@
 {
-  "uid" : "92089e0baaddad32",
-  "name" : "Should be fixed on FE side",
-  "fullName" : "tests.pages.main.MainPageTest.saleBannerTest",
-  "historyId" : "45993425ff70991da1561cc2150be187",
+  "uid" : "195aafe8be1816a8",
+  "name" : "Old test",
+  "fullName" : "tests.functional.OrderCompleteTest.orderCompleteTest",
+  "historyId" : "b842798134145a993be2a60365c183d8",
   "time" : {
-    "start" : 1713892825590,
-    "stop" : 1713892825590,
+    "start" : 1713892825586,
+    "stop" : 1713892825586,
     "duration" : 0
   },
   "status" : "unknown",
@@ -14,13 +14,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.pages.main.MainPageTest"
+    "value" : "tests.functional.OrderCompleteTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.pages.main.MainPageTest"
+    "value" : "tests.functional.OrderCompleteTest"
   }, {
     "name" : "testMethod",
-    "value" : "saleBannerTest"
+    "value" : "orderCompleteTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -29,7 +29,7 @@
     "value" : "parallel-tests"
   }, {
     "name" : "subSuite",
-    "value" : "tests.pages.main.MainPageTest"
+    "value" : "tests.functional.OrderCompleteTest"
   }, {
     "name" : "host",
     "value" : "GalinaSM"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "92089e0baaddad32.json",
+  "source" : "195aafe8be1816a8.json",
   "parameterValues" : [ ]
 }

@@ -1,11 +1,11 @@
 {
-  "uid" : "67e4f895acbd74b0",
+  "uid" : "98a116a5447c9528",
   "name" : "Broken test due to site changes",
-  "fullName" : "tests.pages.main.MainPageTest.subscribeWithIncorrectEmailTest",
-  "historyId" : "2888c852fb219627b23016c3262ae476",
+  "fullName" : "tests.pages.main.MainPageTest.subscribeWithRegisteredEmailTest",
+  "historyId" : "c9544946f763fd370b66ae144d78d32",
   "time" : {
-    "start" : 1713892825600,
-    "stop" : 1713892825600,
+    "start" : 1713892825593,
+    "stop" : 1713892825593,
     "duration" : 0
   },
   "status" : "unknown",
@@ -20,7 +20,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "subscribeWithIncorrectEmailTest"
+    "value" : "subscribeWithRegisteredEmailTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "67e4f895acbd74b0.json",
+  "source" : "98a116a5447c9528.json",
   "parameterValues" : [ ]
 }

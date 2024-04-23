@@ -1,21 +1,21 @@
 {
-  "uid" : "83839ef6e36c9283",
-  "name" : "headerClothesLinkTest",
-  "fullName" : "tests.pages.main.MainPageTest.headerClothesLinkTest",
-  "historyId" : "7f34aa39132d659e2291906f4248ef84",
+  "uid" : "893e55c9576be01d",
+  "name" : "headerArtLinkTest",
+  "fullName" : "tests.pages.main.MainPageTest.headerArtLinkTest",
+  "historyId" : "a143b10cedfe3768e795006315e6cd17",
   "time" : {
-    "start" : 1713892851219,
-    "stop" : 1713892852128,
-    "duration" : 909
+    "start" : 1713892846679,
+    "stop" : 1713892847639,
+    "duration" : 960
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713892847750,
-      "stop" : 1713892851217,
-      "duration" : 3467
+      "start" : 1713892843660,
+      "stop" : 1713892846677,
+      "duration" : 3017
     },
     "description" : "",
     "status" : "passed",
@@ -30,9 +30,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713892852129,
-      "stop" : 1713892852241,
-      "duration" : 112
+      "start" : 1713892847640,
+      "stop" : 1713892847749,
+      "duration" : 109
     },
     "description" : "",
     "status" : "passed",
@@ -52,7 +52,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "headerClothesLinkTest"
+    "value" : "headerArtLinkTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "83839ef6e36c9283.json",
+  "source" : "893e55c9576be01d.json",
   "parameterValues" : [ ]
 }

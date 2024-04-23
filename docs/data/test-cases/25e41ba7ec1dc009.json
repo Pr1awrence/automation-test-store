@@ -1,5 +1,5 @@
 {
-  "uid" : "97333a09680b646b",
+  "uid" : "25e41ba7ec1dc009",
   "name" : "popularProductsSectionIsDisplayedTest",
   "fullName" : "tests.pages.main.MainPageTest.popularProductsSectionIsDisplayedTest",
   "historyId" : "60d305a587beb998d3dd528414c087a2",
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "97333a09680b646b.json",
+  "source" : "25e41ba7ec1dc009.json",
   "parameterValues" : [ ]
 }

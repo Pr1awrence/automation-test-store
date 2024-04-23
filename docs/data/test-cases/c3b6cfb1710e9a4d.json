@@ -1,5 +1,5 @@
 {
-  "uid" : "3cf665fc28fa9ce8",
+  "uid" : "c3b6cfb1710e9a4d",
   "name" : "allProductsButtonTest",
   "fullName" : "tests.pages.main.MainPageTest.allProductsButtonTest",
   "historyId" : "33dec6e08e3cf2f50c628044fe6aec1b",
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3cf665fc28fa9ce8.json",
+  "source" : "c3b6cfb1710e9a4d.json",
   "parameterValues" : [ ]
 }

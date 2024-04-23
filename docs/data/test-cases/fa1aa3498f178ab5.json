@@ -1,11 +1,11 @@
 {
-  "uid" : "73c60c098549d567",
-  "name" : "Old test",
-  "fullName" : "tests.functional.OrderCompleteTest.orderCompleteTest",
-  "historyId" : "b842798134145a993be2a60365c183d8",
+  "uid" : "fa1aa3498f178ab5",
+  "name" : "Broken test due to site changes",
+  "fullName" : "tests.pages.main.MainPageTest.subscribeWithIncorrectEmailTest",
+  "historyId" : "2888c852fb219627b23016c3262ae476",
   "time" : {
-    "start" : 1713892825586,
-    "stop" : 1713892825586,
+    "start" : 1713892825600,
+    "stop" : 1713892825600,
     "duration" : 0
   },
   "status" : "unknown",
@@ -14,13 +14,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.functional.OrderCompleteTest"
+    "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.functional.OrderCompleteTest"
+    "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "orderCompleteTest"
+    "value" : "subscribeWithIncorrectEmailTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -29,7 +29,7 @@
     "value" : "parallel-tests"
   }, {
     "name" : "subSuite",
-    "value" : "tests.functional.OrderCompleteTest"
+    "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "host",
     "value" : "GalinaSM"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "73c60c098549d567.json",
+  "source" : "fa1aa3498f178ab5.json",
   "parameterValues" : [ ]
 }
