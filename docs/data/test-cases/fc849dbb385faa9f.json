@@ -1,5 +1,5 @@
 {
-  "uid" : "e0057fc877eeb3ec",
+  "uid" : "fc849dbb385faa9f",
   "name" : "Broken test due to site changes",
   "fullName" : "tests.pages.main.MainPageTest.subscribeWithIncorrectEmailTest",
   "historyId" : "2888c852fb219627b23016c3262ae476",
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e0057fc877eeb3ec.json",
+  "source" : "fc849dbb385faa9f.json",
   "parameterValues" : [ ]
 }
