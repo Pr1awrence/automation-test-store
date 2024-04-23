@@ -1,5 +1,5 @@
 {
-  "uid" : "272df46667b658ad",
+  "uid" : "ab7ae93fa52871ed",
   "name" : "Should be fixed on FE side",
   "fullName" : "tests.pages.main.MainPageTest.saleBannerTest",
   "historyId" : "45993425ff70991da1561cc2150be187",
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "272df46667b658ad.json",
+  "source" : "ab7ae93fa52871ed.json",
   "parameterValues" : [ ]
 }
