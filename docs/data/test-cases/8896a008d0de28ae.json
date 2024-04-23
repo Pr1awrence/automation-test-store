@@ -1,21 +1,21 @@
 {
-  "uid" : "cc75ca093f0c8e71",
-  "name" : "popularProductsSectionIsDisplayedTest",
-  "fullName" : "tests.pages.main.MainPageTest.popularProductsSectionIsDisplayedTest",
-  "historyId" : "60d305a587beb998d3dd528414c087a2",
+  "uid" : "8896a008d0de28ae",
+  "name" : "saleBannerIsDisplayedTest",
+  "fullName" : "tests.pages.main.MainPageTest.saleBannerIsDisplayedTest",
+  "historyId" : "404133ea965bb34dc436e66acb2cb92a",
   "time" : {
-    "start" : 1713892855240,
-    "stop" : 1713892855269,
-    "duration" : 29
+    "start" : 1713892858700,
+    "stop" : 1713892858726,
+    "duration" : 26
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713892852243,
-      "stop" : 1713892855238,
-      "duration" : 2995
+      "start" : 1713892855392,
+      "stop" : 1713892858697,
+      "duration" : 3305
     },
     "description" : "",
     "status" : "passed",
@@ -30,9 +30,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713892855271,
-      "stop" : 1713892855388,
-      "duration" : 117
+      "start" : 1713892858727,
+      "stop" : 1713892858841,
+      "duration" : 114
     },
     "description" : "",
     "status" : "passed",
@@ -52,7 +52,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "popularProductsSectionIsDisplayedTest"
+    "value" : "saleBannerIsDisplayedTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cc75ca093f0c8e71.json",
+  "source" : "8896a008d0de28ae.json",
   "parameterValues" : [ ]
 }

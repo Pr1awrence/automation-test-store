@@ -1,11 +1,11 @@
 {
-  "uid" : "50f3c46e9db8433d",
-  "name" : "Deprecated test due to site changes",
-  "fullName" : "tests.pages.main.MainPageTest.subscriptionButtonIsDisabledTest",
-  "historyId" : "a694c9bb4a9428bf51a8952401828463",
+  "uid" : "9cb3a955b7bf3137",
+  "name" : "Must unsubscribe the user or delete an existing email from the DB",
+  "fullName" : "tests.pages.main.MainPageTest.subscribeWithRealEmailTest",
+  "historyId" : "4e394ef802f9f9c32b118f937a287901",
   "time" : {
-    "start" : 1713892825592,
-    "stop" : 1713892825592,
+    "start" : 1713892825597,
+    "stop" : 1713892825597,
     "duration" : 0
   },
   "status" : "unknown",
@@ -20,7 +20,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "subscriptionButtonIsDisabledTest"
+    "value" : "subscribeWithRealEmailTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "50f3c46e9db8433d.json",
+  "source" : "9cb3a955b7bf3137.json",
   "parameterValues" : [ ]
 }
