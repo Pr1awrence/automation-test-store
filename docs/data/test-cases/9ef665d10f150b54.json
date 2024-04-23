@@ -1,11 +1,11 @@
 {
-  "uid" : "ac525bfbd43cec55",
-  "name" : "Broken test due to site changes",
-  "fullName" : "tests.pages.main.MainPageTest.subscribeWithIncorrectEmailTest",
-  "historyId" : "2888c852fb219627b23016c3262ae476",
+  "uid" : "9ef665d10f150b54",
+  "name" : "Should be fixed on FE side",
+  "fullName" : "tests.pages.main.MainPageTest.saleBannerTest",
+  "historyId" : "45993425ff70991da1561cc2150be187",
   "time" : {
-    "start" : 1713892586522,
-    "stop" : 1713892586522,
+    "start" : 1713892825590,
+    "stop" : 1713892825590,
     "duration" : 0
   },
   "status" : "unknown",
@@ -20,7 +20,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "subscribeWithIncorrectEmailTest"
+    "value" : "saleBannerTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -35,7 +35,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "10572@GalinaSM.main(1)"
+    "value" : "18600@GalinaSM.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ac525bfbd43cec55.json",
+  "source" : "9ef665d10f150b54.json",
   "parameterValues" : [ ]
 }

@@ -1,11 +1,11 @@
 {
-  "uid" : "e3b34373f3f3b09a",
+  "uid" : "f647a9cb792f0198",
   "name" : "Should be fixed on FE side",
-  "fullName" : "tests.pages.main.MainPageTest.saleBannerTest",
-  "historyId" : "45993425ff70991da1561cc2150be187",
+  "fullName" : "tests.pages.main.MainPageTest.searchInputOneCharTest",
+  "historyId" : "d060b48f2d596b32482c8c562853a166",
   "time" : {
-    "start" : 1713892586518,
-    "stop" : 1713892586518,
+    "start" : 1713892825595,
+    "stop" : 1713892825595,
     "duration" : 0
   },
   "status" : "unknown",
@@ -20,7 +20,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "saleBannerTest"
+    "value" : "searchInputOneCharTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -35,7 +35,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "10572@GalinaSM.main(1)"
+    "value" : "18600@GalinaSM.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e3b34373f3f3b09a.json",
+  "source" : "f647a9cb792f0198.json",
   "parameterValues" : [ ]
 }
