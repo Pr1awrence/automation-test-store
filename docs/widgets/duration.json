@@ -1,65 +1,5 @@
 [ {
-  "uid" : "c100684303878656",
-  "name" : "Must unsubscribe the user or delete an existing email from the DB",
-  "time" : {
-    "start" : 1713892825597,
-    "stop" : 1713892825597,
-    "duration" : 0
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "da1aabaeb6e88a3a",
-  "name" : "Old test",
-  "time" : {
-    "start" : 1713892825586,
-    "stop" : 1713892825586,
-    "duration" : 0
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "8732750e68445c7c",
-  "name" : "allProductsButtonTest",
-  "time" : {
-    "start" : 1713892828627,
-    "stop" : 1713892829726,
-    "duration" : 1099
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3cada856deca9eef",
-  "name" : "searchInputFullWordTest",
-  "time" : {
-    "start" : 1713892865141,
-    "stop" : 1713892865989,
-    "duration" : 848
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "42ff9cb5cecfa559",
-  "name" : "Should be fixed on FE side",
-  "time" : {
-    "start" : 1713892825595,
-    "stop" : 1713892825595,
-    "duration" : 0
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "f5e6e1e9d2e86fec",
-  "name" : "customTextSectionIsDisplayedTest",
-  "time" : {
-    "start" : 1713892835983,
-    "stop" : 1713892836014,
-    "duration" : 31
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "471cc4b15e487bcc",
+  "uid" : "c0ade3ea3bd9abe1",
   "name" : "popularProductsSectionIsDisplayedTest",
   "time" : {
     "start" : 1713892855240,
@@ -69,77 +9,27 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "de44036c93ba5380",
-  "name" : "searchInputEmptyValueTest",
+  "uid" : "91163d27ce36fe56",
+  "name" : "searchInputFullWordTest",
   "time" : {
-    "start" : 1713892861554,
-    "stop" : 1713892862291,
-    "duration" : 737
+    "start" : 1713892865141,
+    "stop" : 1713892865989,
+    "duration" : 848
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "47cc0356a18f61ad",
-  "name" : "carouselIsDisplayedTest",
+  "uid" : "28d4a56a75c18a06",
+  "name" : "customTextSectionIsDisplayedTest",
   "time" : {
-    "start" : 1713892832787,
-    "stop" : 1713892832821,
-    "duration" : 34
+    "start" : 1713892835983,
+    "stop" : 1713892836014,
+    "duration" : 31
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6f53630b15d8422",
-  "name" : "saleBannerIsDisplayedTest",
-  "time" : {
-    "start" : 1713892858700,
-    "stop" : 1713892858726,
-    "duration" : 26
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "81e5e111ac7ad07d",
-  "name" : "Old test",
-  "time" : {
-    "start" : 1713892825604,
-    "stop" : 1713892825604,
-    "duration" : 0
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "b75711e46be3d723",
-  "name" : "headerArtLinkTest",
-  "time" : {
-    "start" : 1713892846679,
-    "stop" : 1713892847639,
-    "duration" : 960
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fc91b615f0c981e3",
-  "name" : "headerAccessoriesLinkTest",
-  "time" : {
-    "start" : 1713892842438,
-    "stop" : 1713892843577,
-    "duration" : 1139
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "11bb7e10555c3d15",
-  "name" : "Broken test due to site changes",
-  "time" : {
-    "start" : 1713892825602,
-    "stop" : 1713892825602,
-    "duration" : 0
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "1a6c958b03006ff0",
+  "uid" : "f69c5acb074dcc51",
   "name" : "headerClothesLinkTest",
   "time" : {
     "start" : 1713892851219,
@@ -149,17 +39,17 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "95e2ae193eb3c27c",
-  "name" : "Broken test due to site changes",
+  "uid" : "5f39a64943befd4c",
+  "name" : "headerAccessoriesLinkTest",
   "time" : {
-    "start" : 1713892821605,
-    "stop" : 1713892825488,
-    "duration" : 3883
+    "start" : 1713892842438,
+    "stop" : 1713892843577,
+    "duration" : 1139
   },
-  "status" : "unknown",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "baf4b4881e24fec5",
+  "uid" : "7f9be7d0bd71b976",
   "name" : "footerIsDisplayedTest",
   "time" : {
     "start" : 1713892839527,
@@ -169,37 +59,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1204edfdc177cc68",
-  "name" : "storeLogoLinkTest",
-  "time" : {
-    "start" : 1713892873517,
-    "stop" : 1713892875147,
-    "duration" : 1630
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "be343d0b4984f741",
-  "name" : "Broken test due to site changes",
-  "time" : {
-    "start" : 1713892825600,
-    "stop" : 1713892825600,
-    "duration" : 0
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "4e3211534190c41b",
-  "name" : "Broken test due to site changes",
-  "time" : {
-    "start" : 1713892825593,
-    "stop" : 1713892825593,
-    "duration" : 0
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "d9da8af84feea3e9",
+  "uid" : "28fc702f309a6abe",
   "name" : "Should be fixed on FE side",
   "time" : {
     "start" : 1713892825590,
@@ -209,7 +69,27 @@
   "status" : "unknown",
   "severity" : "normal"
 }, {
-  "uid" : "287a02050a715713",
+  "uid" : "5144219e22d81cd0",
+  "name" : "Old test",
+  "time" : {
+    "start" : 1713892825604,
+    "stop" : 1713892825604,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "670d71892966c247",
+  "name" : "allProductsButtonTest",
+  "time" : {
+    "start" : 1713892828627,
+    "stop" : 1713892829726,
+    "duration" : 1099
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41da6a364945694b",
   "name" : "Deprecated test due to site changes",
   "time" : {
     "start" : 1713892825592,
@@ -219,7 +99,127 @@
   "status" : "unknown",
   "severity" : "normal"
 }, {
-  "uid" : "2a6b1d0221776fba",
+  "uid" : "c3ff5d4728867746",
+  "name" : "headerArtLinkTest",
+  "time" : {
+    "start" : 1713892846679,
+    "stop" : 1713892847639,
+    "duration" : 960
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b86fe6510e0d22d",
+  "name" : "Broken test due to site changes",
+  "time" : {
+    "start" : 1713892821605,
+    "stop" : 1713892825488,
+    "duration" : 3883
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "a7ac53bbab665ffc",
+  "name" : "searchInputEmptyValueTest",
+  "time" : {
+    "start" : 1713892861554,
+    "stop" : 1713892862291,
+    "duration" : 737
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22b6461394b83bd0",
+  "name" : "Deprecated test due to site changes",
+  "time" : {
+    "start" : 1713892825599,
+    "stop" : 1713892825599,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "b9c9d1f0f2fd45fc",
+  "name" : "storeLogoLinkTest",
+  "time" : {
+    "start" : 1713892873517,
+    "stop" : 1713892875147,
+    "duration" : 1630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d8bad1ba8fb8c82",
+  "name" : "Broken test due to site changes",
+  "time" : {
+    "start" : 1713892825602,
+    "stop" : 1713892825602,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "fb0c37ad9dca93e0",
+  "name" : "Old test",
+  "time" : {
+    "start" : 1713892825586,
+    "stop" : 1713892825586,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "c186909bf95853d5",
+  "name" : "Broken test due to site changes",
+  "time" : {
+    "start" : 1713892825600,
+    "stop" : 1713892825600,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "8b07526dae9d766a",
+  "name" : "carouselIsDisplayedTest",
+  "time" : {
+    "start" : 1713892832787,
+    "stop" : 1713892832821,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff580599a27e14c",
+  "name" : "Should be fixed on FE side",
+  "time" : {
+    "start" : 1713892825595,
+    "stop" : 1713892825595,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "28f66903e734f099",
+  "name" : "Must unsubscribe the user or delete an existing email from the DB",
+  "time" : {
+    "start" : 1713892825597,
+    "stop" : 1713892825597,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "4320367edd8c5d7a",
+  "name" : "Broken test due to site changes",
+  "time" : {
+    "start" : 1713892825593,
+    "stop" : 1713892825593,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "6a30c73d1fbfce37",
   "name" : "searchInputIncorrectValueTest",
   "time" : {
     "start" : 1713892869129,
@@ -229,13 +229,13 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e84147ba89e937bf",
-  "name" : "Deprecated test due to site changes",
+  "uid" : "66b4eb66838d368f",
+  "name" : "saleBannerIsDisplayedTest",
   "time" : {
-    "start" : 1713892825599,
-    "stop" : 1713892825599,
-    "duration" : 0
+    "start" : 1713892858700,
+    "stop" : 1713892858726,
+    "duration" : 26
   },
-  "status" : "unknown",
+  "status" : "passed",
   "severity" : "normal"
 } ]
