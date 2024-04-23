@@ -1,5 +1,5 @@
 {
-  "uid" : "490c693170e3b125",
+  "uid" : "e84147ba89e937bf",
   "name" : "Deprecated test due to site changes",
   "fullName" : "tests.pages.main.MainPageTest.subscriptionButtonIsEnabledTest",
   "historyId" : "7515ee376e3ae6878a4b98a20f8c07fa",
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "490c693170e3b125.json",
+  "source" : "e84147ba89e937bf.json",
   "parameterValues" : [ ]
 }
