@@ -1,48 +1,48 @@
 {
-  "uid" : "6cbf5555cdca168d",
-  "name" : "searchInputFullWordTest",
-  "fullName" : "tests.pages.main.MainPageTest.searchInputFullWordTest",
-  "historyId" : "417d0a7f92b824fd44c19cdd6dddf76c",
+  "uid" : "a8e0551bfa576eb5",
+  "name" : "headerArtLinkTest",
+  "fullName" : "tests.pages.main.MainPageTest.headerArtLinkTest",
+  "historyId" : "a143b10cedfe3768e795006315e6cd17",
   "time" : {
-    "start" : 1713892865141,
-    "stop" : 1713892865989,
-    "duration" : 848
+    "start" : 1713892846679,
+    "stop" : 1713892847639,
+    "duration" : 960
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713892862420,
-      "stop" : 1713892865140,
-      "duration" : 2720
+      "start" : 1713892843660,
+      "stop" : 1713892846677,
+      "duration" : 3017
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713892865990,
-      "stop" : 1713892866111,
-      "duration" : 121
+      "start" : 1713892847640,
+      "stop" : 1713892847749,
+      "duration" : 109
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -52,7 +52,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "searchInputFullWordTest"
+    "value" : "headerArtLinkTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6cbf5555cdca168d.json",
+  "source" : "a8e0551bfa576eb5.json",
   "parameterValues" : [ ]
 }

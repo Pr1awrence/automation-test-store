@@ -1,48 +1,48 @@
 {
-  "uid" : "a0b687a434b1e498",
-  "name" : "storeLogoLinkTest",
-  "fullName" : "tests.pages.main.MainPageTest.storeLogoLinkTest",
-  "historyId" : "a5e24ed4d40e6a7d7c2d4ca472daa24d",
+  "uid" : "6eb11983bfd7717e",
+  "name" : "allProductsButtonTest",
+  "fullName" : "tests.pages.main.MainPageTest.allProductsButtonTest",
+  "historyId" : "33dec6e08e3cf2f50c628044fe6aec1b",
   "time" : {
-    "start" : 1713892873517,
-    "stop" : 1713892875147,
-    "duration" : 1630
+    "start" : 1713892828627,
+    "stop" : 1713892829726,
+    "duration" : 1099
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713892870125,
-      "stop" : 1713892873514,
-      "duration" : 3389
+      "start" : 1713892825664,
+      "stop" : 1713892828615,
+      "duration" : 2951
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713892875148,
-      "stop" : 1713892875290,
-      "duration" : 142
+      "start" : 1713892829729,
+      "stop" : 1713892829858,
+      "duration" : 129
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -52,7 +52,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "storeLogoLinkTest"
+    "value" : "allProductsButtonTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a0b687a434b1e498.json",
+  "source" : "6eb11983bfd7717e.json",
   "parameterValues" : [ ]
 }

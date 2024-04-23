@@ -1,5 +1,5 @@
 {
-  "uid" : "ce8831808616b900",
+  "uid" : "3e130da613932b05",
   "name" : "saleBannerIsDisplayedTest",
   "fullName" : "tests.pages.main.MainPageTest.saleBannerIsDisplayedTest",
   "historyId" : "404133ea965bb34dc436e66acb2cb92a",
@@ -22,10 +22,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
@@ -39,10 +39,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ce8831808616b900.json",
+  "source" : "3e130da613932b05.json",
   "parameterValues" : [ ]
 }
