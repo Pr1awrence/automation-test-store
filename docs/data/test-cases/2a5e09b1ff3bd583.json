@@ -1,11 +1,11 @@
 {
-  "uid" : "270d7173e12047b7",
-  "name" : "Old test",
-  "fullName" : "tests.functional.RemoveItemBasketTest.removeItemTest",
-  "historyId" : "63c767b66e0e6953e23e99ad4a4ee857",
+  "uid" : "2a5e09b1ff3bd583",
+  "name" : "Should be fixed on FE side",
+  "fullName" : "tests.pages.main.MainPageTest.saleBannerTest",
+  "historyId" : "45993425ff70991da1561cc2150be187",
   "time" : {
-    "start" : 1713892825604,
-    "stop" : 1713892825604,
+    "start" : 1713892825590,
+    "stop" : 1713892825590,
     "duration" : 0
   },
   "status" : "unknown",
@@ -14,13 +14,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.functional.RemoveItemBasketTest"
+    "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.functional.RemoveItemBasketTest"
+    "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "removeItemTest"
+    "value" : "saleBannerTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -29,7 +29,7 @@
     "value" : "parallel-tests"
   }, {
     "name" : "subSuite",
-    "value" : "tests.functional.RemoveItemBasketTest"
+    "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "host",
     "value" : "GalinaSM"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "270d7173e12047b7.json",
+  "source" : "2a5e09b1ff3bd583.json",
   "parameterValues" : [ ]
 }
