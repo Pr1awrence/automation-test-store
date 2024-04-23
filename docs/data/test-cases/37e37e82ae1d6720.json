@@ -1,11 +1,11 @@
 {
-  "uid" : "f4138d6ce38d38cc",
-  "name" : "Must unsubscribe the user or delete an existing email from the DB",
-  "fullName" : "tests.pages.main.MainPageTest.subscribeWithRealEmailTest",
-  "historyId" : "4e394ef802f9f9c32b118f937a287901",
+  "uid" : "37e37e82ae1d6720",
+  "name" : "Broken test due to site changes",
+  "fullName" : "tests.pages.main.MainPageTest.bannersTest",
+  "historyId" : "a5c74a96e2a69af58779b56bff601e80",
   "time" : {
-    "start" : 1713892825597,
-    "stop" : 1713892825597,
+    "start" : 1713892825602,
+    "stop" : 1713892825602,
     "duration" : 0
   },
   "status" : "unknown",
@@ -20,7 +20,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "subscribeWithRealEmailTest"
+    "value" : "bannersTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f4138d6ce38d38cc.json",
+  "source" : "37e37e82ae1d6720.json",
   "parameterValues" : [ ]
 }

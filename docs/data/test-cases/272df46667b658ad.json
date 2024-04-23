@@ -1,11 +1,11 @@
 {
-  "uid" : "d5f85ba82dc2b3b2",
-  "name" : "Broken test due to site changes",
-  "fullName" : "tests.pages.main.MainPageTest.bannersTest",
-  "historyId" : "a5c74a96e2a69af58779b56bff601e80",
+  "uid" : "272df46667b658ad",
+  "name" : "Should be fixed on FE side",
+  "fullName" : "tests.pages.main.MainPageTest.saleBannerTest",
+  "historyId" : "45993425ff70991da1561cc2150be187",
   "time" : {
-    "start" : 1713892825602,
-    "stop" : 1713892825602,
+    "start" : 1713892825590,
+    "stop" : 1713892825590,
     "duration" : 0
   },
   "status" : "unknown",
@@ -20,7 +20,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "bannersTest"
+    "value" : "saleBannerTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d5f85ba82dc2b3b2.json",
+  "source" : "272df46667b658ad.json",
   "parameterValues" : [ ]
 }
