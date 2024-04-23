@@ -1,48 +1,48 @@
 {
-  "uid" : "4336c56829d6baa5",
+  "uid" : "615802cf92d0a176",
   "name" : "headerArtLinkTest",
   "fullName" : "tests.pages.main.MainPageTest.headerArtLinkTest",
   "historyId" : "a143b10cedfe3768e795006315e6cd17",
   "time" : {
-    "start" : 1713890582748,
-    "stop" : 1713890583694,
-    "duration" : 946
+    "start" : 1713891089161,
+    "stop" : 1713891090121,
+    "duration" : 960
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713890579711,
-      "stop" : 1713890582745,
-      "duration" : 3034
+      "start" : 1713891086206,
+      "stop" : 1713891089158,
+      "duration" : 2952
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713890583696,
-      "stop" : 1713890583771,
-      "duration" : 75
+      "start" : 1713891090122,
+      "stop" : 1713891090236,
+      "duration" : 114
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -67,7 +67,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "11024@GalinaSM.TestNG-test=parallel-tests-1(40)"
+    "value" : "1016@GalinaSM.TestNG-test=parallel-tests-1(43)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4336c56829d6baa5.json",
+  "source" : "615802cf92d0a176.json",
   "parameterValues" : [ ]
 }
