@@ -1,5 +1,5 @@
 {
-  "uid" : "d76dcb4a34a0cf75",
+  "uid" : "5139b740d73e7eed",
   "name" : "Broken test due to site changes",
   "fullName" : "tests.pages.main.MainPageTest.bannersTest",
   "historyId" : "a5c74a96e2a69af58779b56bff601e80",
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d76dcb4a34a0cf75.json",
+  "source" : "5139b740d73e7eed.json",
   "parameterValues" : [ ]
 }
