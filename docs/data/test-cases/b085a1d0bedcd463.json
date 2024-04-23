@@ -1,5 +1,5 @@
 {
-  "uid" : "bab5bde509bddd2d",
+  "uid" : "b085a1d0bedcd463",
   "name" : "Broken test due to site changes",
   "fullName" : "tests.pages.main.MainPageTest.subscribeWithRegisteredEmailTest",
   "historyId" : "c9544946f763fd370b66ae144d78d32",
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bab5bde509bddd2d.json",
+  "source" : "b085a1d0bedcd463.json",
   "parameterValues" : [ ]
 }

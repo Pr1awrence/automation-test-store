@@ -1,5 +1,5 @@
 {
-  "uid" : "bb957be57427334",
+  "uid" : "d3a6aded6d04ea1",
   "name" : "allProductsButtonTest",
   "fullName" : "tests.pages.main.MainPageTest.allProductsButtonTest",
   "historyId" : "33dec6e08e3cf2f50c628044fe6aec1b",
@@ -22,10 +22,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
@@ -39,10 +39,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bb957be57427334.json",
+  "source" : "d3a6aded6d04ea1.json",
   "parameterValues" : [ ]
 }
