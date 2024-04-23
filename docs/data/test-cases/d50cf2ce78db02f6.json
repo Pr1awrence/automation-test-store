@@ -1,48 +1,48 @@
 {
-  "uid" : "73c2bcd845ced196",
-  "name" : "customTextSectionIsDisplayedTest",
-  "fullName" : "tests.pages.main.MainPageTest.customTextSectionIsDisplayedTest",
-  "historyId" : "17a311a104c2384119dea817bad3624f",
+  "uid" : "d50cf2ce78db02f6",
+  "name" : "saleBannerIsDisplayedTest",
+  "fullName" : "tests.pages.main.MainPageTest.saleBannerIsDisplayedTest",
+  "historyId" : "404133ea965bb34dc436e66acb2cb92a",
   "time" : {
-    "start" : 1713892835983,
-    "stop" : 1713892836014,
-    "duration" : 31
+    "start" : 1713892858700,
+    "stop" : 1713892858726,
+    "duration" : 26
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713892832959,
-      "stop" : 1713892835979,
-      "duration" : 3020
+      "start" : 1713892855392,
+      "stop" : 1713892858697,
+      "duration" : 3305
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "hasContent" : false,
-    "stepsCount" : 0
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713892836015,
-      "stop" : 1713892836135,
-      "duration" : 120
+      "start" : 1713892858727,
+      "stop" : 1713892858841,
+      "duration" : 114
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "hasContent" : false,
-    "stepsCount" : 0
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -52,7 +52,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "customTextSectionIsDisplayedTest"
+    "value" : "saleBannerIsDisplayedTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "73c2bcd845ced196.json",
+  "source" : "d50cf2ce78db02f6.json",
   "parameterValues" : [ ]
 }
