@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Broken test due to site changes",
-    "uid" : "9d5e01ac77e29634",
+    "uid" : "ffd794c8c7ca1748",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -15,7 +15,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Old test",
-    "uid" : "52ecc5d29758b39c",
+    "uid" : "f5499ef85fe8a44",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -27,7 +27,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Should be fixed on FE side",
-    "uid" : "4ddad4b311df4f15",
+    "uid" : "ddf29d388a2e7735",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -39,7 +39,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Deprecated test due to site changes",
-    "uid" : "6f3530a321a7783f",
+    "uid" : "8115585cd76729d0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -51,7 +51,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Broken test due to site changes",
-    "uid" : "7fda7b08dfbba337",
+    "uid" : "7913698921bea152",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -63,7 +63,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Should be fixed on FE side",
-    "uid" : "7b9d5ba93c056d83",
+    "uid" : "d0f537493e880c1b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -75,7 +75,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Must unsubscribe the user or delete an existing email from the DB",
-    "uid" : "b95d0be51097f3a1",
+    "uid" : "7e0a6825d07003d9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -87,7 +87,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Deprecated test due to site changes",
-    "uid" : "46829a36f782dca7",
+    "uid" : "38e33db6587bbc0e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -99,7 +99,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Broken test due to site changes",
-    "uid" : "83dcb3ab2279475c",
+    "uid" : "bb3aa74ab641adf7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -111,7 +111,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Broken test due to site changes",
-    "uid" : "e0254b2faac25045",
+    "uid" : "5522c5b206987daf",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -123,7 +123,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Old test",
-    "uid" : "de8f019943a3bed8",
+    "uid" : "d3bb7f443eff8dc4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -135,7 +135,7 @@
     "parameters" : [ ]
   }, {
     "name" : "allProductsButtonTest",
-    "uid" : "45cc86cad6c155aa",
+    "uid" : "11120c336e5723d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -147,7 +147,7 @@
     "parameters" : [ ]
   }, {
     "name" : "carouselIsDisplayedTest",
-    "uid" : "80ec6515d3cc13dc",
+    "uid" : "b4fa524c1aa27ffc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -159,7 +159,7 @@
     "parameters" : [ ]
   }, {
     "name" : "customTextSectionIsDisplayedTest",
-    "uid" : "58bd8a14b08cad95",
+    "uid" : "e2d2f4a74774b46e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -171,7 +171,7 @@
     "parameters" : [ ]
   }, {
     "name" : "footerIsDisplayedTest",
-    "uid" : "e586d82de3fb0640",
+    "uid" : "c4a89fe827f9ee7c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -183,7 +183,7 @@
     "parameters" : [ ]
   }, {
     "name" : "headerAccessoriesLinkTest",
-    "uid" : "b66af89076bc9060",
+    "uid" : "729bd908a683c40c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -195,7 +195,7 @@
     "parameters" : [ ]
   }, {
     "name" : "headerArtLinkTest",
-    "uid" : "fbb45c2d525b7306",
+    "uid" : "64e5efdd56c071ec",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -207,7 +207,7 @@
     "parameters" : [ ]
   }, {
     "name" : "headerClothesLinkTest",
-    "uid" : "ce7828fbdc1015d6",
+    "uid" : "1381b6c0b64f63be",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -219,7 +219,7 @@
     "parameters" : [ ]
   }, {
     "name" : "popularProductsSectionIsDisplayedTest",
-    "uid" : "87644646751a5b07",
+    "uid" : "ffd77f5f3a283ff9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -231,7 +231,7 @@
     "parameters" : [ ]
   }, {
     "name" : "saleBannerIsDisplayedTest",
-    "uid" : "d50cf2ce78db02f6",
+    "uid" : "39bc91fb7c72e7bb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -243,7 +243,7 @@
     "parameters" : [ ]
   }, {
     "name" : "searchInputEmptyValueTest",
-    "uid" : "f0b801f7db38a950",
+    "uid" : "5da12add1cddba10",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -255,7 +255,7 @@
     "parameters" : [ ]
   }, {
     "name" : "searchInputFullWordTest",
-    "uid" : "db73007ffc4261d7",
+    "uid" : "3fba5dc3c8a8c038",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -267,7 +267,7 @@
     "parameters" : [ ]
   }, {
     "name" : "searchInputIncorrectValueTest",
-    "uid" : "10508d05de411364",
+    "uid" : "aa98edc675393221",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -279,7 +279,7 @@
     "parameters" : [ ]
   }, {
     "name" : "storeLogoLinkTest",
-    "uid" : "3d1bb58814d42dcf",
+    "uid" : "c98cdb4bd13dfd3c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
