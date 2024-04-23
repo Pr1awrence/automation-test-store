@@ -1,48 +1,48 @@
 {
-  "uid" : "14eabd49cf8cbb6b",
+  "uid" : "11ad2b2a8ddb630",
   "name" : "searchInputEmptyValueTest",
   "fullName" : "tests.pages.main.MainPageTest.searchInputEmptyValueTest",
   "historyId" : "cb3776d47c1bace12cd46a032e2cab49",
   "time" : {
-    "start" : 1713891103601,
-    "stop" : 1713891104264,
-    "duration" : 663
+    "start" : 1713892621198,
+    "stop" : 1713892621880,
+    "duration" : 682
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713891100511,
-      "stop" : 1713891103599,
-      "duration" : 3088
+      "start" : 1713892617974,
+      "stop" : 1713892621196,
+      "duration" : 3222
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713891104265,
-      "stop" : 1713891104346,
-      "duration" : 81
+      "start" : 1713892621881,
+      "stop" : 1713892621990,
+      "duration" : 109
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -67,7 +67,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "1016@GalinaSM.TestNG-test=parallel-tests-1(43)"
+    "value" : "10572@GalinaSM.TestNG-test=parallel-tests-1(43)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "14eabd49cf8cbb6b.json",
+  "source" : "11ad2b2a8ddb630.json",
   "parameterValues" : [ ]
 }
