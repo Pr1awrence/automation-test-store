@@ -1,5 +1,5 @@
 {
-  "uid" : "a5bd8e8b7355b199",
+  "uid" : "641377832c7ca7de",
   "name" : "saleBannerIsDisplayedTest",
   "fullName" : "tests.pages.main.MainPageTest.saleBannerIsDisplayedTest",
   "historyId" : "404133ea965bb34dc436e66acb2cb92a",
@@ -22,10 +22,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
@@ -39,10 +39,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a5bd8e8b7355b199.json",
+  "source" : "641377832c7ca7de.json",
   "parameterValues" : [ ]
 }

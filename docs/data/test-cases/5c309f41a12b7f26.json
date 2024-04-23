@@ -1,11 +1,11 @@
 {
-  "uid" : "f647a9cb792f0198",
-  "name" : "Should be fixed on FE side",
-  "fullName" : "tests.pages.main.MainPageTest.searchInputOneCharTest",
-  "historyId" : "d060b48f2d596b32482c8c562853a166",
+  "uid" : "5c309f41a12b7f26",
+  "name" : "Broken test due to site changes",
+  "fullName" : "tests.pages.main.MainPageTest.bannersTest",
+  "historyId" : "a5c74a96e2a69af58779b56bff601e80",
   "time" : {
-    "start" : 1713892825595,
-    "stop" : 1713892825595,
+    "start" : 1713892825602,
+    "stop" : 1713892825602,
     "duration" : 0
   },
   "status" : "unknown",
@@ -20,7 +20,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "searchInputOneCharTest"
+    "value" : "bannersTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f647a9cb792f0198.json",
+  "source" : "5c309f41a12b7f26.json",
   "parameterValues" : [ ]
 }

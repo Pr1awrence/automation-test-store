@@ -1,5 +1,5 @@
 {
-  "uid" : "321717e665316da8",
+  "uid" : "a4ee7590c332b4b5",
   "name" : "searchInputFullWordTest",
   "fullName" : "tests.pages.main.MainPageTest.searchInputFullWordTest",
   "historyId" : "417d0a7f92b824fd44c19cdd6dddf76c",
@@ -22,10 +22,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
@@ -39,10 +39,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "321717e665316da8.json",
+  "source" : "a4ee7590c332b4b5.json",
   "parameterValues" : [ ]
 }
