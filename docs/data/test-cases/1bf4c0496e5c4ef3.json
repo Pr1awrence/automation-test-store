@@ -1,46 +1,46 @@
 {
-  "uid" : "300f4657c9b9f6f",
-  "name" : "popularProductsSectionIsDisplayedTest",
-  "fullName" : "tests.pages.main.MainPageTest.popularProductsSectionIsDisplayedTest",
-  "historyId" : "60d305a587beb998d3dd528414c087a2",
+  "uid" : "1bf4c0496e5c4ef3",
+  "name" : "customTextSectionIsDisplayedTest",
+  "fullName" : "tests.pages.main.MainPageTest.customTextSectionIsDisplayedTest",
+  "historyId" : "17a311a104c2384119dea817bad3624f",
   "time" : {
-    "start" : 1713892855240,
-    "stop" : 1713892855269,
-    "duration" : 29
+    "start" : 1713892835983,
+    "stop" : 1713892836014,
+    "duration" : 31
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713892852243,
-      "stop" : 1713892855238,
-      "duration" : 2995
+      "start" : 1713892832959,
+      "stop" : 1713892835979,
+      "duration" : 3020
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
     "hasContent" : false
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713892855271,
-      "stop" : 1713892855388,
-      "duration" : 117
+      "start" : 1713892836015,
+      "stop" : 1713892836135,
+      "duration" : 120
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
     "hasContent" : false
   } ],
@@ -52,7 +52,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "popularProductsSectionIsDisplayedTest"
+    "value" : "customTextSectionIsDisplayedTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "300f4657c9b9f6f.json",
+  "source" : "1bf4c0496e5c4ef3.json",
   "parameterValues" : [ ]
 }

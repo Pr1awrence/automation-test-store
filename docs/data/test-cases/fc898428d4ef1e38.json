@@ -1,46 +1,46 @@
 {
-  "uid" : "975df49e17d09ae9",
-  "name" : "allProductsButtonTest",
-  "fullName" : "tests.pages.main.MainPageTest.allProductsButtonTest",
-  "historyId" : "33dec6e08e3cf2f50c628044fe6aec1b",
+  "uid" : "fc898428d4ef1e38",
+  "name" : "headerArtLinkTest",
+  "fullName" : "tests.pages.main.MainPageTest.headerArtLinkTest",
+  "historyId" : "a143b10cedfe3768e795006315e6cd17",
   "time" : {
-    "start" : 1713892828627,
-    "stop" : 1713892829726,
-    "duration" : 1099
+    "start" : 1713892846679,
+    "stop" : 1713892847639,
+    "duration" : 960
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713892825664,
-      "stop" : 1713892828615,
-      "duration" : 2951
+      "start" : 1713892843660,
+      "stop" : 1713892846677,
+      "duration" : 3017
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
     "hasContent" : false
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713892829729,
-      "stop" : 1713892829858,
-      "duration" : 129
+      "start" : 1713892847640,
+      "stop" : 1713892847749,
+      "duration" : 109
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
     "hasContent" : false
   } ],
@@ -52,7 +52,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "allProductsButtonTest"
+    "value" : "headerArtLinkTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "975df49e17d09ae9.json",
+  "source" : "fc898428d4ef1e38.json",
   "parameterValues" : [ ]
 }

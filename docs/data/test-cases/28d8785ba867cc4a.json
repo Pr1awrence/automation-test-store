@@ -1,5 +1,5 @@
 {
-  "uid" : "cf81a36b550bac38",
+  "uid" : "28d8785ba867cc4a",
   "name" : "searchInputIncorrectValueTest",
   "fullName" : "tests.pages.main.MainPageTest.searchInputIncorrectValueTest",
   "historyId" : "d9edc11cc9ca906301bd84ef85d4eac6",
@@ -22,8 +22,8 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
     "hasContent" : false
   } ],
@@ -39,8 +39,8 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
     "hasContent" : false
   } ],
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cf81a36b550bac38.json",
+  "source" : "28d8785ba867cc4a.json",
   "parameterValues" : [ ]
 }
