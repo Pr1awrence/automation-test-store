@@ -1,48 +1,48 @@
 {
-  "uid" : "893e55c9576be01d",
-  "name" : "headerArtLinkTest",
-  "fullName" : "tests.pages.main.MainPageTest.headerArtLinkTest",
-  "historyId" : "a143b10cedfe3768e795006315e6cd17",
+  "uid" : "a1560e31b3cec7fe",
+  "name" : "footerIsDisplayedTest",
+  "fullName" : "tests.pages.main.MainPageTest.footerIsDisplayedTest",
+  "historyId" : "48da1fc1f20232ad05a07f184fa039d3",
   "time" : {
-    "start" : 1713892846679,
-    "stop" : 1713892847639,
-    "duration" : 960
+    "start" : 1713892839527,
+    "stop" : 1713892839556,
+    "duration" : 29
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713892843660,
-      "stop" : 1713892846677,
-      "duration" : 3017
+      "start" : 1713892836138,
+      "stop" : 1713892839525,
+      "duration" : 3387
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713892847640,
-      "stop" : 1713892847749,
-      "duration" : 109
+      "start" : 1713892839558,
+      "stop" : 1713892839672,
+      "duration" : 114
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -52,7 +52,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "headerArtLinkTest"
+    "value" : "footerIsDisplayedTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "893e55c9576be01d.json",
+  "source" : "a1560e31b3cec7fe.json",
   "parameterValues" : [ ]
 }

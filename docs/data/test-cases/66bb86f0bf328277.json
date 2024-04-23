@@ -1,48 +1,48 @@
 {
-  "uid" : "c3b6cfb1710e9a4d",
-  "name" : "allProductsButtonTest",
-  "fullName" : "tests.pages.main.MainPageTest.allProductsButtonTest",
-  "historyId" : "33dec6e08e3cf2f50c628044fe6aec1b",
+  "uid" : "66bb86f0bf328277",
+  "name" : "headerClothesLinkTest",
+  "fullName" : "tests.pages.main.MainPageTest.headerClothesLinkTest",
+  "historyId" : "7f34aa39132d659e2291906f4248ef84",
   "time" : {
-    "start" : 1713892828627,
-    "stop" : 1713892829726,
-    "duration" : 1099
+    "start" : 1713892851219,
+    "stop" : 1713892852128,
+    "duration" : 909
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713892825664,
-      "stop" : 1713892828615,
-      "duration" : 2951
+      "start" : 1713892847750,
+      "stop" : 1713892851217,
+      "duration" : 3467
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713892829729,
-      "stop" : 1713892829858,
-      "duration" : 129
+      "start" : 1713892852129,
+      "stop" : 1713892852241,
+      "duration" : 112
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -52,7 +52,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "allProductsButtonTest"
+    "value" : "headerClothesLinkTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c3b6cfb1710e9a4d.json",
+  "source" : "66bb86f0bf328277.json",
   "parameterValues" : [ ]
 }
