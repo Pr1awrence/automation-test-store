@@ -1,11 +1,11 @@
 {
-  "uid" : "c18283bd34b2d16e",
-  "name" : "Deprecated test due to site changes",
-  "fullName" : "tests.pages.main.MainPageTest.subscriptionButtonIsDisabledTest",
-  "historyId" : "a694c9bb4a9428bf51a8952401828463",
+  "uid" : "3f83514a2760f4c0",
+  "name" : "Old test",
+  "fullName" : "tests.functional.OrderCompleteTest.orderCompleteTest",
+  "historyId" : "b842798134145a993be2a60365c183d8",
   "time" : {
-    "start" : 1713985692717,
-    "stop" : 1713985692717,
+    "start" : 1713988211367,
+    "stop" : 1713988211367,
     "duration" : 0
   },
   "status" : "unknown",
@@ -14,13 +14,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.pages.main.MainPageTest"
+    "value" : "tests.functional.OrderCompleteTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.pages.main.MainPageTest"
+    "value" : "tests.functional.OrderCompleteTest"
   }, {
     "name" : "testMethod",
-    "value" : "subscriptionButtonIsDisabledTest"
+    "value" : "orderCompleteTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -29,13 +29,13 @@
     "value" : "parallel-tests"
   }, {
     "name" : "subSuite",
-    "value" : "tests.pages.main.MainPageTest"
+    "value" : "tests.functional.OrderCompleteTest"
   }, {
     "name" : "host",
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "17144@GalinaSM.main(1)"
+    "value" : "14816@GalinaSM.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c18283bd34b2d16e.json",
+  "source" : "3f83514a2760f4c0.json",
   "parameterValues" : [ ]
 }

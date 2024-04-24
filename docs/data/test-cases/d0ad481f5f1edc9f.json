@@ -1,11 +1,11 @@
 {
-  "uid" : "ba00c25b54ccc021",
+  "uid" : "d0ad481f5f1edc9f",
   "name" : "headerClothesLinkTest",
   "fullName" : "tests.pages.main.MainPageTest.headerClothesLinkTest",
   "historyId" : "7f34aa39132d659e2291906f4248ef84",
   "time" : {
-    "start" : 1713985717669,
-    "stop" : 1713985718589,
+    "start" : 1713988239408,
+    "stop" : 1713988240328,
     "duration" : 920
   },
   "status" : "passed",
@@ -13,36 +13,36 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713985714702,
-      "stop" : 1713985717666,
-      "duration" : 2964
+      "start" : 1713988236320,
+      "stop" : 1713988239403,
+      "duration" : 3083
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
+    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713985718590,
-      "stop" : 1713985718720,
-      "duration" : 130
+      "start" : 1713988240329,
+      "stop" : 1713988240469,
+      "duration" : 140
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
+    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -67,7 +67,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "17144@GalinaSM.TestNG-test=parallel-tests-1(41)"
+    "value" : "14816@GalinaSM.TestNG-test=parallel-tests-1(42)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ba00c25b54ccc021.json",
+  "source" : "d0ad481f5f1edc9f.json",
   "parameterValues" : [ ]
 }
