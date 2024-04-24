@@ -1,1 +1,313 @@
-{"uid":"83edc06c07f9ae9e47eb6dd1b683e4e2","name":"packages","children":[{"name":"tests","children":[{"name":"pages.main.MainPageTest","children":[{"name":"subscribeWithRealEmailTest","uid":"a2319a3385d35e8b","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"unknown","time":{"start":1713933320629,"stop":1713933324220,"duration":3591},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"subscriptionButtonIsEnabledTest","uid":"f4951bfb3c46d478","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"unknown","time":{"start":1713933324352,"stop":1713933324352,"duration":0},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"saleBannerTest","uid":"a229a7bba42da0cc","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"unknown","time":{"start":1713933324356,"stop":1713933324356,"duration":0},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"subscriptionButtonIsDisabledTest","uid":"813d57017d36a5a9","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"unknown","time":{"start":1713933324359,"stop":1713933324359,"duration":0},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"subscribeWithEmptyEmailTest","uid":"d4d77bfce638a08c","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"unknown","time":{"start":1713933324365,"stop":1713933324365,"duration":0},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"subscribeWithIncorrectEmailTest","uid":"99fc51118ffbc758","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"unknown","time":{"start":1713933324370,"stop":1713933324370,"duration":0},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"searchInputOneCharTest","uid":"e92605b1763f4513","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"unknown","time":{"start":1713933324372,"stop":1713933324372,"duration":0},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"bannersTest","uid":"90c521936fc26e92","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"unknown","time":{"start":1713933324375,"stop":1713933324375,"duration":0},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"subscribeWithRegisteredEmailTest","uid":"4ee81583df40310d","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"unknown","time":{"start":1713933324378,"stop":1713933324378,"duration":0},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"allProductsButtonTest","uid":"acb1b431948e7a5b","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"passed","time":{"start":1713933329315,"stop":1713933330562,"duration":1247},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"carouselIsDisplayedTest","uid":"3868bf451c9d4717","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"passed","time":{"start":1713933334045,"stop":1713933334092,"duration":47},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"customTextSectionIsDisplayedTest","uid":"3f675c89e3abe26e","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"passed","time":{"start":1713933337427,"stop":1713933337455,"duration":28},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"footerIsDisplayedTest","uid":"cd65558cf9e241e9","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"passed","time":{"start":1713933340908,"stop":1713933340938,"duration":30},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"headerAccessoriesLinkTest","uid":"e68daa977c64d34e","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"passed","time":{"start":1713933344197,"stop":1713933345417,"duration":1220},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"headerArtLinkTest","uid":"43edd9c3c9bf600f","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"passed","time":{"start":1713933348652,"stop":1713933349632,"duration":980},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"headerClothesLinkTest","uid":"9e33fcafe15f5b62","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"passed","time":{"start":1713933352438,"stop":1713933353355,"duration":917},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"popularProductsSectionIsDisplayedTest","uid":"cf98e1880a8a5e40","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"passed","time":{"start":1713933356456,"stop":1713933356483,"duration":27},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"saleBannerIsDisplayedTest","uid":"c69e67a5e8f1a2b8","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"passed","time":{"start":1713933359289,"stop":1713933359316,"duration":27},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"searchInputEmptyValueTest","uid":"139b3f0cbba8a1d2","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"passed","time":{"start":1713933362548,"stop":1713933363329,"duration":781},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"searchInputFullWordTest","uid":"40ea40d79090e414","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"passed","time":{"start":1713933366360,"stop":1713933367308,"duration":948},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"searchInputIncorrectValueTest","uid":"befd26c94258213f","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"passed","time":{"start":1713933370420,"stop":1713933371291,"duration":871},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"storeLogoLinkTest","uid":"ae7ded98abbd79b3","parentUid":"1f1ccb763038667c49eb2ca64f66e94a","status":"passed","time":{"start":1713933374059,"stop":1713933375719,"duration":1660},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"pages.main.MainPageTest"},{"name":"functional","children":[{"name":"OrderCompleteTest","children":[{"name":"orderCompleteTest","uid":"a666206855ee6102","parentUid":"a5fb79fb4f34d20b8d4448bf9cda012f","status":"unknown","time":{"start":1713933324362,"stop":1713933324362,"duration":0},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"a5fb79fb4f34d20b8d4448bf9cda012f"},{"name":"RemoveItemBasketTest","children":[{"name":"removeItemTest","uid":"7023be9bac48f268","parentUid":"dd3c1efb39ea754c6d45d39ffbdc74ef","status":"unknown","time":{"start":1713933324367,"stop":1713933324367,"duration":0},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"dd3c1efb39ea754c6d45d39ffbdc74ef"}],"uid":"5af1ccfe6d3543ef6714c60cfe950a90"}],"uid":"bf49149a3821e34f7608bb6885d52868"}]}
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "pages.main.MainPageTest",
+      "children" : [ {
+        "name" : "subscribeWithRealEmailTest",
+        "uid" : "b750dfeb6f5f40c3",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1713985688072,
+          "stop" : 1713985692617,
+          "duration" : 4545
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "subscriptionButtonIsEnabledTest",
+        "uid" : "d01f9ed971618c0e",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1713985692712,
+          "stop" : 1713985692712,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "saleBannerTest",
+        "uid" : "9ca2a76b42bbf577",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1713985692716,
+          "stop" : 1713985692716,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "subscriptionButtonIsDisabledTest",
+        "uid" : "c18283bd34b2d16e",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1713985692717,
+          "stop" : 1713985692717,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "subscribeWithEmptyEmailTest",
+        "uid" : "8ec90202209ce4ba",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1713985692722,
+          "stop" : 1713985692722,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "subscribeWithIncorrectEmailTest",
+        "uid" : "47448093b688968c",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1713985692725,
+          "stop" : 1713985692725,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchInputOneCharTest",
+        "uid" : "8cfb220402703672",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1713985692727,
+          "stop" : 1713985692727,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "bannersTest",
+        "uid" : "3626b0efe0f3b218",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1713985692729,
+          "stop" : 1713985692729,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "subscribeWithRegisteredEmailTest",
+        "uid" : "6fa2e9b20460d375",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1713985692730,
+          "stop" : 1713985692730,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "allProductsButtonTest",
+        "uid" : "1d7c933987f2476",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713985695787,
+          "stop" : 1713985696929,
+          "duration" : 1142
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "carouselIsDisplayedTest",
+        "uid" : "9eb7085a48d3908b",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713985699738,
+          "stop" : 1713985699772,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "customTextSectionIsDisplayedTest",
+        "uid" : "4b44f2968acf5502",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713985703579,
+          "stop" : 1713985703624,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "footerIsDisplayedTest",
+        "uid" : "bd29076cf227a3a9",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713985706673,
+          "stop" : 1713985706702,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "headerAccessoriesLinkTest",
+        "uid" : "89606e706ce73a24",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713985709744,
+          "stop" : 1713985710893,
+          "duration" : 1149
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "headerArtLinkTest",
+        "uid" : "de374e3eeddf2193",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713985713588,
+          "stop" : 1713985714612,
+          "duration" : 1024
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "headerClothesLinkTest",
+        "uid" : "ba00c25b54ccc021",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713985717669,
+          "stop" : 1713985718589,
+          "duration" : 920
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "popularProductsSectionIsDisplayedTest",
+        "uid" : "d58527b503ac40c2",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713985721534,
+          "stop" : 1713985721571,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "saleBannerIsDisplayedTest",
+        "uid" : "12db450b27ec26a3",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713985724896,
+          "stop" : 1713985724920,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchInputEmptyValueTest",
+        "uid" : "74c149884fcd4362",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713985728175,
+          "stop" : 1713985728929,
+          "duration" : 754
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchInputFullWordTest",
+        "uid" : "9ba9723160e8e357",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713985731669,
+          "stop" : 1713985732433,
+          "duration" : 764
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchInputIncorrectValueTest",
+        "uid" : "86c2e103c9263dbd",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713985735179,
+          "stop" : 1713985735993,
+          "duration" : 814
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "storeLogoLinkTest",
+        "uid" : "66902d5c3a8db350",
+        "parentUid" : "1f1ccb763038667c49eb2ca64f66e94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713985739027,
+          "stop" : 1713985740828,
+          "duration" : 1801
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "pages.main.MainPageTest"
+    }, {
+      "name" : "functional",
+      "children" : [ {
+        "name" : "OrderCompleteTest",
+        "children" : [ {
+          "name" : "orderCompleteTest",
+          "uid" : "31b895d226e86151",
+          "parentUid" : "a5fb79fb4f34d20b8d4448bf9cda012f",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1713985692719,
+            "stop" : 1713985692719,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a5fb79fb4f34d20b8d4448bf9cda012f"
+      }, {
+        "name" : "RemoveItemBasketTest",
+        "children" : [ {
+          "name" : "removeItemTest",
+          "uid" : "2aa9eb1afdb320ca",
+          "parentUid" : "dd3c1efb39ea754c6d45d39ffbdc74ef",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1713985692724,
+            "stop" : 1713985692724,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dd3c1efb39ea754c6d45d39ffbdc74ef"
+      } ],
+      "uid" : "5af1ccfe6d3543ef6714c60cfe950a90"
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ]
+}
