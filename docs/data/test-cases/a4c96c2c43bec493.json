@@ -1,11 +1,11 @@
 {
-  "uid" : "89160757634a75e6",
-  "name" : "Must unsubscribe the user or delete an existing email from the DB",
-  "fullName" : "tests.pages.main.MainPageTest.subscribeWithRealEmailTest",
-  "historyId" : "4e394ef802f9f9c32b118f937a287901",
+  "uid" : "a4c96c2c43bec493",
+  "name" : "Should be fixed on FE side",
+  "fullName" : "tests.pages.main.MainPageTest.saleBannerTest",
+  "historyId" : "45993425ff70991da1561cc2150be187",
   "time" : {
-    "start" : 1713988211346,
-    "stop" : 1713988211346,
+    "start" : 1713988824661,
+    "stop" : 1713988824661,
     "duration" : 0
   },
   "status" : "unknown",
@@ -20,7 +20,7 @@
     "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "subscribeWithRealEmailTest"
+    "value" : "saleBannerTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -35,7 +35,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "14816@GalinaSM.main(1)"
+    "value" : "18224@GalinaSM.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "89160757634a75e6.json",
+  "source" : "a4c96c2c43bec493.json",
   "parameterValues" : [ ]
 }

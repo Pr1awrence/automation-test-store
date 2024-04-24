@@ -1,48 +1,48 @@
 {
-  "uid" : "1eb21b9225492fb8",
+  "uid" : "f0b7afbe9877ca37",
   "name" : "searchInputFullWordTest",
   "fullName" : "tests.pages.main.MainPageTest.searchInputFullWordTest",
   "historyId" : "417d0a7f92b824fd44c19cdd6dddf76c",
   "time" : {
-    "start" : 1713988254304,
-    "stop" : 1713988255086,
-    "duration" : 782
+    "start" : 1713988867598,
+    "stop" : 1713988868550,
+    "duration" : 952
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713988251598,
-      "stop" : 1713988254302,
-      "duration" : 2704
+      "start" : 1713988864002,
+      "stop" : 1713988867592,
+      "duration" : 3590
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713988255088,
-      "stop" : 1713988255194,
-      "duration" : 106
+      "start" : 1713988868552,
+      "stop" : 1713988868668,
+      "duration" : 116
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -67,7 +67,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "14816@GalinaSM.TestNG-test=parallel-tests-1(42)"
+    "value" : "18224@GalinaSM.TestNG-test=parallel-tests-1(43)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1eb21b9225492fb8.json",
+  "source" : "f0b7afbe9877ca37.json",
   "parameterValues" : [ ]
 }

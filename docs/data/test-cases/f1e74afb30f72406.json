@@ -1,11 +1,11 @@
 {
-  "uid" : "d4f3f11ae769fa64",
+  "uid" : "f1e74afb30f72406",
   "name" : "Broken test due to site changes",
   "fullName" : "tests.pages.main.MainPageTest.bannersTest",
   "historyId" : "a5c74a96e2a69af58779b56bff601e80",
   "time" : {
-    "start" : 1713988211378,
-    "stop" : 1713988211378,
+    "start" : 1713988824668,
+    "stop" : 1713988824668,
     "duration" : 0
   },
   "status" : "unknown",
@@ -35,7 +35,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "14816@GalinaSM.main(1)"
+    "value" : "18224@GalinaSM.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d4f3f11ae769fa64.json",
+  "source" : "f1e74afb30f72406.json",
   "parameterValues" : [ ]
 }

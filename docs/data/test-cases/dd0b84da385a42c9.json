@@ -1,11 +1,11 @@
 {
-  "uid" : "3f83514a2760f4c0",
-  "name" : "Old test",
-  "fullName" : "tests.functional.OrderCompleteTest.orderCompleteTest",
-  "historyId" : "b842798134145a993be2a60365c183d8",
+  "uid" : "dd0b84da385a42c9",
+  "name" : "Should be fixed on FE side",
+  "fullName" : "tests.pages.main.MainPageTest.searchInputOneCharTest",
+  "historyId" : "d060b48f2d596b32482c8c562853a166",
   "time" : {
-    "start" : 1713988211367,
-    "stop" : 1713988211367,
+    "start" : 1713988824675,
+    "stop" : 1713988824675,
     "duration" : 0
   },
   "status" : "unknown",
@@ -14,13 +14,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.functional.OrderCompleteTest"
+    "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.functional.OrderCompleteTest"
+    "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "orderCompleteTest"
+    "value" : "searchInputOneCharTest"
   }, {
     "name" : "parentSuite",
     "value" : "parallel-suite"
@@ -29,13 +29,13 @@
     "value" : "parallel-tests"
   }, {
     "name" : "subSuite",
-    "value" : "tests.functional.OrderCompleteTest"
+    "value" : "tests.pages.main.MainPageTest"
   }, {
     "name" : "host",
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "14816@GalinaSM.main(1)"
+    "value" : "18224@GalinaSM.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3f83514a2760f4c0.json",
+  "source" : "dd0b84da385a42c9.json",
   "parameterValues" : [ ]
 }
