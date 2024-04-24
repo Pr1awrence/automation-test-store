@@ -33,27 +33,30 @@ pipeline {
         stage('Publish Test Results') {
             steps {
                 script {
-                    bat """
-                        git checkout gh-pages-allure
-
-                        // Generate Allure report
-                        mvn allure:report
-
-                        // Clean docs folder and recreate for the knew report
-                        if exist docs rmdir /s /q docs
-                        mkdir docs
-
-                        // Copying generated Allure report to the docs folder
-                        xcopy ".\\target\\site\\allure-maven-plugin\\*" "docs\\" /E /I /Y
-                    """
-
                     // Using withCredentials connect again by ssh to git
                     withCredentials([sshUserPrivateKey(credentialsId: "${env.GIT_CREDENTIALS_ID}", keyFileVariable: 'SSH_KEY')]) {
+                        bat 'git checkout gh-pages-allure'
+
+                        bat 'git pull'
+
+                        // Generate Allure report
+                        bat 'mvn allure:report'
+
+                        // Clean docs folder and recreate for the knew report
+                        bat 'if exist docs rmdir /s /q docs'
+                        bat 'mkdir docs'
+
+                        // Copying generated Allure report to the docs folder
+                        bat 'xcopy ".\\target\\site\\allure-maven-plugin\\*" "docs\\" /E /I /Y'
+
+
+                        bat 'git add docs'
+                        bat 'git config user.email "lukinskaya.alina@gmail.com"'
+                        bat 'git config user.name "Galina Smirnova"'
+
+                        bat 'git commit -m \"Publishing Allure Test Results - Build: ${env.BUILD_NUMBER}, Started at: ${env.BUILD_START_TIME}, Duration: ${env.TEST_DURATION} ms\"'
+
                         bat """
-                            git add docs
-                            git config user.email "lukinskaya.alina@gmail.com"
-                            git config user.name "Galina Smirnova"
-                            git commit -m \"Publishing Allure Test Results - Build: ${env.BUILD_NUMBER}, Started at: ${env.BUILD_START_TIME}, Duration: ${env.TEST_DURATION} ms\"
                             set GIT_SSH_COMMAND=ssh -i %SSH_KEY%
                             git push -u origin gh-pages-allure
                         """
