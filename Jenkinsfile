@@ -6,8 +6,6 @@ pipeline {
         GIT_CREDENTIALS_ID = '009ad602-d253-4848-9fea-3083554a3871'
 
         BUILD_START_TIME = "${new java.text.SimpleDateFormat('yyyy-MM-dd HH:mm:ss').format(new Date())}"
-
-        TEST_DURATION = '0'
     }
 
     stages {
@@ -26,8 +24,8 @@ pipeline {
                     bat 'mvn clean test'
 
                     def testEndTime = System.currentTimeMillis()
-                    TEST_DURATION = "${(testEndTime - testStartTime) / 1000.0}"
-                    echo "Test duration: ${TEST_DURATION} seconds"
+                    env.TEST_DURATION = "${(testEndTime - testStartTime) / 1000.0}"
+                    echo "Test duration: ${env.TEST_DURATION} seconds"
                 }
             }
         }
