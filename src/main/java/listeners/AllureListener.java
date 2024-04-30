@@ -30,6 +30,5 @@ public class AllureListener implements TestLifecycleListener {
             if (driver != null)
                 addAttachment(result.getName(), new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         }
-
     }
 }

@@ -8,4 +8,6 @@ public class BasePageTest extends Hooks {
     protected String clothesPageUrl = reader.getClothesPageUrl();
     protected String accessoriesPageUrl = reader.getAccessoriesPageUrl();
     protected String artPageUrl = reader.getArtPageUrl();
+    protected String pricesDropPageUrl = reader.getPricesDropPageUrl();
+    protected String newProductsPageUrl = reader.getNewProductsPageUrl();
 }

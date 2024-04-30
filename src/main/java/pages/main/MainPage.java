@@ -19,19 +19,17 @@ public class MainPage extends BasePage {
     By searchInput = By.cssSelector(".ui-autocomplete-input");
     By pageNotFoundSection = By.cssSelector(".page-not-found");
     By carouselSection = By.cssSelector(".carousel");
-    By activeBanner = By.cssSelector(".active");
+    By activeBanner = By.cssSelector(".carousel-item.active");
     By rightCarouselControl = By.cssSelector("[data-slide='next']");
-    By popularProductsSection = By.cssSelector(".products");
-    By allProductsButton = By.cssSelector(".all-product-link");
-    By productsList = By.cssSelector(".product-miniature");
     By saleBanner = By.cssSelector(".banner");
     By customTextSection = By.cssSelector("#custom-text");
-    By subscribeButton = By.cssSelector("input[name='submitNewsletter'][value='Subscribe']");
-    By subscriptionConsentCheckbox = By.cssSelector("[type='checkbox']");
-    By alertSuccessSubscription = By.cssSelector(".alert-success");
-    By alertFailedSubscription = By.xpath("//*[contains(text(), 'Invalid email address.')]");
-    By alertEmailExistsSubscription = By.xpath("//*[contains(text(), 'This email address is already registered.')]");
-    By inputEmailSubscription = By.cssSelector("input[name='email']");
+    By popularProductsSection = By.xpath("//h2[contains(text(), 'Popular Products')]/following-sibling::div[@class='products row']");
+    By onSaleProductsSection = By.xpath("//h2[contains(text(), 'On sale')]/following-sibling::div[@class='products']");
+    By allNewProductsSection = By.xpath("//h2[contains(text(), 'New products')]/following-sibling::div[@class='products']");
+    By allProductsButton = By.xpath("//a[contains(@class, 'all-product-link') and contains(text(),'All products')]");
+    By onSaleProductsButton = By.xpath("//a[contains(@class, 'all-product-link') and contains(text(),'All sale products')]");
+    By allNewProductsButton = By.xpath("//a[contains(@class, 'all-product-link') and contains(text(),'All new products')]");
+    By productsList = By.cssSelector(".product-miniature");
     By footer = By.cssSelector(".footer-container");
 
     public MainPage() {
@@ -76,26 +74,6 @@ public class MainPage extends BasePage {
         driver.findElement(rightCarouselControl).click();
     }
 
-    public boolean popularProductsSectionIsDisplayed() {
-        return driver.findElement(popularProductsSection).isDisplayed();
-    }
-
-    public void clickAllProductsButton() {
-        driver.findElement(allProductsButton).click();
-    }
-
-    public List<WebElement> getProductsList() {
-        return driver.findElements(productsList);
-    }
-
-    public void clickFirstProduct() {
-        getProductsList().get(0).click();
-    }
-
-    public void clickSecondProduct() {
-        getProductsList().get(1).click();
-    }
-
     public boolean saleBannerIsDisplayed() {
         return driver.findElement(saleBanner).isDisplayed();
     }
@@ -108,32 +86,41 @@ public class MainPage extends BasePage {
         return driver.findElement(customTextSection).isDisplayed();
     }
 
-    public void clickSubscribeButton() {
-        driver.findElement(subscribeButton).click();
+
+    public boolean popularProductsSectionIsDisplayed() {
+        return driver.findElement(popularProductsSection).isDisplayed();
     }
 
-    public boolean isSubscribeButtonDisabled() {
-        return !driver.findElement(subscribeButton).isEnabled();
+    public boolean onSaleProductsSectionIsDisplayed() {
+        return driver.findElement(onSaleProductsSection).isDisplayed();
     }
 
-    public void clickSubscriptionConsentCheckbox() {
-        driver.findElement(subscriptionConsentCheckbox).click();
+    public boolean allNewProductsSectionIsDisplayed() {
+        return driver.findElement(allNewProductsSection).isDisplayed();
     }
 
-    public void inputEmailSubscriptionSendKeys(String email) {
-        driver.findElement(inputEmailSubscription).sendKeys(email);
+    public void clickAllProductsButton() {
+        driver.findElement(allProductsButton).click();
     }
 
-    public boolean alertSuccessSubscriptionIsDisplayed() {
-        return driver.findElement(alertSuccessSubscription).isDisplayed();
+    public void clickOnSaleProductsButton() {
+        driver.findElement(onSaleProductsButton).click();
     }
 
-    public boolean alertFailedSubscriptionIsDisplayed() {
-        return driver.findElement(alertFailedSubscription).isDisplayed();
+    public void clickAllNewProductsButton() {
+        driver.findElement(allNewProductsButton).click();
     }
 
-    public boolean alertEmailExistsSubscriptionIsDisplayed() {
-        return driver.findElement(alertEmailExistsSubscription).isDisplayed();
+    public List<WebElement> getProductsList() {
+        return driver.findElements(productsList);
+    }
+
+    public void clickFirstProduct() {
+        getProductsList().get(0).click();
+    }
+
+    public void clickSecondProduct() {
+        getProductsList().get(1).click();
     }
 
     public boolean footerIsDisplayed() {

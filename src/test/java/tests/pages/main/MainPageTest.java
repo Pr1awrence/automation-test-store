@@ -55,7 +55,7 @@ public class MainPageTest extends BasePageTest {
         }
     }
 
-    @Test(description = "Should be fixed on FE side", enabled = false)
+    @Test(description = "Bug ID: 1. Should be fixed on FE side", enabled = false)
     public void searchInputOneCharTest() {
         MainPage mainPage = new MainPage();
         mainPage.searchInputSendKeys("S");
@@ -70,10 +70,11 @@ public class MainPageTest extends BasePageTest {
     @Test
     public void searchInputIncorrectValueTest() {
         MainPage mainPage = new MainPage();
-        mainPage.searchInputSendKeys("123");
+        mainPage.searchInputSendKeys("0");
 
         String currentUrl = mainPage.getCurrentUrl();
-        Assert.assertEquals(currentUrl, mainPageUrl + "?controller=search&s=123");
+        Assert.assertEquals(currentUrl, mainPageUrl + "?controller=search&s=0");
+        Assert.assertTrue(mainPage.pageNotFoundSectionIsDisplayed(), "There should be no products there, but one at least is presented");
     }
 
     @Test
@@ -93,14 +94,14 @@ public class MainPageTest extends BasePageTest {
         Assert.assertTrue(mainPage.carouselSectionIsDisplayed());
     }
 
-    @Test(description = "Broken test due to site changes", enabled = false)
+    @Test
     public void bannersTest() {
         MainPage mainPage = new MainPage();
         /* Check first banner */
         mainPage.clickOnActiveBanner();
         String currentUrl = mainPage.getCurrentUrl();
 
-        Assert.assertTrue(currentUrl.startsWith("https://prestashop.com"), "The first banner doesn't lead to the right site");
+        Assert.assertTrue(currentUrl.startsWith("https://www.prestashop-project.org/"), "The first banner doesn't lead to the right site");
 
         /* Check second banner */
         mainPage.driverNavigateBack();
@@ -108,7 +109,7 @@ public class MainPageTest extends BasePageTest {
         mainPage.clickOnActiveBanner();
         currentUrl = mainPage.getCurrentUrl();
 
-        Assert.assertTrue(currentUrl.startsWith("https://prestashop.com"), "The second banner doesn't lead to the right site");
+        Assert.assertTrue(currentUrl.startsWith("https://www.prestashop-project.org/"), "The second banner doesn't lead to the right site");
 
         /* Check third banner */
         mainPage.driverNavigateBack();
@@ -116,7 +117,30 @@ public class MainPageTest extends BasePageTest {
         mainPage.clickOnActiveBanner();
         currentUrl = mainPage.getCurrentUrl();
 
-        Assert.assertTrue(currentUrl.startsWith("https://prestashop.com"), "The third banner doesn't lead to the right site");
+        Assert.assertTrue(currentUrl.startsWith("https://www.prestashop-project.org/"), "The third banner doesn't lead to the right site");
+    }
+
+    @Test
+    public void saleBannerIsDisplayedTest() {
+        MainPage mainPage = new MainPage();
+
+        Assert.assertTrue(mainPage.saleBannerIsDisplayed());
+    }
+
+    @Test(description = "Bug ID: 2. Should be fixed on FE side", enabled = false)
+    public void saleBannerTest() {
+        MainPage mainPage = new MainPage();
+        mainPage.clickSaleBanner();
+
+        String currentUrl = mainPage.getCurrentUrl();
+        Assert.assertEquals(currentUrl, clothesPageUrl);
+    }
+
+    @Test
+    public void customTextSectionIsDisplayedTest() {
+        MainPage mainPage = new MainPage();
+
+        Assert.assertTrue(mainPage.customTextSectionIsDisplayed());
     }
 
     @Test
@@ -133,84 +157,47 @@ public class MainPageTest extends BasePageTest {
 
         String currentUrl = mainPage.getCurrentUrl();
         Assert.assertEquals(currentUrl, homePageUrl);
+        if (mainPage.getProductsList().isEmpty()) {
+            Assert.fail("There should be at least one product for this search value, but there is none");
+        }
     }
 
     @Test
-    public void saleBannerIsDisplayedTest() {
+    public void onSaleProductsSectionIsDisplayedTest() {
         MainPage mainPage = new MainPage();
 
-        Assert.assertTrue(mainPage.saleBannerIsDisplayed());
+        Assert.assertTrue(mainPage.onSaleProductsSectionIsDisplayed());
     }
 
-    @Test(description = "Should be fixed on FE side", enabled = false)
-    public void saleBannerTest() {
+    @Test
+    public void onSaleProductsButtonTest() {
         MainPage mainPage = new MainPage();
-        mainPage.clickSaleBanner();
+        mainPage.clickOnSaleProductsButton();
 
         String currentUrl = mainPage.getCurrentUrl();
-        Assert.assertEquals(currentUrl, clothesPageUrl);
+        Assert.assertEquals(currentUrl, pricesDropPageUrl);
+        if (mainPage.getProductsList().isEmpty()) {
+            Assert.fail("There should be at least one product for this search value, but there is none");
+        }
     }
 
     @Test
-    public void customTextSectionIsDisplayedTest() {
+    public void allNewProductsSectionIsDisplayedTest() {
         MainPage mainPage = new MainPage();
 
-        Assert.assertTrue(mainPage.customTextSectionIsDisplayed());
+        Assert.assertTrue(mainPage.allNewProductsSectionIsDisplayed());
     }
 
-    @Test(description = "Deprecated test due to site changes", enabled = false)
-    public void subscriptionButtonIsDisabledTest() {
+    @Test(description = "Bug ID: 3. Should be fixed on FE side", enabled = false)
+    public void allNewProductsButtonTest() {
         MainPage mainPage = new MainPage();
+        mainPage.clickAllNewProductsButton();
 
-        Assert.assertTrue(mainPage.isSubscribeButtonDisabled());
-    }
-
-    @Test(description = "Deprecated test due to site changes", enabled = false)
-    public void subscriptionButtonIsEnabledTest() {
-        MainPage mainPage = new MainPage();
-        mainPage.clickSubscriptionConsentCheckbox();
-
-        Assert.assertFalse(mainPage.isSubscribeButtonDisabled());
-    }
-
-    @Test(description = "Must unsubscribe the user or delete an existing email from the DB", enabled = false)
-    public void subscribeWithRealEmailTest() {
-        MainPage mainPage = new MainPage();
-        mainPage.inputEmailSubscriptionSendKeys("11111@gmail.com");
-        mainPage.clickSubscriptionConsentCheckbox();
-        mainPage.clickSubscribeButton();
-
-        Assert.assertTrue(mainPage.alertSuccessSubscriptionIsDisplayed());
-    }
-
-    @Test(description = "Broken test due to site changes", enabled = false)
-    public void subscribeWithIncorrectEmailTest() {
-        MainPage mainPage = new MainPage();
-        mainPage.inputEmailSubscriptionSendKeys("q@q");
-        mainPage.clickSubscriptionConsentCheckbox();
-        mainPage.clickSubscribeButton();
-
-        Assert.assertTrue(mainPage.alertFailedSubscriptionIsDisplayed());
-    }
-
-    @Test(description = "Broken test due to site changes", enabled = false)
-    public void subscribeWithEmptyEmailTest() {
-        MainPage mainPage = new MainPage();
-        mainPage.inputEmailSubscriptionSendKeys("");
-        mainPage.clickSubscriptionConsentCheckbox();
-        mainPage.clickSubscribeButton();
-
-        Assert.assertTrue(mainPage.alertFailedSubscriptionIsDisplayed());
-    }
-
-    @Test(description = "Broken test due to site changes", enabled = false)
-    public void subscribeWithRegisteredEmailTest() {
-        MainPage mainPage = new MainPage();
-        mainPage.inputEmailSubscriptionSendKeys("11111@gmail.com");
-        mainPage.clickSubscriptionConsentCheckbox();
-        mainPage.clickSubscribeButton();
-
-        Assert.assertTrue(mainPage.alertEmailExistsSubscriptionIsDisplayed());
+        String currentUrl = mainPage.getCurrentUrl();
+        Assert.assertEquals(currentUrl, newProductsPageUrl);
+        if (mainPage.getProductsList().isEmpty()) {
+            Assert.fail("There should be at least one product for this search value, but there is none");
+        }
     }
 
     @Test

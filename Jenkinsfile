@@ -54,7 +54,7 @@ pipeline {
                         bat 'git config user.email "lukinskaya.alina@gmail.com"'
                         bat 'git config user.name "Galina Smirnova"'
 
-                        bat "git commit -m \"Publishing Allure Test Results - Build: ${env.BUILD_NUMBER}, Started at: ${env.BUILD_START_TIME}, Duration: ${env.TEST_DURATION} ms\""
+                        bat "git commit -m \"Publishing Allure Test Results - Build: ${env.BUILD_NUMBER}, Started at: ${env.BUILD_START_TIME}, Duration: ${env.TEST_DURATION} seconds\""
 
                         bat """
                             set GIT_SSH_COMMAND=ssh -i %SSH_KEY%

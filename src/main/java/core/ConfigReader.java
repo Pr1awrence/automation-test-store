@@ -39,4 +39,11 @@ public class ConfigReader {
     public String getArtPageUrl() {
         return prop.getProperty("art.page.url");
     }
+
+    public String getPricesDropPageUrl() {
+        return prop.getProperty("prices.drop.page.url");
+    }
+    public String getNewProductsPageUrl() {
+        return prop.getProperty("new.products.page.url");
+    }
 }
