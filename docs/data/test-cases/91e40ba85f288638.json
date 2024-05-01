@@ -1,12 +1,12 @@
 {
-  "uid" : "a42f7487f8c16540",
+  "uid" : "91e40ba85f288638",
   "name" : "Old test",
   "fullName" : "tests.functional.RemoveItemBasketTest.removeItemTest",
   "historyId" : "63c767b66e0e6953e23e99ad4a4ee857",
   "time" : {
-    "start" : 1713988820679,
-    "stop" : 1713988824562,
-    "duration" : 3883
+    "start" : 1714539630192,
+    "stop" : 1714539635464,
+    "duration" : 5272
   },
   "status" : "unknown",
   "flaky" : false,
@@ -35,7 +35,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "18224@GalinaSM.main(1)"
+    "value" : "9144@GalinaSM.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a42f7487f8c16540.json",
+  "source" : "91e40ba85f288638.json",
   "parameterValues" : [ ]
 }

@@ -1,17 +1,49 @@
 {
-  "uid" : "f1e74afb30f72406",
-  "name" : "Broken test due to site changes",
+  "uid" : "913d6229953f7a6d",
+  "name" : "bannersTest",
   "fullName" : "tests.pages.main.MainPageTest.bannersTest",
   "historyId" : "a5c74a96e2a69af58779b56bff601e80",
   "time" : {
-    "start" : 1713988824668,
-    "stop" : 1713988824668,
-    "duration" : 0
+    "start" : 1714539647002,
+    "stop" : 1714539649708,
+    "duration" : 2706
   },
-  "status" : "unknown",
+  "status" : "passed",
   "flaky" : false,
-  "beforeStages" : [ ],
-  "afterStages" : [ ],
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1714539643888,
+      "stop" : 1714539646999,
+      "duration" : 3111
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1714539649709,
+      "stop" : 1714539649823,
+      "duration" : 114
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
   "labels" : [ {
     "name" : "package",
     "value" : "tests.pages.main.MainPageTest"
@@ -35,7 +67,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "18224@GalinaSM.main(1)"
+    "value" : "9144@GalinaSM.TestNG-test=parallel-tests-1(43)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -56,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f1e74afb30f72406.json",
+  "source" : "913d6229953f7a6d.json",
   "parameterValues" : [ ]
 }

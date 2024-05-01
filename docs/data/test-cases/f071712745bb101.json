@@ -1,48 +1,48 @@
 {
-  "uid" : "48f533c9810cd06",
+  "uid" : "f071712745bb101",
   "name" : "saleBannerIsDisplayedTest",
   "fullName" : "tests.pages.main.MainPageTest.saleBannerIsDisplayedTest",
   "historyId" : "404133ea965bb34dc436e66acb2cb92a",
   "time" : {
-    "start" : 1713988859136,
-    "stop" : 1713988859189,
-    "duration" : 53
+    "start" : 1714539686746,
+    "stop" : 1714539686773,
+    "duration" : 27
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713988855294,
-      "stop" : 1713988859128,
-      "duration" : 3834
+      "start" : 1714539683751,
+      "stop" : 1714539686744,
+      "duration" : 2993
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "hasContent" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1713988859193,
-      "stop" : 1713988859389,
-      "duration" : 196
+      "start" : 1714539686775,
+      "stop" : 1714539686888,
+      "duration" : 113
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "hasContent" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -67,7 +67,7 @@
     "value" : "GalinaSM"
   }, {
     "name" : "thread",
-    "value" : "18224@GalinaSM.TestNG-test=parallel-tests-1(43)"
+    "value" : "9144@GalinaSM.TestNG-test=parallel-tests-1(43)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "48f533c9810cd06.json",
+  "source" : "f071712745bb101.json",
   "parameterValues" : [ ]
 }
