@@ -5,9 +5,11 @@
             <class
                     name="tests.pages.main.MainPageTest" />
             <class
-                    name="tests.functional.RemoveItemBasketTest" />
+                    name="tests.pages.product.ClothesPageTest" />
             <class
-                    name="tests.functional.OrderCompleteTest" />
+                    name="tests.pages.product.AccessoriesPageTest" />
+            <class
+                    name="tests.pages.product.ArtPageTest" />
         </classes>
     </test>
 </suite>

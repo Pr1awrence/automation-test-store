@@ -6,9 +6,15 @@ import pages.main.MainPage;
 import tests.pages.BasePageTest;
 
 public class MainPageTest extends BasePageTest {
+    private MainPage mainPage;
+
+    @BeforeMethod
+    public void mainPageSetup() {
+        mainPage = new MainPage();
+    }
+
     @Test
     public void headerClothesLinkTest() {
-        MainPage mainPage = new MainPage();
         mainPage.clickClothesMenuLink();
 
         String currentUrl = mainPage.getCurrentUrl();
@@ -17,7 +23,6 @@ public class MainPageTest extends BasePageTest {
 
     @Test
     public void headerAccessoriesLinkTest() {
-        MainPage mainPage = new MainPage();
         mainPage.clickAccessoriesMenuLink();
 
         String currentUrl = mainPage.getCurrentUrl();
@@ -26,7 +31,6 @@ public class MainPageTest extends BasePageTest {
 
     @Test
     public void headerArtLinkTest() {
-        MainPage mainPage = new MainPage();
         mainPage.clickArtMenuLink();
 
         String currentUrl = mainPage.getCurrentUrl();
@@ -35,7 +39,6 @@ public class MainPageTest extends BasePageTest {
 
     @Test
     public void storeLogoLinkTest() {
-        MainPage mainPage = new MainPage();
         mainPage.clickArtMenuLink();
         mainPage.clickStoreLogoLink();
 
@@ -45,7 +48,6 @@ public class MainPageTest extends BasePageTest {
 
     @Test
     public void searchInputFullWordTest() {
-        MainPage mainPage = new MainPage();
         mainPage.searchInputSendKeys("Sweater");
 
         String currentUrl = mainPage.getCurrentUrl();
@@ -57,7 +59,6 @@ public class MainPageTest extends BasePageTest {
 
     @Test(description = "Bug ID: 1. Should be fixed on FE side", enabled = false)
     public void searchInputOneCharTest() {
-        MainPage mainPage = new MainPage();
         mainPage.searchInputSendKeys("S");
 
         String currentUrl = mainPage.getCurrentUrl();
@@ -69,7 +70,6 @@ public class MainPageTest extends BasePageTest {
 
     @Test
     public void searchInputIncorrectValueTest() {
-        MainPage mainPage = new MainPage();
         mainPage.searchInputSendKeys("0");
 
         String currentUrl = mainPage.getCurrentUrl();
@@ -79,7 +79,6 @@ public class MainPageTest extends BasePageTest {
 
     @Test
     public void searchInputEmptyValueTest() {
-        MainPage mainPage = new MainPage();
         mainPage.searchInputSendKeys("");
 
         String currentUrl = mainPage.getCurrentUrl();
@@ -89,14 +88,11 @@ public class MainPageTest extends BasePageTest {
 
     @Test
     public void carouselIsDisplayedTest() {
-        MainPage mainPage = new MainPage();
-
         Assert.assertTrue(mainPage.carouselSectionIsDisplayed());
     }
 
     @Test
     public void bannersTest() {
-        MainPage mainPage = new MainPage();
         /* Check first banner */
         mainPage.clickOnActiveBanner();
         String currentUrl = mainPage.getCurrentUrl();
@@ -122,14 +118,11 @@ public class MainPageTest extends BasePageTest {
 
     @Test
     public void saleBannerIsDisplayedTest() {
-        MainPage mainPage = new MainPage();
-
         Assert.assertTrue(mainPage.saleBannerIsDisplayed());
     }
 
     @Test(description = "Bug ID: 2. Should be fixed on FE side", enabled = false)
     public void saleBannerTest() {
-        MainPage mainPage = new MainPage();
         mainPage.clickSaleBanner();
 
         String currentUrl = mainPage.getCurrentUrl();
@@ -138,21 +131,16 @@ public class MainPageTest extends BasePageTest {
 
     @Test
     public void customTextSectionIsDisplayedTest() {
-        MainPage mainPage = new MainPage();
-
         Assert.assertTrue(mainPage.customTextSectionIsDisplayed());
     }
 
     @Test
     public void popularProductsSectionIsDisplayedTest() {
-        MainPage mainPage = new MainPage();
-
         Assert.assertTrue(mainPage.popularProductsSectionIsDisplayed());
     }
 
     @Test
     public void allProductsButtonTest() {
-        MainPage mainPage = new MainPage();
         mainPage.clickAllProductsButton();
 
         String currentUrl = mainPage.getCurrentUrl();
@@ -164,14 +152,11 @@ public class MainPageTest extends BasePageTest {
 
     @Test
     public void onSaleProductsSectionIsDisplayedTest() {
-        MainPage mainPage = new MainPage();
-
         Assert.assertTrue(mainPage.onSaleProductsSectionIsDisplayed());
     }
 
     @Test
     public void onSaleProductsButtonTest() {
-        MainPage mainPage = new MainPage();
         mainPage.clickOnSaleProductsButton();
 
         String currentUrl = mainPage.getCurrentUrl();
@@ -183,14 +168,11 @@ public class MainPageTest extends BasePageTest {
 
     @Test
     public void allNewProductsSectionIsDisplayedTest() {
-        MainPage mainPage = new MainPage();
-
         Assert.assertTrue(mainPage.allNewProductsSectionIsDisplayed());
     }
 
     @Test(description = "Bug ID: 3. Should be fixed on FE side", enabled = false)
     public void allNewProductsButtonTest() {
-        MainPage mainPage = new MainPage();
         mainPage.clickAllNewProductsButton();
 
         String currentUrl = mainPage.getCurrentUrl();
@@ -202,8 +184,6 @@ public class MainPageTest extends BasePageTest {
 
     @Test
     public void footerIsDisplayedTest() {
-        MainPage mainPage = new MainPage();
-
         Assert.assertTrue(mainPage.footerIsDisplayed());
     }
 }

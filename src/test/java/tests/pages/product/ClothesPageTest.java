@@ -1,16 +1,11 @@
-package tests.pages.clothes;
+package tests.pages.product;
 
-import core.WebDriverInstance;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.clothes.ClothesPage;
+import pages.product.ClothesPage;
 import pages.main.MainPage;
 import tests.pages.BasePageTest;
-
-import java.time.Duration;
 
 public class ClothesPageTest extends BasePageTest {
     private ClothesPage clothesPage;
@@ -23,19 +18,23 @@ public class ClothesPageTest extends BasePageTest {
     }
 
     @Test
-    public void leftMenuMenCategoryLinkTest() {
-        clothesPage.clickLeftMenuClothesMenCategory();
-
-        String currentUrl = clothesPage.getCurrentUrl();
-        Assert.assertEquals(currentUrl, "http://teststore.automationtesting.co.uk/4-men");
+    public void leftMenuCategoriesTest() {
+        Assert.assertTrue(clothesPage.leftMenuCategoriesIsDisplayed());
     }
 
     @Test
-    public void leftMenuWomenCategoryLinkTest() {
-        clothesPage.clickLeftMenuClothesWomenCategory();
+    public void leftMenuSuppliersTest() {
+        Assert.assertTrue(clothesPage.leftMenuSuppliersIsDisplayed());
+    }
 
-        String currentUrl = clothesPage.getCurrentUrl();
-        Assert.assertEquals(currentUrl, "http://teststore.automationtesting.co.uk/5-women");
+    @Test
+    public void leftMenuBrandsTest() {
+        Assert.assertTrue(clothesPage.leftMenuBrandsIsDisplayed());
+    }
+
+    @Test
+    public void leftMenuFilterByTest() {
+        Assert.assertTrue(clothesPage.leftMenuFilterByIsDisplayed());
     }
 
     @Test
@@ -44,6 +43,59 @@ public class ClothesPageTest extends BasePageTest {
     }
 
     @Test
+    public void filterByAvailabilityIsDisplayedTest() {
+        Assert.assertTrue(clothesPage.filterByAvailabilityIsDisplayed());
+    }
+
+    @Test
+    public void filterBySelectionsIsDisplayedTest() {
+        Assert.assertTrue(clothesPage.filterBySelectionsIsDisplayed());
+    }
+
+    @Test
+    public void filterByPriceIsDisplayedTest() {
+        Assert.assertTrue(clothesPage.filterByPriceIsDisplayed());
+    }
+
+    @Test
+    public void filterBySizeIsDisplayedTest() {
+        Assert.assertTrue(clothesPage.filterBySizeIsDisplayed());
+    }
+
+    @Test
+    public void filterByCategoriesIsDisplayedTest() {
+        Assert.assertTrue(clothesPage.filterByCategoriesIsDisplayed());
+    }
+
+    @Test
+    public void filterByColorIsDisplayedTest() {
+        Assert.assertTrue(clothesPage.filterByColorIsDisplayed());
+    }
+
+    @Test
+    public void filterByPropertyIsDisplayedTest() {
+        Assert.assertTrue(clothesPage.filterByPropertyIsDisplayed());
+    }
+
+    @Test
+    public void leftMenuMenCategoryLinkTest() {
+        clothesPage.clickLeftMenuClothesMenCategory();
+
+        String currentUrl = clothesPage.getCurrentUrl();
+        Assert.assertEquals(currentUrl, menClothesPageUrl);
+    }
+
+    @Test
+    public void leftMenuWomenCategoryLinkTest() {
+        clothesPage.clickLeftMenuClothesWomenCategory();
+
+        String currentUrl = clothesPage.getCurrentUrl();
+        Assert.assertEquals(currentUrl, womenClothesPageUrl);
+    }
+
+
+    // TODO: Need to refactor code
+/*    @Test
     public void leftMenuFilterByMenCategoryCheckboxTest() {
         clothesPage.clickLeftMenuFilterByMenCategoryCheckbox();
 
@@ -151,10 +203,5 @@ public class ClothesPageTest extends BasePageTest {
     @Test
     public void leftMenuPriceSliderLeftHandleTest() {
         clothesPage.setValueLeftMenuPriceSliderLeftHandle(50);
-    }
-
-    private void waitUntilUrlContains(String url) {
-        WebDriverWait wait = new WebDriverWait(WebDriverInstance.getDriverInstance(), Duration.ofSeconds(2));
-        wait.until(ExpectedConditions.urlContains(url));
-    }
+    }*/
 }

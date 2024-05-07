@@ -8,7 +8,6 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-/* Page link: http://teststore.automationtesting.co.uk/ */
 public class MainPage extends BasePage {
     public WebDriver driver;
 

@@ -1,20 +1,39 @@
-package pages.clothes;
+package pages.product;
 
-import org.openqa.selenium.JavascriptExecutor;
-import pages.BasePage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import pages.BasePage;
 
 import java.util.List;
 
-/* Page link: http://teststore.automationtesting.co.uk/3-clothes */
-public class ClothesPage extends BasePage {
+/**
+ * <p>The {@code ProductListPage} class is a common unifying class for Product pages such as {@link pages.product.ClothesPage ClothesPage},
+ * {@link pages.product.AccessoriesPage AccessoriesPage}, and {@link pages.product.ArtPage ArtPage}.
+ * It stores common locators for easy access, but there is no "ProductListPageTest" class. Each child class must create and support their own tests.
+ */
+public class ProductListPage extends BasePage {
     public WebDriver driver;
 
-    By leftMenuClothesMenCategory = By.xpath("//ul[@class='category-sub-menu']//a[text()='Men']");
-    By leftMenuClothesWomenCategory = By.xpath("//ul[@class='category-sub-menu']//a[text()='Women']");
+    By leftMenuCategories = By.cssSelector(".block-categories");
+    By leftMenuSuppliers = By.id("search_filters_suppliers");
+    By leftMenuBrands = By.id("search_filters_brands");
+    By leftMenuFilterBy = By.id("search_filters");
     By leftMenuFilterSections = By.cssSelector("section[class='facet clearfix']");
+    By filterByAvailability = By.cssSelector("[data-type='availability']");
+    By filterBySelections = By.cssSelector("[data-type='extras']");
+    By filterByPrice = By.cssSelector("[data-type='price']");
+    By filterByCategories = By.cssSelector("[data-type='category']");
+    By filterBySize = By.xpath("//section[@data-type='attribute_group']//p[contains(text(), 'Size')]");
+    By filterByColor = By.xpath("//section[@data-type='attribute_group']//p[contains(text(), 'Color')]");
+    By filterByProperty = By.xpath("//section[@data-type='feature']//p[contains(text(), 'Property')]");
+    By filterByComposition = By.xpath("//section[@data-type='feature']//p[contains(text(), 'Composition')]");
+    By filterByBrand = By.cssSelector("[data-type='manufacturer']");
+    By filterByPaperType = By.xpath("//section[@data-type='attribute_group']//p[contains(text(), 'Paper Type')]");
+    By filterByDimension = By.xpath("//section[@data-type='attribute_group']//p[contains(text(), 'Dimension')]");
+
+    /* <--- FILTERS ---> */
     By leftMenuFilterByMenCategoryCheckbox = By.xpath("//section[@class='facet clearfix'][1]//a[contains(text(), 'Men')]");
     By leftMenuFilterByWomenCategoryCheckbox = By.xpath("//section[@class='facet clearfix'][1]//a[contains(text(), 'Women')]");
     By leftMenuFilterBySizeSCheckbox = By.xpath("//section[@class='facet clearfix'][2]//a[contains(text(), 'S')]");
@@ -29,17 +48,24 @@ public class ClothesPage extends BasePage {
     By leftMenuPriceSliderLeftHandle = By.xpath("//section[@class='facet clearfix'][5]//a[@class='ui-slider-handle ui-state-default ui-corner-all'][1]");
     By leftMenuPriceSliderRightHandle = By.xpath("//section[@class='facet clearfix'][5]//a[@class='ui-slider-handle ui-state-default ui-corner-all'][2]");
 
-
-    public ClothesPage() {
+    public ProductListPage() {
         this.driver = getDriver();
     }
 
-    public void clickLeftMenuClothesMenCategory() {
-        driver.findElement(leftMenuClothesMenCategory).click();
+    public boolean leftMenuCategoriesIsDisplayed() {
+        return driver.findElement(leftMenuCategories).isDisplayed();
     }
 
-    public void clickLeftMenuClothesWomenCategory() {
-        driver.findElement(leftMenuClothesWomenCategory).click();
+    public boolean leftMenuSuppliersIsDisplayed() {
+        return driver.findElement(leftMenuSuppliers).isDisplayed();
+    }
+
+    public boolean leftMenuBrandsIsDisplayed() {
+        return driver.findElement(leftMenuBrands).isDisplayed();
+    }
+
+    public boolean leftMenuFilterByIsDisplayed() {
+        return driver.findElement(leftMenuFilterBy).isDisplayed();
     }
 
     private List<WebElement> getLeftMenuFilterSections() {
@@ -50,6 +76,52 @@ public class ClothesPage extends BasePage {
         return !getLeftMenuFilterSections().isEmpty();
     }
 
+    public boolean filterByAvailabilityIsDisplayed() {
+        return driver.findElement(filterByAvailability).isDisplayed();
+    }
+
+    public boolean filterBySelectionsIsDisplayed() {
+        return driver.findElement(filterBySelections).isDisplayed();
+    }
+
+    public boolean filterByPriceIsDisplayed() {
+        return driver.findElement(filterByPrice).isDisplayed();
+    }
+
+    public boolean filterByCategoriesIsDisplayed() {
+        return driver.findElement(filterByCategories).isDisplayed();
+    }
+
+    public boolean filterBySizeIsDisplayed() {
+        return driver.findElement(filterBySize).isDisplayed();
+    }
+
+    public boolean filterByColorIsDisplayed() {
+        return driver.findElement(filterByColor).isDisplayed();
+    }
+
+    public boolean filterByPropertyIsDisplayed() {
+        return driver.findElement(filterByProperty).isDisplayed();
+    }
+
+    public boolean filterByCompositionIsDisplayed() {
+        return driver.findElement(filterByComposition).isDisplayed();
+    }
+
+    public boolean filterByBrandIsDisplayed() {
+        return driver.findElement(filterByBrand).isDisplayed();
+    }
+
+    public boolean filterByPaperTypeIsDisplayed() {
+        return driver.findElement(filterByPaperType).isDisplayed();
+    }
+
+    public boolean filterByDimensionIsDisplayed() {
+        return driver.findElement(filterByDimension).isDisplayed();
+    }
+
+
+    /* <--- FILTERS ---> */
     public void clickLeftMenuFilterByMenCategoryCheckbox(){
         driver.findElement(leftMenuFilterByMenCategoryCheckbox).click();
     }

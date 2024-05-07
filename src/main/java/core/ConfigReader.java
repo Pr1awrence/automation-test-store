@@ -7,7 +7,7 @@ import java.util.Properties;
 /**
  * <p>The {@code ConfigReader} class' constructor parses {@code config.properties} file
  * and outputs data via methods ({@link #getMainPageUrl()}, {@link #getHomePageUrl()}, {@link #getClothesPageUrl()},
- * {@link #getAccessoriesPageUrl()}, {@link #getArtPageUrl()} methods).
+ * {@link #getAccessoriesPageUrl()}, {@link #getArtPageUrl()}, and others).
  */
 public class ConfigReader {
     private final Properties prop;
@@ -33,9 +33,26 @@ public class ConfigReader {
         return prop.getProperty("clothes.page.url");
     }
 
+    public String getMenClothesPageUrl() {
+        return prop.getProperty("men.clothes.page.url");
+    }
+
+    public String getWomenClothesPageUrl() {
+        return prop.getProperty("women.clothes.page.url");
+    }
+
     public String getAccessoriesPageUrl() {
         return prop.getProperty("accessories.page.url");
     }
+
+    public String getStationeryPageUrl() {
+        return prop.getProperty("stationery.page.url");
+    }
+
+    public String getHomeAccessoriesPageUrl() {
+        return prop.getProperty("home.accessories.page.url");
+    }
+
     public String getArtPageUrl() {
         return prop.getProperty("art.page.url");
     }
@@ -43,6 +60,7 @@ public class ConfigReader {
     public String getPricesDropPageUrl() {
         return prop.getProperty("prices.drop.page.url");
     }
+
     public String getNewProductsPageUrl() {
         return prop.getProperty("new.products.page.url");
     }
