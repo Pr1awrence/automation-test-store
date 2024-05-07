@@ -1,0 +1,109 @@
+{
+  "uid" : "6a20ed0d532cfa96",
+  "name" : "leftMenuSearchFiltersAreDisplayedTest",
+  "fullName" : "tests.pages.product.ArtPageTest.leftMenuSearchFiltersAreDisplayedTest",
+  "historyId" : "9c9855f153fc7f18991a0eed73333d23",
+  "time" : {
+    "start" : 1715058145009,
+    "stop" : 1715058145018,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1715058140603,
+      "stop" : 1715058143818,
+      "duration" : 3215
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "artPageSetup",
+    "time" : {
+      "start" : 1715058143819,
+      "stop" : 1715058145008,
+      "duration" : 1189
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1715058145020,
+      "stop" : 1715058145136,
+      "duration" : 116
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.pages.product.ArtPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.pages.product.ArtPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "leftMenuSearchFiltersAreDisplayedTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "parallel-suite"
+  }, {
+    "name" : "suite",
+    "value" : "parallel-tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.pages.product.ArtPageTest"
+  }, {
+    "name" : "host",
+    "value" : "GalinaSM"
+  }, {
+    "name" : "thread",
+    "value" : "25944@GalinaSM.TestNG-test=parallel-tests-1(43)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a20ed0d532cfa96.json",
+  "parameterValues" : [ ]
+}

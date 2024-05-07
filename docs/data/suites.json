@@ -6,281 +6,729 @@
     "children" : [ {
       "name" : "parallel-tests",
       "children" : [ {
-        "name" : "tests.functional.RemoveItemBasketTest",
-        "children" : [ {
-          "name" : "Old test",
-          "uid" : "91e40ba85f288638",
-          "parentUid" : "dc6d34f2712cd8d66feef8edd72b9d32",
-          "status" : "unknown",
-          "time" : {
-            "start" : 1714539630192,
-            "stop" : 1714539635464,
-            "duration" : 5272
-          },
-          "flaky" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "dc6d34f2712cd8d66feef8edd72b9d32"
-      }, {
         "name" : "tests.pages.main.MainPageTest",
         "children" : [ {
-          "name" : "Bug ID: 2. Should be fixed on FE side",
-          "uid" : "ef9380718df40122",
-          "parentUid" : "66f69bff1a87a926e011150dd852b72e",
-          "status" : "unknown",
-          "time" : {
-            "start" : 1714539635589,
-            "stop" : 1714539635589,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "parameters" : [ ]
-        }, {
           "name" : "Bug ID: 3. Should be fixed on FE side",
-          "uid" : "b3d6f57cbccd1b29",
+          "uid" : "4919824f554dfed2",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "unknown",
           "time" : {
-            "start" : 1714539635597,
-            "stop" : 1714539635597,
-            "duration" : 0
+            "start" : 1715058004689,
+            "stop" : 1715058009853,
+            "duration" : 5164
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "Bug ID: 1. Should be fixed on FE side",
-          "uid" : "821dc9d885fd929c",
+          "uid" : "5693452d10c3c892",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "unknown",
           "time" : {
-            "start" : 1714539635610,
-            "stop" : 1714539635610,
+            "start" : 1715058009946,
+            "stop" : 1715058009946,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Bug ID: 2. Should be fixed on FE side",
+          "uid" : "9a7fa7fff5bc6bac",
+          "parentUid" : "66f69bff1a87a926e011150dd852b72e",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1715058009950,
+            "stop" : 1715058009950,
             "duration" : 0
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "allNewProductsSectionIsDisplayedTest",
-          "uid" : "a574495ce07d336",
+          "uid" : "b05294d345d2d259",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539638865,
-            "stop" : 1714539638906,
+            "start" : 1715058017806,
+            "stop" : 1715058017847,
             "duration" : 41
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "allProductsButtonTest",
-          "uid" : "6327a8ecb1b85765",
+          "uid" : "18dd32cce035091d",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539641983,
-            "stop" : 1714539643768,
-            "duration" : 1785
+            "start" : 1715058037891,
+            "stop" : 1715058039704,
+            "duration" : 1813
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "bannersTest",
-          "uid" : "913d6229953f7a6d",
+          "uid" : "372543af7cdb119d",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539647002,
-            "stop" : 1714539649708,
-            "duration" : 2706
+            "start" : 1715058042896,
+            "stop" : 1715058045440,
+            "duration" : 2544
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "carouselIsDisplayedTest",
-          "uid" : "527337af9fc70412",
+          "uid" : "17f44a6f883ac044",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539652909,
-            "stop" : 1714539652936,
-            "duration" : 27
+            "start" : 1715058048547,
+            "stop" : 1715058048573,
+            "duration" : 26
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "customTextSectionIsDisplayedTest",
-          "uid" : "a034ab64306d965a",
+          "uid" : "edbdd33a5dae937a",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539656154,
-            "stop" : 1714539656179,
-            "duration" : 25
+            "start" : 1715058051388,
+            "stop" : 1715058051412,
+            "duration" : 24
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "footerIsDisplayedTest",
-          "uid" : "9e44b1b8e890a999",
+          "uid" : "25b6d4b5412f32d0",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539659431,
-            "stop" : 1714539659459,
-            "duration" : 28
+            "start" : 1715058054458,
+            "stop" : 1715058054481,
+            "duration" : 23
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "headerAccessoriesLinkTest",
-          "uid" : "5011e43da9a9d741",
+          "uid" : "e5745cc08cdbde04",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539662487,
-            "stop" : 1714539663711,
-            "duration" : 1224
+            "start" : 1715058057592,
+            "stop" : 1715058059664,
+            "duration" : 2072
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "headerArtLinkTest",
-          "uid" : "afba4015ecc2f1c3",
+          "uid" : "d0a76f7f8086700a",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539666959,
-            "stop" : 1714539668408,
-            "duration" : 1449
+            "start" : 1715058062502,
+            "stop" : 1715058063796,
+            "duration" : 1294
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "headerClothesLinkTest",
-          "uid" : "cd6cbde5171b777d",
+          "uid" : "580e287308be6e98",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539671689,
-            "stop" : 1714539672661,
-            "duration" : 972
+            "start" : 1715058066532,
+            "stop" : 1715058067601,
+            "duration" : 1069
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "onSaleProductsButtonTest",
-          "uid" : "2e83a8243bb87a6f",
+          "uid" : "1e4dd0d9ee6fad58",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539676260,
-            "stop" : 1714539677235,
-            "duration" : 975
+            "start" : 1715058070404,
+            "stop" : 1715058071890,
+            "duration" : 1486
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "onSaleProductsSectionIsDisplayedTest",
-          "uid" : "e8ff767b196ac265",
+          "uid" : "cfdb59c736e46294",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539680379,
-            "stop" : 1714539680408,
-            "duration" : 29
+            "start" : 1715058075135,
+            "stop" : 1715058075161,
+            "duration" : 26
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "popularProductsSectionIsDisplayedTest",
-          "uid" : "cad7b70252c454e",
+          "uid" : "f64c7f5fa83b49ff",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539683579,
-            "stop" : 1714539683607,
-            "duration" : 28
+            "start" : 1715058078437,
+            "stop" : 1715058078459,
+            "duration" : 22
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "saleBannerIsDisplayedTest",
-          "uid" : "f071712745bb101",
+          "uid" : "f88f50e445d4481d",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539686746,
-            "stop" : 1714539686773,
-            "duration" : 27
+            "start" : 1715058081546,
+            "stop" : 1715058081567,
+            "duration" : 21
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "searchInputEmptyValueTest",
-          "uid" : "d85d8a8ab2d5d7c0",
+          "uid" : "d79878c5a699fb35",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539689952,
-            "stop" : 1714539690901,
-            "duration" : 949
+            "start" : 1715058084448,
+            "stop" : 1715058085377,
+            "duration" : 929
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "searchInputFullWordTest",
-          "uid" : "75c16d4cf733922a",
+          "uid" : "9bb9160c9c7e44a",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539694043,
-            "stop" : 1714539695484,
-            "duration" : 1441
+            "start" : 1715058088386,
+            "stop" : 1715058090381,
+            "duration" : 1995
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "searchInputIncorrectValueTest",
-          "uid" : "7d30bd56cf488f27",
+          "uid" : "136e59361d967035",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539698623,
-            "stop" : 1714539699377,
-            "duration" : 754
+            "start" : 1715058093426,
+            "stop" : 1715058094174,
+            "duration" : 748
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "storeLogoLinkTest",
-          "uid" : "71a46c08059efae1",
+          "uid" : "9b0ebd4ee823279d",
           "parentUid" : "66f69bff1a87a926e011150dd852b72e",
           "status" : "passed",
           "time" : {
-            "start" : 1714539702780,
-            "stop" : 1714539704452,
-            "duration" : 1672
+            "start" : 1715058096921,
+            "stop" : 1715058098893,
+            "duration" : 1972
           },
           "flaky" : false,
           "parameters" : [ ]
         } ],
         "uid" : "66f69bff1a87a926e011150dd852b72e"
       }, {
-        "name" : "tests.functional.OrderCompleteTest",
+        "name" : "tests.pages.product.ClothesPageTest",
         "children" : [ {
-          "name" : "Old test",
-          "uid" : "eec9e10e11f1ea58",
-          "parentUid" : "41532799de694a272686982a5ae05790",
-          "status" : "unknown",
+          "name" : "filterByAvailabilityIsDisplayedTest",
+          "uid" : "af483dd74ca0f729",
+          "parentUid" : "3c4ac90ca495ef68d7eaf050d68b2285",
+          "status" : "passed",
           "time" : {
-            "start" : 1714539635595,
-            "stop" : 1714539635595,
-            "duration" : 0
+            "start" : 1715058019113,
+            "stop" : 1715058019138,
+            "duration" : 25
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterByCategoriesIsDisplayedTest",
+          "uid" : "83550d069c7e8f41",
+          "parentUid" : "3c4ac90ca495ef68d7eaf050d68b2285",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058038884,
+            "stop" : 1715058038909,
+            "duration" : 25
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterByColorIsDisplayedTest",
+          "uid" : "840bec3927547ea5",
+          "parentUid" : "3c4ac90ca495ef68d7eaf050d68b2285",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058043961,
+            "stop" : 1715058043986,
+            "duration" : 25
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterByPriceIsDisplayedTest",
+          "uid" : "7486c571570a5aca",
+          "parentUid" : "3c4ac90ca495ef68d7eaf050d68b2285",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058049848,
+            "stop" : 1715058049870,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterByPropertyIsDisplayedTest",
+          "uid" : "4ea10940930d60d",
+          "parentUid" : "3c4ac90ca495ef68d7eaf050d68b2285",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058053923,
+            "stop" : 1715058053947,
+            "duration" : 24
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterBySelectionsIsDisplayedTest",
+          "uid" : "2e28e0b06df46db1",
+          "parentUid" : "3c4ac90ca495ef68d7eaf050d68b2285",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058058281,
+            "stop" : 1715058058306,
+            "duration" : 25
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterBySizeIsDisplayedTest",
+          "uid" : "ad79655d898f4611",
+          "parentUid" : "3c4ac90ca495ef68d7eaf050d68b2285",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058062486,
+            "stop" : 1715058062513,
+            "duration" : 27
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuBrandsTest",
+          "uid" : "36370db3055a6ae9",
+          "parentUid" : "3c4ac90ca495ef68d7eaf050d68b2285",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058066648,
+            "stop" : 1715058066671,
+            "duration" : 23
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuCategoriesTest",
+          "uid" : "3906002fa0cf1fba",
+          "parentUid" : "3c4ac90ca495ef68d7eaf050d68b2285",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058070499,
+            "stop" : 1715058070521,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuFilterByTest",
+          "uid" : "758c09a0d15da8ae",
+          "parentUid" : "3c4ac90ca495ef68d7eaf050d68b2285",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058074960,
+            "stop" : 1715058074981,
+            "duration" : 21
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuMenCategoryLinkTest",
+          "uid" : "58a96b23b302baae",
+          "parentUid" : "3c4ac90ca495ef68d7eaf050d68b2285",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058079138,
+            "stop" : 1715058080002,
+            "duration" : 864
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuSearchFiltersAreDisplayedTest",
+          "uid" : "92ea4e3e5eed4c8c",
+          "parentUid" : "3c4ac90ca495ef68d7eaf050d68b2285",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058084231,
+            "stop" : 1715058084243,
+            "duration" : 12
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuSuppliersTest",
+          "uid" : "e42032678fb0ee5f",
+          "parentUid" : "3c4ac90ca495ef68d7eaf050d68b2285",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058088432,
+            "stop" : 1715058088454,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuWomenCategoryLinkTest",
+          "uid" : "77ea348957120125",
+          "parentUid" : "3c4ac90ca495ef68d7eaf050d68b2285",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058092678,
+            "stop" : 1715058093531,
+            "duration" : 853
           },
           "flaky" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "41532799de694a272686982a5ae05790"
+        "uid" : "3c4ac90ca495ef68d7eaf050d68b2285"
+      }, {
+        "name" : "tests.pages.product.AccessoriesPageTest",
+        "children" : [ {
+          "name" : "filterByAvailabilityIsDisplayedTest",
+          "uid" : "536dcddad38943a5",
+          "parentUid" : "675110c95a1556850e20a993a3363083",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058097952,
+            "stop" : 1715058097973,
+            "duration" : 21
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterByCategoriesIsDisplayedTest",
+          "uid" : "55a8651a32fe50b7",
+          "parentUid" : "675110c95a1556850e20a993a3363083",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058102447,
+            "stop" : 1715058102468,
+            "duration" : 21
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterByColorIsDisplayedTest",
+          "uid" : "5085b0e7aa6d126c",
+          "parentUid" : "675110c95a1556850e20a993a3363083",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058106993,
+            "stop" : 1715058107014,
+            "duration" : 21
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterByPaperTypeIsDisplayedTest",
+          "uid" : "b253ed1411555dd8",
+          "parentUid" : "675110c95a1556850e20a993a3363083",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058111506,
+            "stop" : 1715058111528,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterByPriceIsDisplayedTest",
+          "uid" : "1187d0ab35758082",
+          "parentUid" : "675110c95a1556850e20a993a3363083",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058115988,
+            "stop" : 1715058116012,
+            "duration" : 24
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterByPropertyIsDisplayedTest",
+          "uid" : "4f2458d5193a9850",
+          "parentUid" : "675110c95a1556850e20a993a3363083",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058120638,
+            "stop" : 1715058120676,
+            "duration" : 38
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterBySelectionsIsDisplayedTest",
+          "uid" : "ac23dba8f269ee5f",
+          "parentUid" : "675110c95a1556850e20a993a3363083",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058126639,
+            "stop" : 1715058126664,
+            "duration" : 25
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuBrandsTest",
+          "uid" : "be1a5bccff12ca55",
+          "parentUid" : "675110c95a1556850e20a993a3363083",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058131348,
+            "stop" : 1715058131377,
+            "duration" : 29
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuCategoriesTest",
+          "uid" : "4626445ad78ed459",
+          "parentUid" : "675110c95a1556850e20a993a3363083",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058135736,
+            "stop" : 1715058135759,
+            "duration" : 23
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuFilterByTest",
+          "uid" : "736057e7b702db04",
+          "parentUid" : "675110c95a1556850e20a993a3363083",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058140292,
+            "stop" : 1715058140312,
+            "duration" : 20
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuHomeAccessoriesCategoryLinkTest",
+          "uid" : "4f9da51557e5bc93",
+          "parentUid" : "675110c95a1556850e20a993a3363083",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058144857,
+            "stop" : 1715058146026,
+            "duration" : 1169
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuSearchFiltersAreDisplayedTest",
+          "uid" : "67e9d51fa05504cc",
+          "parentUid" : "675110c95a1556850e20a993a3363083",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058150481,
+            "stop" : 1715058150493,
+            "duration" : 12
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuStationeryCategoryLinkTest",
+          "uid" : "f4d757ca0cc3aa82",
+          "parentUid" : "675110c95a1556850e20a993a3363083",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058155099,
+            "stop" : 1715058156126,
+            "duration" : 1027
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuSuppliersTest",
+          "uid" : "5d0ff79c2f3efe17",
+          "parentUid" : "675110c95a1556850e20a993a3363083",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058160762,
+            "stop" : 1715058160784,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "675110c95a1556850e20a993a3363083"
+      }, {
+        "name" : "tests.pages.product.ArtPageTest",
+        "children" : [ {
+          "name" : "filterByAvailabilityIsDisplayedTest",
+          "uid" : "ba6128d0cc2b287d",
+          "parentUid" : "70f19357bbe02c00f1606b3954a789bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058103275,
+            "stop" : 1715058103298,
+            "duration" : 23
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterByBrandIsDisplayedTest",
+          "uid" : "9fb6c28d7a64325b",
+          "parentUid" : "70f19357bbe02c00f1606b3954a789bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058107690,
+            "stop" : 1715058107716,
+            "duration" : 26
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterByCompositionIsDisplayedTest",
+          "uid" : "39bfbebf95d83cab",
+          "parentUid" : "70f19357bbe02c00f1606b3954a789bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058111828,
+            "stop" : 1715058111858,
+            "duration" : 30
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterByDimensionIsDisplayedTest",
+          "uid" : "807254c60358d77a",
+          "parentUid" : "70f19357bbe02c00f1606b3954a789bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058116388,
+            "stop" : 1715058116419,
+            "duration" : 31
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterByPriceIsDisplayedTest",
+          "uid" : "34bbf7f5002d6a74",
+          "parentUid" : "70f19357bbe02c00f1606b3954a789bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058120998,
+            "stop" : 1715058121023,
+            "duration" : 25
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterBySelectionsIsDisplayedTest",
+          "uid" : "4b6044045c71a995",
+          "parentUid" : "70f19357bbe02c00f1606b3954a789bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058126848,
+            "stop" : 1715058126874,
+            "duration" : 26
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuBrandsTest",
+          "uid" : "c9be411cb350319b",
+          "parentUid" : "70f19357bbe02c00f1606b3954a789bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058131334,
+            "stop" : 1715058131361,
+            "duration" : 27
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuCategoriesTest",
+          "uid" : "8c8722fea9f82951",
+          "parentUid" : "70f19357bbe02c00f1606b3954a789bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058136140,
+            "stop" : 1715058136165,
+            "duration" : 25
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuFilterByTest",
+          "uid" : "5591a7d0c5075569",
+          "parentUid" : "70f19357bbe02c00f1606b3954a789bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058140463,
+            "stop" : 1715058140485,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuSearchFiltersAreDisplayedTest",
+          "uid" : "6a20ed0d532cfa96",
+          "parentUid" : "70f19357bbe02c00f1606b3954a789bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058145009,
+            "stop" : 1715058145018,
+            "duration" : 9
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "leftMenuSuppliersTest",
+          "uid" : "6491d5f2e67354d4",
+          "parentUid" : "70f19357bbe02c00f1606b3954a789bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715058148905,
+            "stop" : 1715058148925,
+            "duration" : 20
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "70f19357bbe02c00f1606b3954a789bc"
       } ],
       "uid" : "cdf5b664cbff34ff50ba498457377977"
     } ],
