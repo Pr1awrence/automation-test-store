@@ -1,0 +1,109 @@
+{
+  "uid" : "f14568366f769612",
+  "name" : "leftMenuStationeryCategoryLinkTest",
+  "fullName" : "tests.pages.product.AccessoriesPageTest.leftMenuStationeryCategoryLinkTest",
+  "historyId" : "b84d90c8198a2c90d641c1710fb94a7e",
+  "time" : {
+    "start" : 1715319818907,
+    "stop" : 1715319819804,
+    "duration" : 897
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "accessoriesPageSetup",
+    "time" : {
+      "start" : 1715319817672,
+      "stop" : 1715319818905,
+      "duration" : 1233
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1715319810661,
+      "stop" : 1715319813958,
+      "duration" : 3297
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1715319819804,
+      "stop" : 1715319819922,
+      "duration" : 118
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.pages.product.AccessoriesPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.pages.product.AccessoriesPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "leftMenuStationeryCategoryLinkTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "parallel-suite"
+  }, {
+    "name" : "suite",
+    "value" : "parallel-tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.pages.product.AccessoriesPageTest"
+  }, {
+    "name" : "host",
+    "value" : "GalinaSM"
+  }, {
+    "name" : "thread",
+    "value" : "12848@GalinaSM.TestNG-test=parallel-tests-1(43)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f14568366f769612.json",
+  "parameterValues" : [ ]
+}

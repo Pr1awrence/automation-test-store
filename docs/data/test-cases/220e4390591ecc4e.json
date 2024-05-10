@@ -1,0 +1,109 @@
+{
+  "uid" : "220e4390591ecc4e",
+  "name" : "leftMenuHomeAccessoriesCategoryLinkTest",
+  "fullName" : "tests.pages.product.AccessoriesPageTest.leftMenuHomeAccessoriesCategoryLinkTest",
+  "historyId" : "f2247301c0e2e2aa641b05586b511eae",
+  "time" : {
+    "start" : 1715319816622,
+    "stop" : 1715319817670,
+    "duration" : 1048
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1715319810661,
+      "stop" : 1715319813958,
+      "duration" : 3297
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "accessoriesPageSetup",
+    "time" : {
+      "start" : 1715319815392,
+      "stop" : 1715319816622,
+      "duration" : 1230
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1715319819804,
+      "stop" : 1715319819922,
+      "duration" : 118
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.pages.product.AccessoriesPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.pages.product.AccessoriesPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "leftMenuHomeAccessoriesCategoryLinkTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "parallel-suite"
+  }, {
+    "name" : "suite",
+    "value" : "parallel-tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.pages.product.AccessoriesPageTest"
+  }, {
+    "name" : "host",
+    "value" : "GalinaSM"
+  }, {
+    "name" : "thread",
+    "value" : "12848@GalinaSM.TestNG-test=parallel-tests-1(43)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "220e4390591ecc4e.json",
+  "parameterValues" : [ ]
+}

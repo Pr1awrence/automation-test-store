@@ -7,9 +7,9 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 177,
+      "passed" : 79,
       "unknown" : 3,
-      "total" : 180
+      "total" : 82
     }
   } ]
 }
