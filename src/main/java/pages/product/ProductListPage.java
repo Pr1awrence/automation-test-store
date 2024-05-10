@@ -37,6 +37,7 @@ public abstract class ProductListPage extends BasePage {
     By filterByPaperType = By.xpath("//section[@data-type='attribute_group']//p[contains(text(), 'Paper Type')]");
     By filterByDimension = By.xpath("//section[@data-type='attribute_group']//p[contains(text(), 'Dimension')]");
     By cardBlock = By.cssSelector(".block-category.card.card-block");
+    By activeFiltersPanel = By.cssSelector(".active_filters");
 
     /* <--- SORT BY ---> */
     By sortByBtn = By.cssSelector(".btn-unstyle.select-title");
@@ -48,12 +49,7 @@ public abstract class ProductListPage extends BasePage {
     By sortByProductNewPrices = By.cssSelector("[aria-label='Price']");
 
     /* <--- FILTERS ---> */
-    By leftMenuFilterByMenCategoryCheckbox = By.xpath("//section[@class='facet clearfix'][1]//a[contains(text(), 'Men')]");
-    By leftMenuFilterByWomenCategoryCheckbox = By.xpath("//section[@class='facet clearfix'][1]//a[contains(text(), 'Women')]");
-    By leftMenuFilterBySizeSCheckbox = By.xpath("//section[@class='facet clearfix'][2]//a[contains(text(), 'S')]");
-    By leftMenuFilterBySizeMCheckbox = By.xpath("//section[@class='facet clearfix'][2]//a[contains(text(), 'M')]");
-    By leftMenuFilterBySizeLCheckbox = By.xpath("//section[@class='facet clearfix'][2]//a[contains(text(), 'L')]");
-    By leftMenuFilterBySizeXLCheckbox = By.xpath("//section[@class='facet clearfix'][2]//a[contains(text(), 'XL')]");
+
     By leftMenuFilterByColorWhiteCheckbox = By.xpath("//section[@class='facet clearfix'][3]//a[contains(text(), 'White')]");
     By leftMenuFilterByColorBlackCheckbox = By.xpath("//section[@class='facet clearfix'][3]//a[contains(text(), 'Black')]");
     By leftMenuFilterByPropertyLongSleevesCheckbox = By.xpath("//section[@class='facet clearfix'][4]//a[contains(text(), 'Long sleeves')]");
@@ -140,6 +136,10 @@ public abstract class ProductListPage extends BasePage {
         return driver.findElement(cardBlock).isDisplayed();
     }
 
+    public boolean activeFiltersPanelIsDisplayed() {
+        return driver.findElement(activeFiltersPanel).isDisplayed();
+    }
+
     /* <--- SORT BY ---> */
     public void clickSortByBtn(){
         driver.findElement(sortByBtn).click();
@@ -194,7 +194,7 @@ public abstract class ProductListPage extends BasePage {
         for (WebElement e : productElements) {
             String text = e.getText();
             try {
-                float floatValue = Float.parseFloat(text);
+                float floatValue = Float.parseFloat(text.substring(1)); // remove $ from the start
                 elementsFloat.add(floatValue);
             } catch (NumberFormatException ex) {
                 System.err.println("Error converting text to a number " + text);
@@ -212,30 +212,6 @@ public abstract class ProductListPage extends BasePage {
     }
 
     /* <--- FILTERS ---> */
-    public void clickLeftMenuFilterByMenCategoryCheckbox(){
-        driver.findElement(leftMenuFilterByMenCategoryCheckbox).click();
-    }
-
-    public void clickLeftMenuFilterByWomenCategoryCheckbox(){
-        driver.findElement(leftMenuFilterByWomenCategoryCheckbox).click();
-    }
-
-    public void clickLeftMenuFilterBySizeSCheckbox(){
-        driver.findElement(leftMenuFilterBySizeSCheckbox).click();
-    }
-
-    public void clickLeftMenuFilterBySizeMCheckbox(){
-        driver.findElement(leftMenuFilterBySizeMCheckbox).click();
-    }
-
-    public void clickLeftMenuFilterBySizeLCheckbox(){
-        driver.findElement(leftMenuFilterBySizeLCheckbox).click();
-    }
-
-    public void clickLeftMenuFilterBySizeXLCheckbox(){
-        driver.findElement(leftMenuFilterBySizeXLCheckbox).click();
-    }
-
     public void clickLeftMenuFilterByColorWhiteCheckbox(){
         driver.findElement(leftMenuFilterByColorWhiteCheckbox).click();
     }

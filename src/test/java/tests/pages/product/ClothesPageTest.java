@@ -5,8 +5,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.product.ClothesPage;
 import pages.main.MainPage;
-
-import utils.SortByType;
+import utils.ProductDataProvider;
 
 public class ClothesPageTest extends ProductListPageTest {
     private ClothesPage clothesPage;
@@ -23,52 +22,37 @@ public class ClothesPageTest extends ProductListPageTest {
         Assert.assertTrue(clothesPage.filterBySizeIsDisplayed());
     }
 
-    @Test
-    public void leftMenuMenCategoryLinkTest() {
-        clothesPage.clickLeftMenuClothesMenCategory();
+    // TODO: maybe it's a point to create additional provider - second param isn't used
+    @Test(dataProvider = "categoryProvider", dataProviderClass = ProductDataProvider.class)
+    public void leftMenuCategoryLinkTest(String category, String urlPart) {
+        clothesPage.clickLeftMenuClothesCategory(category);
 
         String currentUrl = clothesPage.getCurrentUrl();
-        Assert.assertEquals(currentUrl, menClothesPageUrl);
+        Assert.assertEquals(currentUrl, clothesPage.categoryClothesPageUrl(category));
     }
 
-    @Test
-    public void leftMenuWomenCategoryLinkTest() {
-        clothesPage.clickLeftMenuClothesWomenCategory();
+    @Test(dataProvider = "categoryProvider", dataProviderClass = ProductDataProvider.class)
+    public void leftMenuFilterByCategoryCheckboxTest(String category, String urlPart) {
+        clothesPage.clickLeftMenuFilterByCategoryCheckbox(category);
 
-        String currentUrl = clothesPage.getCurrentUrl();
-        Assert.assertEquals(currentUrl, womenClothesPageUrl);
+        waitUntilUrlContains(urlPart);
+
+        Assert.assertTrue(clothesPage.activeFiltersPanelIsDisplayed());
+        Assert.assertTrue(clothesPage.doesActiveFiltersBlockContainCategory(category));
+    }
+
+    @Test(dataProvider = "sizeProvider", dataProviderClass = ProductDataProvider.class)
+    public void leftMenuFilterBySizeCheckboxTest(String size, String urlPart) {
+        clothesPage.clickLeftMenuFilterBySizeCheckbox(size);
+
+        waitUntilUrlContains(urlPart);
+
+        Assert.assertTrue(clothesPage.activeFiltersPanelIsDisplayed());
+        Assert.assertTrue(clothesPage.doesActiveFiltersBlockContainSize(size));
     }
 
     // TODO: Need to refactor code
-/*    @Test
-    public void leftMenuFilterByMenCategoryCheckboxTest() {
-        clothesPage.clickLeftMenuFilterByMenCategoryCheckbox();
-
-        waitUntilUrlContains("Categories-Men");
-
-        String currentUrl = clothesPage.getCurrentUrl();
-        Assert.assertEquals(currentUrl, "http://teststore.automationtesting.co.uk/3-clothes?q=Categories-Men");
-    }
-
-    @Test
-    public void leftMenuFilterByWomenCategoryCheckboxTest() {
-        clothesPage.clickLeftMenuFilterByWomenCategoryCheckbox();
-
-        waitUntilUrlContains("Categories-Women");
-
-        String currentUrl = clothesPage.getCurrentUrl();
-        Assert.assertEquals(currentUrl, "http://teststore.automationtesting.co.uk/3-clothes?q=Categories-Women");
-    }
-
-    @Test
-    public void leftMenuFilterBySizeSCheckboxTest() {
-        clothesPage.clickLeftMenuFilterBySizeSCheckbox();
-
-        waitUntilUrlContains("Size-S");
-
-        String currentUrl = clothesPage.getCurrentUrl();
-        Assert.assertEquals(currentUrl, "http://teststore.automationtesting.co.uk/3-clothes?q=Size-S");
-    }
+/*
 
     @Test
     public void leftMenuFilterBySizeMCheckboxTest() {

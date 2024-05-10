@@ -1,5 +1,6 @@
 package pages;
 
+import core.ConfigReader;
 import core.WebDriverInstance;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -21,6 +22,12 @@ import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
  * <p>The class also contains reusable methods for children (the {@link #driverNavigateBack()} method).
  */
 public class BasePage {
+    protected ConfigReader reader;
+
+    public BasePage() {
+        this.reader = new ConfigReader();
+    }
+
     public WebDriver getDriver() {
         return WebDriverInstance.getDriverInstance();
     }
