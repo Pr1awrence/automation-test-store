@@ -5,8 +5,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.main.MainPage;
 import pages.product.ArtPage;
+import tests.pages.BasePageTest;
 
-public class ArtPageTest extends ProductListPageTest {
+public class ArtPageTest extends BasePageTest {
     private ArtPage artPage;
 
     @BeforeMethod

@@ -5,9 +5,10 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.product.ClothesPage;
 import pages.main.MainPage;
+import tests.pages.BasePageTest;
 import utils.ProductDataProvider;
 
-public class ClothesPageTest extends ProductListPageTest {
+public class ClothesPageTest extends BasePageTest {
     private ClothesPage clothesPage;
 
     @BeforeMethod
