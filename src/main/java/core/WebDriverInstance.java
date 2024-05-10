@@ -35,7 +35,7 @@ public final class WebDriverInstance {
         FileInputStream data = new FileInputStream(WebDriverInstance.class.getClassLoader().getResource("config.properties").getPath());
         prop.load(data);
 
-        // How to setup parametrized webdriver https://bonigarcia.dev/webdrivermanager/
+        // How to set up parametrized webdriver https://bonigarcia.dev/webdrivermanager/
         if (prop.getProperty("browser").equals("chrome")) {
             driver = WebDriverManager.chromedriver().create();
         } else if (prop.getProperty("browser").equals("firefox")) {

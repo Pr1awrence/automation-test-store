@@ -1,5 +1,6 @@
 package tests.pages.main;
 
+import core.WebDriverInstance;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import pages.main.MainPage;
@@ -11,6 +12,11 @@ public class MainPageTest extends BasePageTest {
     @BeforeMethod
     public void mainPageSetup() {
         mainPage = new MainPage();
+
+        // Need to redirect explicitly to the main page instead of clicking on the logo
+        // due to unpredictable banner link testing results
+        var driver = WebDriverInstance.getDriverInstance();
+        driver.get(reader.getMainPageUrl());
     }
 
     @Test

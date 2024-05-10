@@ -5,15 +5,19 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import pages.BasePage;
+import utils.SortByType;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 /**
- * <p>The {@code ProductListPage} class is a common unifying class for Product pages such as {@link pages.product.ClothesPage ClothesPage},
+ * <p>The {@link pages.product.ProductListPage ProductListPage} class is a common unifying class for Product pages such as {@link pages.product.ClothesPage ClothesPage},
  * {@link pages.product.AccessoriesPage AccessoriesPage}, and {@link pages.product.ArtPage ArtPage}.
- * It stores common locators for easy access, but there is no "ProductListPageTest" class. Each child class must create and support their own tests.
+ * It stores common locators for easy access.
  */
-public class ProductListPage extends BasePage {
+public abstract class ProductListPage extends BasePage {
     public WebDriver driver;
 
     By leftMenuCategories = By.cssSelector(".block-categories");
@@ -32,6 +36,16 @@ public class ProductListPage extends BasePage {
     By filterByBrand = By.cssSelector("[data-type='manufacturer']");
     By filterByPaperType = By.xpath("//section[@data-type='attribute_group']//p[contains(text(), 'Paper Type')]");
     By filterByDimension = By.xpath("//section[@data-type='attribute_group']//p[contains(text(), 'Dimension')]");
+    By cardBlock = By.cssSelector(".block-category.card.card-block");
+
+    /* <--- SORT BY ---> */
+    By sortByBtn = By.cssSelector(".btn-unstyle.select-title");
+    By sortByPriceAscBtn = By.xpath("//div[@class='dropdown-menu']//a[contains(text(), 'Price, low to high')]");
+    By sortByPriceDescBtn = By.xpath("//div[@class='dropdown-menu']//a[contains(text(), 'Price, high to low')]");
+    By sortByNameAscBtn = By.xpath("//div[@class='dropdown-menu']//a[contains(text(), 'Name, A to Z')]");
+    By sortByNameDescBtn = By.xpath("//div[@class='dropdown-menu']//a[contains(text(), 'Name, Z to A')]");
+    By sortByProductHeaders = By.cssSelector("article.product-miniature h2.h3.product-title a");
+    By sortByProductNewPrices = By.cssSelector("[aria-label='Price']");
 
     /* <--- FILTERS ---> */
     By leftMenuFilterByMenCategoryCheckbox = By.xpath("//section[@class='facet clearfix'][1]//a[contains(text(), 'Men')]");
@@ -51,6 +65,8 @@ public class ProductListPage extends BasePage {
     public ProductListPage() {
         this.driver = getDriver();
     }
+
+    public abstract void navigateToPage();
 
     public boolean leftMenuCategoriesIsDisplayed() {
         return driver.findElement(leftMenuCategories).isDisplayed();
@@ -120,6 +136,80 @@ public class ProductListPage extends BasePage {
         return driver.findElement(filterByDimension).isDisplayed();
     }
 
+    public boolean cardBlockIsDisplayed() {
+        return driver.findElement(cardBlock).isDisplayed();
+    }
+
+    /* <--- SORT BY ---> */
+    public void clickSortByBtn(){
+        driver.findElement(sortByBtn).click();
+    }
+
+    public void clickSortByPriceLowToHighBtn(){
+        driver.findElement(sortByPriceAscBtn).click();
+    }
+
+    public void clickSortByPriceHighToLowBtn(){
+        driver.findElement(sortByPriceDescBtn).click();
+    }
+
+    public void clickSortByNameAToZBtn(){
+        driver.findElement(sortByNameAscBtn).click();
+    }
+
+    public void clickSortByNameZToABtn(){
+        driver.findElement(sortByNameDescBtn).click();
+    }
+
+    public boolean areProductsSortedByType(SortByType type) {
+        return switch (type) {
+            case NAME_ASC, NAME_DESC -> areNamesSorted(sortByProductHeaders, type);
+            case PRICE_ASC, PRICE_DESC -> arePricesSorted(sortByProductNewPrices, type);
+        };
+    }
+
+    private boolean areNamesSorted(By element, SortByType type) {
+        List<WebElement> productElements = driver.findElements(element);
+
+        List<String> elementsText = new ArrayList<>();
+        for (WebElement e : productElements) {
+            elementsText.add(e.getText());
+        }
+
+        List<String> sortedList = new ArrayList<>(elementsText);
+        Comparator<String> comparator = null;
+        if (type == SortByType.NAME_DESC) {
+            comparator = Collections.reverseOrder();
+        }
+        sortedList.sort(comparator);
+
+        return sortedList.equals(elementsText);
+    }
+
+    private boolean arePricesSorted(By element, SortByType type) {
+        List<WebElement> productElements = driver.findElements(element);
+
+        List<Float> elementsFloat = new ArrayList<>();
+
+        for (WebElement e : productElements) {
+            String text = e.getText();
+            try {
+                float floatValue = Float.parseFloat(text);
+                elementsFloat.add(floatValue);
+            } catch (NumberFormatException ex) {
+                System.err.println("Error converting text to a number " + text);
+            }
+        }
+
+        List<Float> sortedList = new ArrayList<>(elementsFloat);
+        Comparator<Float> comparator = null;
+        if (type == SortByType.PRICE_DESC) {
+            comparator = Collections.reverseOrder();
+        }
+        sortedList.sort(comparator);
+
+        return sortedList.equals(elementsFloat);
+    }
 
     /* <--- FILTERS ---> */
     public void clickLeftMenuFilterByMenCategoryCheckbox(){

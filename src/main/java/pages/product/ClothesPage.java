@@ -2,6 +2,7 @@ package pages.product;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import pages.main.MainPage;
 
 public class ClothesPage extends ProductListPage {
     public WebDriver driver;
@@ -11,6 +12,12 @@ public class ClothesPage extends ProductListPage {
 
     public ClothesPage() {
         this.driver = getDriver();
+    }
+
+    @Override
+    public void navigateToPage() {
+        MainPage mainPage = new MainPage();
+        mainPage.clickClothesMenuLink();
     }
 
     public void clickLeftMenuClothesMenCategory() {

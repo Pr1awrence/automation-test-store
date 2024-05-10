@@ -11,6 +11,7 @@ import java.util.List;
 public class MainPage extends BasePage {
     public WebDriver driver;
 
+    By mainMenuLink = By.cssSelector("[alt='Test Store']");
     By clothesMenuLink = By.linkText("CLOTHES");
     By accessoriesMenuLink = By.linkText("ACCESSORIES");
     By artMenuLink = By.linkText("ART");
@@ -38,6 +39,10 @@ public class MainPage extends BasePage {
     /* TODO: создай интернал метод click(element) и туда засунь работу с драйвером */
     public void clickClothesMenuLink() {
         driver.findElement(clothesMenuLink).click();
+    }
+
+    public void clickMainMenuLink() {
+        driver.findElement(mainMenuLink).click();
     }
 
     public void clickAccessoriesMenuLink() {
@@ -114,6 +119,7 @@ public class MainPage extends BasePage {
         return driver.findElements(productsList);
     }
 
+    /* TODO: get rid of clickFirstProduct and clickSecondProduct methods */
     public void clickFirstProduct() {
         getProductsList().get(0).click();
     }

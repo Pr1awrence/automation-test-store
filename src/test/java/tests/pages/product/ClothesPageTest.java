@@ -5,9 +5,10 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.product.ClothesPage;
 import pages.main.MainPage;
-import tests.pages.BasePageTest;
 
-public class ClothesPageTest extends BasePageTest {
+import utils.SortByType;
+
+public class ClothesPageTest extends ProductListPageTest {
     private ClothesPage clothesPage;
 
     @BeforeMethod
@@ -18,63 +19,8 @@ public class ClothesPageTest extends BasePageTest {
     }
 
     @Test
-    public void leftMenuCategoriesTest() {
-        Assert.assertTrue(clothesPage.leftMenuCategoriesIsDisplayed());
-    }
-
-    @Test
-    public void leftMenuSuppliersTest() {
-        Assert.assertTrue(clothesPage.leftMenuSuppliersIsDisplayed());
-    }
-
-    @Test
-    public void leftMenuBrandsTest() {
-        Assert.assertTrue(clothesPage.leftMenuBrandsIsDisplayed());
-    }
-
-    @Test
-    public void leftMenuFilterByTest() {
-        Assert.assertTrue(clothesPage.leftMenuFilterByIsDisplayed());
-    }
-
-    @Test
-    public void leftMenuSearchFiltersAreDisplayedTest() {
-        Assert.assertTrue(clothesPage.leftMenuSearchFiltersAreDisplayed());
-    }
-
-    @Test
-    public void filterByAvailabilityIsDisplayedTest() {
-        Assert.assertTrue(clothesPage.filterByAvailabilityIsDisplayed());
-    }
-
-    @Test
-    public void filterBySelectionsIsDisplayedTest() {
-        Assert.assertTrue(clothesPage.filterBySelectionsIsDisplayed());
-    }
-
-    @Test
-    public void filterByPriceIsDisplayedTest() {
-        Assert.assertTrue(clothesPage.filterByPriceIsDisplayed());
-    }
-
-    @Test
     public void filterBySizeIsDisplayedTest() {
         Assert.assertTrue(clothesPage.filterBySizeIsDisplayed());
-    }
-
-    @Test
-    public void filterByCategoriesIsDisplayedTest() {
-        Assert.assertTrue(clothesPage.filterByCategoriesIsDisplayed());
-    }
-
-    @Test
-    public void filterByColorIsDisplayedTest() {
-        Assert.assertTrue(clothesPage.filterByColorIsDisplayed());
-    }
-
-    @Test
-    public void filterByPropertyIsDisplayedTest() {
-        Assert.assertTrue(clothesPage.filterByPropertyIsDisplayed());
     }
 
     @Test
@@ -92,7 +38,6 @@ public class ClothesPageTest extends BasePageTest {
         String currentUrl = clothesPage.getCurrentUrl();
         Assert.assertEquals(currentUrl, womenClothesPageUrl);
     }
-
 
     // TODO: Need to refactor code
 /*    @Test
