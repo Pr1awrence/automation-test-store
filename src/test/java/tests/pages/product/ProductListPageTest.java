@@ -39,7 +39,24 @@ public class ProductListPageTest extends BasePageTest {
     @Test(dataProvider = "productListPages", dataProviderClass = ProductDataProvider.class)
     public void leftMenuSearchFiltersAreDisplayedTest(ProductListPage page) {
         page.navigateToPage();
-        Assert.assertTrue(page.leftMenuSearchFiltersAreDisplayed());
+        Assert.assertTrue(page.searchFiltersAreDisplayed());
+    }
+
+    @Test(dataProvider = "productListPages", dataProviderClass = ProductDataProvider.class)
+    public void filterByClearAllBtnTest(ProductListPage page) {
+        page.navigateToPage();
+        page.clickFilterByAvailabilityInStock();
+
+        waitUntilUrlContains("Availability");
+
+        Assert.assertTrue(page.isFilterByAvailabilityInStockChecked());
+        Assert.assertTrue(page.filterByClearAllBtnIsDisplayed());
+
+        page.clickFilterByClearAllBtn();
+
+        waitUntilInvisibilityOfAnElement(page.filterByClearAllBtn());
+
+        Assert.assertFalse(page.isFilterByAvailabilityInStockChecked());
     }
 
     @Test(dataProvider = "productListPages", dataProviderClass = ProductDataProvider.class)
@@ -90,10 +107,48 @@ public class ProductListPageTest extends BasePageTest {
         Assert.assertTrue(page.filterByBrandIsDisplayed());
     }
 
+    @Test(dataProvider = "priceSliderRangesProductPagesProvider", dataProviderClass = ProductDataProvider.class)
+    public void filterByPriceRangeTest(ProductListPage page, String range) {
+        page.navigateToPage();
+
+        page.setSliderValueBySpecifiedPriceRange(range);
+
+        waitUntilUrlContains("Price");
+        Assert.assertEquals(page.getTextFilterByPriceRange(), range);
+    }
+
     @Test(dataProvider = "productListPages", dataProviderClass = ProductDataProvider.class)
     public void cardBlockIsDisplayedTest(ProductListPage page) {
         page.navigateToPage();
         Assert.assertTrue(page.cardBlockIsDisplayed());
+    }
+
+    @Test(dataProvider = "productListPages", dataProviderClass = ProductDataProvider.class)
+    public void activePanelFilterByAvailabilityInStockTest(ProductListPage page) {
+        page.navigateToPage();
+        page.clickFilterByAvailabilityInStock();
+
+        waitUntilUrlContains("Availability");
+
+        Assert.assertTrue(page.isFilterByAvailabilityInStockChecked());
+        Assert.assertTrue(page.doesActiveFiltersPanelContainAvailabilityInStock());
+
+        page.clickActiveFiltersBlockClearBtn();
+
+        waitUntilInvisibilityOfAnElement(page.activeFiltersBlockClearBtn());
+
+        Assert.assertFalse(page.isFilterByAvailabilityInStockChecked());
+    }
+
+    @Test(dataProvider = "colorClothesAccessoriesPagesProvider", dataProviderClass = ProductDataProvider.class)
+    public void activePanelFilterByColorCheckboxTest(ProductListPage page, String color, String urlPart) {
+        page.navigateToPage();
+        page.clickFilterByColorCheckbox(color);
+
+        waitUntilUrlContains(urlPart);
+
+        Assert.assertTrue(page.activeFiltersPanelIsDisplayed());
+        Assert.assertTrue(page.doesActiveFiltersBlockContainColor(color));
     }
 
     @Test(dataProvider = "productListPages", dataProviderClass = ProductDataProvider.class)

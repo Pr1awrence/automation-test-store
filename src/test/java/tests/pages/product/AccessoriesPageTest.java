@@ -18,11 +18,6 @@ public class AccessoriesPageTest extends BasePageTest {
     }
 
     @Test
-    public void filterByPaperTypeIsDisplayedTest() {
-        Assert.assertTrue(accessoriesPage.filterByPaperTypeIsDisplayed());
-    }
-
-    @Test
     public void leftMenuStationeryCategoryLinkTest() {
         accessoriesPage.clickLeftMenuStationeryCategory();
 
@@ -36,5 +31,10 @@ public class AccessoriesPageTest extends BasePageTest {
 
         String currentUrl = accessoriesPage.getCurrentUrl();
         Assert.assertEquals(currentUrl, homeAccessoriesPageUrl);
+    }
+
+    @Test
+    public void filterByPaperTypeIsDisplayedTest() {
+        Assert.assertTrue(accessoriesPage.filterByPaperTypeIsDisplayed());
     }
 }

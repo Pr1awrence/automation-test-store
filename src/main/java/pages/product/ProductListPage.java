@@ -1,9 +1,9 @@
 package pages.product;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import pages.BasePage;
 import utils.SortByType;
 
@@ -23,8 +23,9 @@ public abstract class ProductListPage extends BasePage {
     By leftMenuCategories = By.cssSelector(".block-categories");
     By leftMenuSuppliers = By.id("search_filters_suppliers");
     By leftMenuBrands = By.id("search_filters_brands");
-    By leftMenuFilterBy = By.id("search_filters");
-    By leftMenuFilterSections = By.cssSelector("section[class='facet clearfix']");
+    By filterBy = By.id("search_filters");
+    By filterSections = By.cssSelector("section[class='facet clearfix']");
+    By filterByClearAllBtn = By.xpath("//button[contains(., 'Clear all')]");
     By filterByAvailability = By.cssSelector("[data-type='availability']");
     By filterBySelections = By.cssSelector("[data-type='extras']");
     By filterByPrice = By.cssSelector("[data-type='price']");
@@ -36,8 +37,21 @@ public abstract class ProductListPage extends BasePage {
     By filterByBrand = By.cssSelector("[data-type='manufacturer']");
     By filterByPaperType = By.xpath("//section[@data-type='attribute_group']//p[contains(text(), 'Paper Type')]");
     By filterByDimension = By.xpath("//section[@data-type='attribute_group']//p[contains(text(), 'Dimension')]");
+    By filterByAvailabilityInStockCheckbox = By.xpath("//section//a[contains(text(), 'In stock')]/preceding-sibling::span/input");
+    By filterByColorWhiteCheckbox = By.xpath("//section//a[contains(text(), 'White')]");
+    By filterByColorBlackCheckbox = By.xpath("//section//a[contains(text(), 'Black')]");
+    By filterByPriceRangeMinMax = By.xpath("//section//p[starts-with(@id, 'facet_label')]");
+    By filterByPriceRangeSlider = By.xpath("//div[starts-with(@class, 'ui-slider-range')]");
+    By filterByPriceSliderLeftHandle = By.xpath("//section//a[@class='ui-slider-handle ui-state-default ui-corner-all'][1]");
+    By filterByPriceSliderRightHandle = By.xpath("//section//a[@class='ui-slider-handle ui-state-default ui-corner-all'][2]");
+
+    /* <--- PAGE CONTENT ---> */
     By cardBlock = By.cssSelector(".block-category.card.card-block");
     By activeFiltersPanel = By.cssSelector(".active_filters");
+    By activeFiltersBlockAvailabilityInStock = By.xpath("//li[contains(@class, 'filter-block') and contains(text(), 'In stock')]");
+    By activeFiltersBlockCategoriesColorWhite = By.xpath("//li[contains(@class, 'filter-block') and contains(text(), 'White')]");
+    By activeFiltersBlockCategoriesColorBlack = By.xpath("//li[contains(@class, 'filter-block') and contains(text(), 'Black')]");
+    By activeFiltersBlockClearBtn = By.xpath("//i[contains(@class, 'material-icons close')]");
 
     /* <--- SORT BY ---> */
     By sortByBtn = By.cssSelector(".btn-unstyle.select-title");
@@ -47,16 +61,6 @@ public abstract class ProductListPage extends BasePage {
     By sortByNameDescBtn = By.xpath("//div[@class='dropdown-menu']//a[contains(text(), 'Name, Z to A')]");
     By sortByProductHeaders = By.cssSelector("article.product-miniature h2.h3.product-title a");
     By sortByProductNewPrices = By.cssSelector("[aria-label='Price']");
-
-    /* <--- FILTERS ---> */
-
-    By leftMenuFilterByColorWhiteCheckbox = By.xpath("//section[@class='facet clearfix'][3]//a[contains(text(), 'White')]");
-    By leftMenuFilterByColorBlackCheckbox = By.xpath("//section[@class='facet clearfix'][3]//a[contains(text(), 'Black')]");
-    By leftMenuFilterByPropertyLongSleevesCheckbox = By.xpath("//section[@class='facet clearfix'][4]//a[contains(text(), 'Long sleeves')]");
-    By leftMenuFilterByPropertyShortSleevesCheckbox = By.xpath("//section[@class='facet clearfix'][4]//a[contains(text(), 'Short sleeves')]");
-    By leftMenuPriceRange = By.xpath("//section[@class='facet clearfix'][5]//p[contains(text(), 'facet_label')]");
-    By leftMenuPriceSliderLeftHandle = By.xpath("//section[@class='facet clearfix'][5]//a[@class='ui-slider-handle ui-state-default ui-corner-all'][1]");
-    By leftMenuPriceSliderRightHandle = By.xpath("//section[@class='facet clearfix'][5]//a[@class='ui-slider-handle ui-state-default ui-corner-all'][2]");
 
     public ProductListPage() {
         this.driver = getDriver();
@@ -77,15 +81,27 @@ public abstract class ProductListPage extends BasePage {
     }
 
     public boolean leftMenuFilterByIsDisplayed() {
-        return driver.findElement(leftMenuFilterBy).isDisplayed();
+        return driver.findElement(filterBy).isDisplayed();
     }
 
-    private List<WebElement> getLeftMenuFilterSections() {
-        return driver.findElements(leftMenuFilterSections);
+    private List<WebElement> getFilterSections() {
+        return driver.findElements(filterSections);
     }
 
-    public boolean leftMenuSearchFiltersAreDisplayed() {
-        return !getLeftMenuFilterSections().isEmpty();
+    public boolean searchFiltersAreDisplayed() {
+        return !getFilterSections().isEmpty();
+    }
+
+    public void clickFilterByClearAllBtn() {
+        driver.findElement(filterByClearAllBtn).click();
+    }
+
+    public WebElement filterByClearAllBtn() {
+        return driver.findElement(filterByClearAllBtn);
+    }
+
+    public boolean filterByClearAllBtnIsDisplayed() {
+        return driver.findElement(filterByClearAllBtn).isDisplayed();
     }
 
     public boolean filterByAvailabilityIsDisplayed() {
@@ -132,12 +148,99 @@ public abstract class ProductListPage extends BasePage {
         return driver.findElement(filterByDimension).isDisplayed();
     }
 
+    public boolean isFilterByAvailabilityInStockChecked() {
+        return driver.findElement(filterByAvailabilityInStockCheckbox).isSelected();
+    }
+
+    public void clickFilterByAvailabilityInStock() {
+        driver.findElement(filterByAvailabilityInStockCheckbox).click();
+    }
+
+    public void clickFilterByColorCheckbox(String color){
+        switch (color) {
+            case "White" -> driver.findElement(filterByColorWhiteCheckbox).click();
+            case "Black" -> driver.findElement(filterByColorBlackCheckbox).click();
+            default -> throw new IllegalStateException("Unexpected color value: " + color);
+        }
+    }
+
+    public void setSliderValueBySpecifiedPriceRange(String range) {
+        WebElement leftHandle = driver.findElement(filterByPriceSliderLeftHandle);
+
+        double originalRangePricePerPixel = calculatePricePerPixel(getTextFilterByPriceRange());
+        int[] priceDifferenceInStartAndEndRanges = priceDifferenceInStartAndEndRanges(range);
+
+        int pixelsToMove = (int) Math.round(1 / originalRangePricePerPixel);
+
+        Actions action = new Actions(driver);
+        action.clickAndHold(leftHandle).moveByOffset(pixelsToMove * priceDifferenceInStartAndEndRanges[0], 0).release().perform();
+
+        // The page is reloading, so I need to get the right handle here because of the StaleElementReferenceException
+        WebElement rightHandle = driver.findElement(filterByPriceSliderRightHandle);
+        action.clickAndHold(rightHandle).moveByOffset(-pixelsToMove * priceDifferenceInStartAndEndRanges[1], 0).release().perform();
+    }
+
+    private double calculatePricePerPixel(String range) {
+        double[] specifiedRangePrices = parsePriceRange(range);
+        double minPrice = specifiedRangePrices[0];
+        double maxPrice = specifiedRangePrices[1];
+
+        double specifiedPriceRange = maxPrice - minPrice;
+
+        WebElement sliderElement = driver.findElement(filterByPriceRangeSlider);
+        String widthString = sliderElement.getCssValue("width");
+
+        double sliderWidth = Double.parseDouble(widthString.replace("px", ""));
+
+        return specifiedPriceRange / sliderWidth;
+    }
+
+    public String getTextFilterByPriceRange(){
+        return driver.findElement(filterByPriceRangeMinMax).getText();
+    }
+
+    private double[] parsePriceRange(String range) {
+        String[] rawPrices = range.replaceAll("\\$", "").split(" - ");
+        return new double[]{Double.parseDouble(rawPrices[0]), Double.parseDouble(rawPrices[1])};
+    }
+
+    private int[] priceDifferenceInStartAndEndRanges(String range) {
+        double[] originalPriceRange = parsePriceRange(getTextFilterByPriceRange());
+        double[] specifiedPriceRange = parsePriceRange(range);
+
+        int startRangeInDollars = (int) (specifiedPriceRange[0] - originalPriceRange[0]);
+        int endRangeInDollars = (int) (originalPriceRange[1] - specifiedPriceRange[1]);
+
+        return new int[]{startRangeInDollars, endRangeInDollars};
+    }
+
+    /* <--- PAGE CONTENT ---> */
     public boolean cardBlockIsDisplayed() {
         return driver.findElement(cardBlock).isDisplayed();
     }
 
     public boolean activeFiltersPanelIsDisplayed() {
         return driver.findElement(activeFiltersPanel).isDisplayed();
+    }
+
+    public boolean doesActiveFiltersPanelContainAvailabilityInStock() {
+        return driver.findElement(activeFiltersBlockAvailabilityInStock).isDisplayed();
+    }
+
+    public boolean doesActiveFiltersBlockContainColor(String color) {
+        return switch (color) {
+            case "White" -> driver.findElement(activeFiltersBlockCategoriesColorWhite).isDisplayed();
+            case "Black" -> driver.findElement(activeFiltersBlockCategoriesColorBlack).isDisplayed();
+            default -> false;
+        };
+    }
+
+    public void clickActiveFiltersBlockClearBtn() {
+        driver.findElement(activeFiltersBlockClearBtn).click();
+    }
+
+    public WebElement activeFiltersBlockClearBtn() {
+        return driver.findElement(activeFiltersBlockClearBtn);
     }
 
     /* <--- SORT BY ---> */
@@ -209,37 +312,5 @@ public abstract class ProductListPage extends BasePage {
         sortedList.sort(comparator);
 
         return sortedList.equals(elementsFloat);
-    }
-
-    /* <--- FILTERS ---> */
-    public void clickLeftMenuFilterByColorWhiteCheckbox(){
-        driver.findElement(leftMenuFilterByColorWhiteCheckbox).click();
-    }
-
-    public void clickLeftMenuFilterByColorBlackCheckbox(){
-        driver.findElement(leftMenuFilterByColorBlackCheckbox).click();
-    }
-
-    public void clickLeftMenuFilterByPropertyLongSleevesCheckbox(){
-        driver.findElement(leftMenuFilterByPropertyLongSleevesCheckbox).click();
-    }
-
-    public void clickLeftMenuFilterByPropertyShortSleevesCheckbox(){
-        driver.findElement(leftMenuFilterByPropertyShortSleevesCheckbox).click();
-    }
-
-    public String getTextLeftMenuPriceRange(){
-        return driver.findElement(leftMenuPriceRange).getText();
-    }
-
-    /* TODO: need to refactor - remove js executor to the base page */
-    public void setValueLeftMenuPriceSliderLeftHandle(int value){
-        WebElement leftHandle = driver.findElement(leftMenuPriceSliderLeftHandle);
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].style.left = arguments[1];", leftHandle, value);
-
-
-        System.out.println(leftHandle.getCssValue("left"));
     }
 }

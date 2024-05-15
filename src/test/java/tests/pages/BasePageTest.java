@@ -2,6 +2,7 @@ package tests.pages;
 
 import core.Hooks;
 import core.WebDriverInstance;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -21,7 +22,12 @@ public class BasePageTest extends Hooks {
     protected String newProductsPageUrl = reader.getNewProductsPageUrl();
 
     protected void waitUntilUrlContains(String url) {
-        WebDriverWait wait = new WebDriverWait(WebDriverInstance.getDriverInstance(), Duration.ofSeconds(2));
+        WebDriverWait wait = new WebDriverWait(WebDriverInstance.getDriverInstance(), Duration.ofSeconds(5));
         wait.until(ExpectedConditions.urlContains(url));
+    }
+
+    protected void waitUntilInvisibilityOfAnElement(WebElement element) {
+        WebDriverWait wait = new WebDriverWait(WebDriverInstance.getDriverInstance(), Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.invisibilityOf(element));
     }
 }
