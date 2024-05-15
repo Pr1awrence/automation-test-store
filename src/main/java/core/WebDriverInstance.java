@@ -47,6 +47,8 @@ public final class WebDriverInstance {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
+        WebDriverManager.chromedriver().clearDriverCache().setup();
+
         return driver;
     }
 
