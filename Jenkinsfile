@@ -54,8 +54,10 @@ pipeline {
                     def testStartTime = System.currentTimeMillis()
 
                     echo 'Running tests'
+
                     // Run Maven tests (must configure allure plugin in pom.xml in advance)
-                    bat 'mvn clean test'
+                    // Maven marks the build as failed if the tests fail, so I mark it as unstable to allow publishing
+                    bat 'mvn -Dmaven.test.failure.ignore=true clean test'
 
                     def testEndTime = System.currentTimeMillis()
                     env.TEST_DURATION = "${(testEndTime - testStartTime) / 1000.0}"
