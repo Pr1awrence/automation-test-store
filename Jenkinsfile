@@ -62,16 +62,17 @@ pipeline {
                     echo "Test duration: ${env.TEST_DURATION} seconds"
                 }
             }
-        }
 
-        post {
-            success {
-                echo 'Tests passed, preparing to push to Git'
-                publishTestResults()
-            }
-            unstable {
-                echo 'Some tests failed but build successful, preparing to push to Git'
-                publishTestResults()
+            post {
+                success {
+                    echo 'Tests passed, preparing to push to Git'
+                    publishTestResults()
+                }
+
+                unstable {
+                    echo 'Some tests failed but build successful, preparing to push to Git'
+                    publishTestResults()
+                }
             }
         }
     }
