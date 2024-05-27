@@ -4,12 +4,12 @@
     "uid" : "ca0d9d3784445f6df02c6232fe06b8e8",
     "name" : "parallel-suite",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 79,
+      "passed" : 91,
       "unknown" : 3,
-      "total" : 82
+      "total" : 95
     }
   } ]
 }

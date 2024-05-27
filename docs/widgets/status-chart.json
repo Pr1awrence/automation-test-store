@@ -1,820 +1,950 @@
 [ {
-  "uid" : "7dcb55019849cad2",
-  "name" : "cardBlockIsDisplayedTest",
-  "time" : {
-    "start" : 1715319766004,
-    "stop" : 1715319767111,
-    "duration" : 1107
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3f6c879bb0af0177",
-  "name" : "filterByCategoriesIsDisplayedTest",
-  "time" : {
-    "start" : 1715319772870,
-    "stop" : 1715319773792,
-    "duration" : 922
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b2d0a5e43e41e357",
-  "name" : "allProductsButtonTest",
-  "time" : {
-    "start" : 1715319765059,
-    "stop" : 1715319766541,
-    "duration" : 1482
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a1dd19f4413cdb29",
-  "name" : "Bug ID: 3. Should be fixed on FE side",
-  "time" : {
-    "start" : 1715319760032,
-    "stop" : 1715319760032,
-    "duration" : 0
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "bdafa7c96a62635b",
-  "name" : "bannersTest",
-  "time" : {
-    "start" : 1715319767211,
-    "stop" : 1715319769993,
-    "duration" : 2782
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7338b8d9a5787fb6",
-  "name" : "leftMenuBrandsTest",
-  "time" : {
-    "start" : 1715319790953,
-    "stop" : 1715319792008,
-    "duration" : 1055
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5046248e4f63454c",
-  "name" : "sortByDropdownMenuNameDescTest",
-  "time" : {
-    "start" : 1715319812325,
-    "stop" : 1715319814383,
-    "duration" : 2058
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9d86f1e21485cdd3",
-  "name" : "searchInputFullWordTest",
-  "time" : {
-    "start" : 1715319783805,
-    "stop" : 1715319784648,
-    "duration" : 843
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "24173665e8537c93",
-  "name" : "leftMenuSearchFiltersAreDisplayedTest",
-  "time" : {
-    "start" : 1715319800742,
-    "stop" : 1715319801758,
-    "duration" : 1016
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "52188f834a08c230",
-  "name" : "popularProductsSectionIsDisplayedTest",
-  "time" : {
-    "start" : 1715319781051,
-    "stop" : 1715319781079,
-    "duration" : 28
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "11c935128bbfe45",
-  "name" : "saleBannerIsDisplayedTest",
-  "time" : {
-    "start" : 1715319781722,
-    "stop" : 1715319781742,
-    "duration" : 20
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "88a9b250fd8debcd",
-  "name" : "leftMenuCategoriesTest",
-  "time" : {
-    "start" : 1715319794228,
-    "stop" : 1715319795266,
-    "duration" : 1038
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4cd24932ff9946f0",
-  "name" : "leftMenuFilterBySizeCheckboxTest",
-  "time" : {
-    "start" : 1715319802334,
-    "stop" : 1715319803460,
-    "duration" : 1126
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "29963bde2e20d6fb",
-  "name" : "filterBySelectionsIsDisplayedTest",
-  "time" : {
-    "start" : 1715319786355,
-    "stop" : 1715319787591,
-    "duration" : 1236
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1c5c7bacbaea0da4",
-  "name" : "leftMenuFilterByTest",
-  "time" : {
-    "start" : 1715319797460,
-    "stop" : 1715319798508,
-    "duration" : 1048
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "872dad97640599c9",
-  "name" : "cardBlockIsDisplayedTest",
-  "time" : {
-    "start" : 1715319763560,
-    "stop" : 1715319764687,
-    "duration" : 1127
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4140d2c4ddd8fa65",
-  "name" : "searchInputEmptyValueTest",
-  "time" : {
-    "start" : 1715319782386,
-    "stop" : 1715319783094,
-    "duration" : 708
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7218fc8dc19c4165",
-  "name" : "onSaleProductsButtonTest",
-  "time" : {
-    "start" : 1715319778562,
-    "stop" : 1715319779590,
-    "duration" : 1028
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8a5fb0aa48fe182e",
-  "name" : "filterByAvailabilityIsDisplayedTest",
-  "time" : {
-    "start" : 1715319767114,
-    "stop" : 1715319768070,
-    "duration" : 956
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "de3e8446be78c656",
-  "name" : "leftMenuCategoryLinkTest",
-  "time" : {
-    "start" : 1715319796501,
-    "stop" : 1715319797304,
-    "duration" : 803
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fc7ee19756a46a5",
-  "name" : "storeLogoLinkTest",
-  "time" : {
-    "start" : 1715319786712,
-    "stop" : 1715319788521,
-    "duration" : 1809
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3333bf5c16044881",
-  "name" : "customTextSectionIsDisplayedTest",
-  "time" : {
-    "start" : 1715319771607,
-    "stop" : 1715319771631,
-    "duration" : 24
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7a6f03069ab89690",
-  "name" : "leftMenuFilterByCategoryCheckboxTest",
-  "time" : {
-    "start" : 1715319800252,
-    "stop" : 1715319801365,
-    "duration" : 1113
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5263f88fa1f84725",
-  "name" : "cardBlockIsDisplayedTest",
-  "time" : {
-    "start" : 1715319764689,
-    "stop" : 1715319766002,
-    "duration" : 1313
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b32295c0dc5ff1c4",
-  "name" : "sortByDropdownMenuNameDescTest",
-  "time" : {
-    "start" : 1715319816797,
-    "stop" : 1715319818945,
-    "duration" : 2148
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "46b045c1d2de0a5e",
-  "name" : "filterByAvailabilityIsDisplayedTest",
-  "time" : {
-    "start" : 1715319769415,
-    "stop" : 1715319770492,
-    "duration" : 1077
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8a35bfc4ed6d75ac",
-  "name" : "leftMenuFilterBySizeCheckboxTest",
-  "time" : {
-    "start" : 1715319804348,
-    "stop" : 1715319805461,
-    "duration" : 1113
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8420d39cff1a5d86",
-  "name" : "headerArtLinkTest",
-  "time" : {
-    "start" : 1715319775023,
-    "stop" : 1715319776205,
-    "duration" : 1182
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b6a9185948e00279",
-  "name" : "sortByDropdownMenuPriceAscTest",
-  "time" : {
-    "start" : 1715319818948,
-    "stop" : 1715319820944,
-    "duration" : 1996
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "de64a517c02bee16",
-  "name" : "Bug ID: 1. Should be fixed on FE side",
-  "time" : {
-    "start" : 1715319760028,
-    "stop" : 1715319760028,
-    "duration" : 0
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "d96930d5a90c5d04",
-  "name" : "filterByPriceIsDisplayedTest",
-  "time" : {
-    "start" : 1715319780812,
-    "stop" : 1715319782071,
-    "duration" : 1259
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f83306a803f2c1dc",
-  "name" : "filterBySizeIsDisplayedTest",
-  "time" : {
-    "start" : 1715319793798,
-    "stop" : 1715319793825,
-    "duration" : 27
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "354e203f3329ca73",
-  "name" : "headerClothesLinkTest",
-  "time" : {
-    "start" : 1715319776938,
-    "stop" : 1715319777918,
-    "duration" : 980
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ac0423cd8a3c4b5b",
-  "name" : "filterByPriceIsDisplayedTest",
-  "time" : {
-    "start" : 1715319782073,
-    "stop" : 1715319783186,
-    "duration" : 1113
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "de652ab8df2ad9ca",
-  "name" : "filterBySelectionsIsDisplayedTest",
-  "time" : {
-    "start" : 1715319785404,
-    "stop" : 1715319786354,
-    "duration" : 950
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1af5dbc1c4388294",
-  "name" : "leftMenuBrandsTest",
-  "time" : {
-    "start" : 1715319788701,
-    "stop" : 1715319789668,
-    "duration" : 967
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f5aacf9d42d4a93f",
+  "uid" : "3ff4eb36ea9e35f5",
   "name" : "leftMenuSuppliersTest",
   "time" : {
-    "start" : 1715319802692,
-    "stop" : 1715319803984,
-    "duration" : 1292
+    "start" : 1716844059721,
+    "stop" : 1716844060619,
+    "duration" : 898
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "220e4390591ecc4e",
-  "name" : "leftMenuHomeAccessoriesCategoryLinkTest",
+  "uid" : "bde612e905454324",
+  "name" : "filterByBrandIsDisplayedTest",
   "time" : {
-    "start" : 1715319816622,
-    "stop" : 1715319817670,
-    "duration" : 1048
+    "start" : 1716844021217,
+    "stop" : 1716844022008,
+    "duration" : 791
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "20204d8f78c27656",
+  "uid" : "7c727de6d2e3fbe6",
   "name" : "sortByDropdownMenuNameAscTest",
   "time" : {
-    "start" : 1715319810088,
-    "stop" : 1715319812323,
-    "duration" : 2235
+    "start" : 1716844065267,
+    "stop" : 1716844067155,
+    "duration" : 1888
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "12d0f0676a05196",
-  "name" : "filterBySelectionsIsDisplayedTest",
+  "uid" : "7b69756ffcb1222c",
+  "name" : "filterByClearAllBtnTest",
   "time" : {
-    "start" : 1715319787593,
-    "stop" : 1715319788697,
+    "start" : 1716844023576,
+    "stop" : 1716844026505,
+    "duration" : 2929
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6433e5b172f52027",
+  "name" : "filterBySizeCheckboxTest",
+  "time" : {
+    "start" : 1716844032885,
+    "stop" : 1716844033989,
     "duration" : 1104
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "baba9fa07f619085",
-  "name" : "filterByPropertyIsDisplayedTest",
+  "uid" : "1157fd68b873690c",
+  "name" : "filterByPriceRangeTest",
   "time" : {
-    "start" : 1715319784119,
-    "stop" : 1715319785401,
-    "duration" : 1282
+    "start" : 1716844040461,
+    "stop" : 1716844043046,
+    "duration" : 2585
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f964961c228c8d65",
-  "name" : "leftMenuSuppliersTest",
+  "uid" : "b767159e668d92b9",
+  "name" : "searchInputFullWordTest",
   "time" : {
-    "start" : 1715319803986,
-    "stop" : 1715319805008,
-    "duration" : 1022
+    "start" : 1716844014856,
+    "stop" : 1716844015603,
+    "duration" : 747
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bbcb9027b3ec8420",
-  "name" : "filterByBrandIsDisplayedTest",
+  "uid" : "35cea8e1b24f696c",
+  "name" : "cardBlockIsDisplayedTest",
   "time" : {
-    "start" : 1715319771795,
-    "stop" : 1715319772866,
-    "duration" : 1071
+    "start" : 1716844016051,
+    "stop" : 1716844016945,
+    "duration" : 894
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5861c31cadf531e0",
-  "name" : "filterByCategoriesIsDisplayedTest",
+  "uid" : "5a7318304523c2b4",
+  "name" : "headerArtLinkTest",
   "time" : {
-    "start" : 1715319773795,
-    "stop" : 1715319775130,
-    "duration" : 1335
+    "start" : 1716844007836,
+    "stop" : 1716844008602,
+    "duration" : 766
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3126412caa132341",
-  "name" : "filterByPropertyIsDisplayedTest",
-  "time" : {
-    "start" : 1715319783189,
-    "stop" : 1715319784117,
-    "duration" : 928
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6614cfce7c44cc57",
-  "name" : "sortByDropdownMenuNameAscTest",
-  "time" : {
-    "start" : 1715319807050,
-    "stop" : 1715319810087,
-    "duration" : 3037
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "37b7c917ceaedc4d",
-  "name" : "leftMenuCategoriesTest",
-  "time" : {
-    "start" : 1715319792010,
-    "stop" : 1715319792959,
-    "duration" : 949
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "85c58d7aded32d8c",
-  "name" : "leftMenuFilterByTest",
-  "time" : {
-    "start" : 1715319796185,
-    "stop" : 1715319797458,
-    "duration" : 1273
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b30bd7b047604925",
-  "name" : "leftMenuSearchFiltersAreDisplayedTest",
-  "time" : {
-    "start" : 1715319799488,
-    "stop" : 1715319800741,
-    "duration" : 1253
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7c9a7f7192f7e7e5",
-  "name" : "leftMenuFilterBySizeCheckboxTest",
-  "time" : {
-    "start" : 1715319806424,
-    "stop" : 1715319807506,
-    "duration" : 1082
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8e793ad2b946f345",
-  "name" : "allNewProductsSectionIsDisplayedTest",
-  "time" : {
-    "start" : 1715319764359,
-    "stop" : 1715319764395,
-    "duration" : 36
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bdbfd7c9e685cdfb",
-  "name" : "sortByDropdownMenuPriceDescTest",
-  "time" : {
-    "start" : 1715319831137,
-    "stop" : 1715319833387,
-    "duration" : 2250
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5ef546095307fb14",
-  "name" : "searchInputIncorrectValueTest",
-  "time" : {
-    "start" : 1715319785320,
-    "stop" : 1715319786042,
-    "duration" : 722
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ce4cebb0d7d69148",
-  "name" : "filterByCompositionIsDisplayedTest",
-  "time" : {
-    "start" : 1715319777463,
-    "stop" : 1715319778774,
-    "duration" : 1311
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b288cf13f44592bd",
-  "name" : "footerIsDisplayedTest",
-  "time" : {
-    "start" : 1715319772300,
-    "stop" : 1715319772324,
-    "duration" : 24
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ccc9e63892aeb59f",
-  "name" : "sortByDropdownMenuNameAscTest",
-  "time" : {
-    "start" : 1715319805010,
-    "stop" : 1715319807049,
-    "duration" : 2039
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ee4a90201db66516",
-  "name" : "carouselIsDisplayedTest",
-  "time" : {
-    "start" : 1715319770905,
-    "stop" : 1715319770929,
-    "duration" : 24
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b3368d2250d5b0b4",
-  "name" : "sortByDropdownMenuPriceDescTest",
-  "time" : {
-    "start" : 1715319828204,
-    "stop" : 1715319831135,
-    "duration" : 2931
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2b19742d72a14372",
-  "name" : "filterByCompositionIsDisplayedTest",
-  "time" : {
-    "start" : 1715319778775,
-    "stop" : 1715319779834,
-    "duration" : 1059
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3a7b89fa9ad1e3e6",
+  "uid" : "8ea2240463799d21",
   "name" : "filterByColorIsDisplayedTest",
   "time" : {
-    "start" : 1715319776179,
-    "stop" : 1715319777460,
-    "duration" : 1281
+    "start" : 1716844033314,
+    "stop" : 1716844034198,
+    "duration" : 884
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "16556e832a3bcf6",
+  "uid" : "2daafe6cefb7dd3b",
+  "name" : "saleBannerIsDisplayedTest",
+  "time" : {
+    "start" : 1716844013058,
+    "stop" : 1716844013079,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe378b83633ae397",
+  "name" : "filterByCategoriesIsDisplayedTest",
+  "time" : {
+    "start" : 1716844022012,
+    "stop" : 1716844022717,
+    "duration" : 705
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6aef6321d99e6f34",
+  "name" : "cardBlockIsDisplayedTest",
+  "time" : {
+    "start" : 1716844015269,
+    "stop" : 1716844016049,
+    "duration" : 780
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f49801e0d8a0bf2",
+  "name" : "filterByPropertyIsDisplayedTest",
+  "time" : {
+    "start" : 1716844045308,
+    "stop" : 1716844046083,
+    "duration" : 775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e173a4735ad6812",
+  "name" : "Bug ID: 3. Should be fixed on FE side",
+  "time" : {
+    "start" : 1716843994331,
+    "stop" : 1716843994331,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "c7438de3cd66cba1",
+  "name" : "filterByPriceIsDisplayedTest",
+  "time" : {
+    "start" : 1716844035848,
+    "stop" : 1716844036554,
+    "duration" : 706
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3383a65a4e908036",
+  "name" : "sortByDropdownMenuPriceAscTest",
+  "time" : {
+    "start" : 1716844074766,
+    "stop" : 1716844076936,
+    "duration" : 2170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c94a49fc4e873c8e",
+  "name" : "filterByPriceIsDisplayedTest",
+  "time" : {
+    "start" : 1716844037433,
+    "stop" : 1716844038214,
+    "duration" : 781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae544b0a173fad69",
   "name" : "sortByDropdownMenuNameDescTest",
   "time" : {
-    "start" : 1715319814385,
-    "stop" : 1715319816794,
-    "duration" : 2409
+    "start" : 1716844071056,
+    "stop" : 1716844072931,
+    "duration" : 1875
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f0e98369d3844510",
-  "name" : "leftMenuCategoryLinkTest",
+  "uid" : "dec23eb881294dc2",
+  "name" : "leftMenuBrandsTest",
   "time" : {
-    "start" : 1715319794721,
-    "stop" : 1715319795594,
-    "duration" : 873
+    "start" : 1716844050186,
+    "stop" : 1716844051033,
+    "duration" : 847
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f3e1721371e1e34c",
-  "name" : "leftMenuSuppliersTest",
+  "uid" : "9a3c5bac4fe1bf13",
+  "name" : "onSaleProductsButtonTest",
   "time" : {
-    "start" : 1715319801760,
-    "stop" : 1715319802690,
-    "duration" : 930
+    "start" : 1716844010489,
+    "stop" : 1716844011265,
+    "duration" : 776
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "66de80facd52c85e",
-  "name" : "filterByDimensionIsDisplayedTest",
+  "uid" : "7494bd7008aac6f4",
+  "name" : "filterByClearAllBtnTest",
   "time" : {
-    "start" : 1715319824281,
-    "stop" : 1715319824321,
-    "duration" : 40
+    "start" : 1716844026506,
+    "stop" : 1716844029592,
+    "duration" : 3086
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5098f46fd4d6ed76",
+  "uid" : "2518955ec3fd4c9a",
+  "name" : "sortByDropdownMenuNameAscTest",
+  "time" : {
+    "start" : 1716844061399,
+    "stop" : 1716844063243,
+    "duration" : 1844
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "420b9b7caced5d73",
+  "name" : "cardBlockIsDisplayedTest",
+  "time" : {
+    "start" : 1716844016948,
+    "stop" : 1716844017738,
+    "duration" : 790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "766fc31db8ffa26d",
+  "name" : "activePanelFilterByColorCheckboxTest",
+  "time" : {
+    "start" : 1716844011326,
+    "stop" : 1716844013292,
+    "duration" : 1966
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bd5a2cd2a44fca1",
+  "name" : "activePanelFilterByColorCheckboxTest",
+  "time" : {
+    "start" : 1716844007603,
+    "stop" : 1716844009475,
+    "duration" : 1872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c89b0cd0bb2c8f03",
+  "name" : "searchInputEmptyValueTest",
+  "time" : {
+    "start" : 1716844013623,
+    "stop" : 1716844014263,
+    "duration" : 640
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1dea19b4cde40fc",
+  "name" : "sortByDropdownMenuNameDescTest",
+  "time" : {
+    "start" : 1716844067158,
+    "stop" : 1716844069000,
+    "duration" : 1842
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a09f90c03b6cdef0",
+  "name" : "sortByDropdownMenuNameDescTest",
+  "time" : {
+    "start" : 1716844069002,
+    "stop" : 1716844071054,
+    "duration" : 2052
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd0da8cde754781a",
+  "name" : "filterBySizeCheckboxTest",
+  "time" : {
+    "start" : 1716844031079,
+    "stop" : 1716844032186,
+    "duration" : 1107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f46433cf76fcd14",
+  "name" : "searchInputIncorrectValueTest",
+  "time" : {
+    "start" : 1716844016173,
+    "stop" : 1716844016790,
+    "duration" : 617
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "718c0ab5673502c1",
+  "name" : "leftMenuSearchFiltersAreDisplayedTest",
+  "time" : {
+    "start" : 1716844057331,
+    "stop" : 1716844058201,
+    "duration" : 870
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec0208843a869df7",
+  "name" : "leftMenuBrandsTest",
+  "time" : {
+    "start" : 1716844051035,
+    "stop" : 1716844051810,
+    "duration" : 775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90fd2a39ac0bbfe3",
+  "name" : "filterBySelectionsIsDisplayedTest",
+  "time" : {
+    "start" : 1716844047727,
+    "stop" : 1716844048625,
+    "duration" : 898
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20e9a80c474a1dac",
+  "name" : "activePanelFilterByAvailabilityInStockTest",
+  "time" : {
+    "start" : 1716844001288,
+    "stop" : 1716844004501,
+    "duration" : 3213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51646d13eba27e31",
   "name" : "filterByAvailabilityIsDisplayedTest",
   "time" : {
-    "start" : 1715319768072,
-    "stop" : 1715319769411,
-    "duration" : 1339
+    "start" : 1716844019387,
+    "stop" : 1716844020222,
+    "duration" : 835
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e871e95f27cab1fc",
-  "name" : "onSaleProductsSectionIsDisplayedTest",
+  "uid" : "a58951f2638ad580",
+  "name" : "customTextSectionIsDisplayedTest",
   "time" : {
-    "start" : 1715319780309,
-    "stop" : 1715319780335,
+    "start" : 1716844005115,
+    "stop" : 1716844005145,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1ec0f48d625e72a",
+  "name" : "filterByAvailabilityIsDisplayedTest",
+  "time" : {
+    "start" : 1716844018500,
+    "stop" : 1716844019384,
+    "duration" : 884
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15b6aeb1101c341e",
+  "name" : "allProductsButtonTest",
+  "time" : {
+    "start" : 1716843999297,
+    "stop" : 1716844000398,
+    "duration" : 1101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c3de1856d476ed1",
+  "name" : "leftMenuCategoriesTest",
+  "time" : {
+    "start" : 1716844051813,
+    "stop" : 1716844052545,
+    "duration" : 732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b8fe2890e1ec4bf",
+  "name" : "filterBySizeIsDisplayedTest",
+  "time" : {
+    "start" : 1716844034735,
+    "stop" : 1716844034756,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71f6957d0b151f36",
+  "name" : "filterByPropertyIsDisplayedTest",
+  "time" : {
+    "start" : 1716844046085,
+    "stop" : 1716844046984,
+    "duration" : 899
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e413238b0bc2ae8d",
+  "name" : "leftMenuCategoriesTest",
+  "time" : {
+    "start" : 1716844052546,
+    "stop" : 1716844053398,
+    "duration" : 852
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdf7984991d22bef",
+  "name" : "sortByDropdownMenuPriceAscTest",
+  "time" : {
+    "start" : 1716844076938,
+    "stop" : 1716844078856,
+    "duration" : 1918
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b07314e0eb37a59",
+  "name" : "sortByDropdownMenuPriceDescTest",
+  "time" : {
+    "start" : 1716844080688,
+    "stop" : 1716844082713,
+    "duration" : 2025
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1096570ff9c6d3a",
+  "name" : "leftMenuSearchFiltersAreDisplayedTest",
+  "time" : {
+    "start" : 1716844056638,
+    "stop" : 1716844057328,
+    "duration" : 690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f169fbd30f70d63a",
+  "name" : "filterBySizeCheckboxTest",
+  "time" : {
+    "start" : 1716844029221,
+    "stop" : 1716844030339,
+    "duration" : 1118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c68502abf07435d1",
+  "name" : "leftMenuFilterByTest",
+  "time" : {
+    "start" : 1716844054924,
+    "stop" : 1716844055791,
+    "duration" : 867
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb3d362cb08ac6dd",
+  "name" : "activePanelFilterByColorCheckboxTest",
+  "time" : {
+    "start" : 1716844013293,
+    "stop" : 1716844015265,
+    "duration" : 1972
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8acf0f6f9f80905b",
+  "name" : "filterByCategoryCheckboxTest",
+  "time" : {
+    "start" : 1716844023733,
+    "stop" : 1716844024884,
+    "duration" : 1151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a8ad5417979ac48",
+  "name" : "headerClothesLinkTest",
+  "time" : {
+    "start" : 1716844009169,
+    "stop" : 1716844009895,
+    "duration" : 726
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d131cf5f14c31d",
+  "name" : "filterByPriceIsDisplayedTest",
+  "time" : {
+    "start" : 1716844036557,
+    "stop" : 1716844037431,
+    "duration" : 874
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae27fbd02d8c9bb6",
+  "name" : "leftMenuFilterByTest",
+  "time" : {
+    "start" : 1716844055793,
+    "stop" : 1716844056636,
+    "duration" : 843
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b92555079bdfbd",
+  "name" : "filterByAvailabilityIsDisplayedTest",
+  "time" : {
+    "start" : 1716844017741,
+    "stop" : 1716844018499,
+    "duration" : 758
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "190fcd88c8768c50",
+  "name" : "allNewProductsSectionIsDisplayedTest",
+  "time" : {
+    "start" : 1716843998657,
+    "stop" : 1716843998706,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6c3f36df59cb427",
+  "name" : "filterByPriceRangeTest",
+  "time" : {
+    "start" : 1716844043049,
+    "stop" : 1716844045301,
+    "duration" : 2252
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3434d8c218ddf327",
+  "name" : "sortByDropdownMenuPriceAscTest",
+  "time" : {
+    "start" : 1716844072934,
+    "stop" : 1716844074765,
+    "duration" : 1831
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3d0cb1561b094ea",
+  "name" : "leftMenuSuppliersTest",
+  "time" : {
+    "start" : 1716844058995,
+    "stop" : 1716844059720,
+    "duration" : 725
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e3c4a8779e930da",
+  "name" : "filterBySelectionsIsDisplayedTest",
+  "time" : {
+    "start" : 1716844048626,
+    "stop" : 1716844049431,
+    "duration" : 805
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "846a0e5316eda67c",
+  "name" : "filterByPaperTypeIsDisplayedTest",
+  "time" : {
+    "start" : 1716844044212,
+    "stop" : 1716844044238,
     "duration" : 26
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c21be2f9b39b5ce2",
+  "uid" : "fec6c38b81ca2a40",
+  "name" : "filterByDimensionIsDisplayedTest",
+  "time" : {
+    "start" : 1716844051804,
+    "stop" : 1716844051836,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d5c4254bb16ad6",
+  "name" : "bannersTest",
+  "time" : {
+    "start" : 1716844000989,
+    "stop" : 1716844003764,
+    "duration" : 2775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67b0c827acbcbd36",
   "name" : "Bug ID: 2. Should be fixed on FE side",
   "time" : {
-    "start" : 1715319755792,
-    "stop" : 1715319759941,
-    "duration" : 4149
+    "start" : 1716843994335,
+    "stop" : 1716843994335,
+    "duration" : 0
   },
   "status" : "unknown",
   "severity" : "normal"
 }, {
-  "uid" : "a9e4b08933c3b289",
-  "name" : "leftMenuSearchFiltersAreDisplayedTest",
+  "uid" : "4b24c5bc3b003190",
+  "name" : "carouselIsDisplayedTest",
   "time" : {
-    "start" : 1715319798511,
-    "stop" : 1715319799486,
-    "duration" : 975
+    "start" : 1716844004477,
+    "stop" : 1716844004506,
+    "duration" : 29
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "82f7b8a980d422ff",
-  "name" : "leftMenuFilterBySizeCheckboxTest",
-  "time" : {
-    "start" : 1715319808470,
-    "stop" : 1715319809582,
-    "duration" : 1112
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "82719fbfb3435fd4",
-  "name" : "filterByPriceIsDisplayedTest",
-  "time" : {
-    "start" : 1715319779837,
-    "stop" : 1715319780810,
-    "duration" : 973
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9f4a32173b9878c3",
-  "name" : "leftMenuFilterByTest",
-  "time" : {
-    "start" : 1715319795269,
-    "stop" : 1715319796182,
-    "duration" : 913
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dbfa9b212496f66a",
-  "name" : "sortByDropdownMenuPriceAscTest",
-  "time" : {
-    "start" : 1715319820945,
-    "stop" : 1715319823963,
-    "duration" : 3018
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eb437457c8155af",
-  "name" : "filterByBrandIsDisplayedTest",
-  "time" : {
-    "start" : 1715319770495,
-    "stop" : 1715319771792,
-    "duration" : 1297
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "299ac863733e98bf",
-  "name" : "leftMenuBrandsTest",
-  "time" : {
-    "start" : 1715319789670,
-    "stop" : 1715319790951,
-    "duration" : 1281
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "962de3003c32ae4",
-  "name" : "leftMenuFilterByCategoryCheckboxTest",
-  "time" : {
-    "start" : 1715319798208,
-    "stop" : 1715319799319,
-    "duration" : 1111
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b9fd7b33cb0d85c5",
-  "name" : "sortByDropdownMenuPriceAscTest",
-  "time" : {
-    "start" : 1715319823964,
-    "stop" : 1715319826160,
-    "duration" : 2196
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "67ea5b9da183764c",
-  "name" : "filterByPaperTypeIsDisplayedTest",
-  "time" : {
-    "start" : 1715319815369,
-    "stop" : 1715319815391,
-    "duration" : 22
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1935bc7ccfa8d477",
-  "name" : "leftMenuCategoriesTest",
-  "time" : {
-    "start" : 1715319792961,
-    "stop" : 1715319794225,
-    "duration" : 1264
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8714d18b05e55237",
-  "name" : "filterByColorIsDisplayedTest",
-  "time" : {
-    "start" : 1715319775134,
-    "stop" : 1715319776175,
-    "duration" : 1041
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f14568366f769612",
+  "uid" : "67d94a919d85a19c",
   "name" : "leftMenuStationeryCategoryLinkTest",
   "time" : {
-    "start" : 1715319818907,
-    "stop" : 1715319819804,
-    "duration" : 897
+    "start" : 1716844046917,
+    "stop" : 1716844047632,
+    "duration" : 715
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2bc75c503a6a5d42",
-  "name" : "headerAccessoriesLinkTest",
+  "uid" : "ba4cb26a57fc7db1",
+  "name" : "leftMenuSuppliersTest",
   "time" : {
-    "start" : 1715319773012,
-    "stop" : 1715319774344,
-    "duration" : 1332
+    "start" : 1716844060621,
+    "stop" : 1716844061396,
+    "duration" : 775
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c0b7a53f2eadd86",
+  "uid" : "cdabd708e2b69a6d",
+  "name" : "filterByColorIsDisplayedTest",
+  "time" : {
+    "start" : 1716844032562,
+    "stop" : 1716844033312,
+    "duration" : 750
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de5653733431df85",
+  "name" : "sortByDropdownMenuNameAscTest",
+  "time" : {
+    "start" : 1716844063245,
+    "stop" : 1716844065265,
+    "duration" : 2020
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f178029deac68d4b",
+  "name" : "leftMenuSearchFiltersAreDisplayedTest",
+  "time" : {
+    "start" : 1716844058203,
+    "stop" : 1716844058993,
+    "duration" : 790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37d96e58e76ee336",
+  "name" : "Bug ID: 1. Should be fixed on FE side",
+  "time" : {
+    "start" : 1716843989199,
+    "stop" : 1716843994225,
+    "duration" : 5026
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "a0c7cb97a20f080e",
+  "name" : "filterByCompositionIsDisplayedTest",
+  "time" : {
+    "start" : 1716844035075,
+    "stop" : 1716844035845,
+    "duration" : 770
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb8a544d1b7892d5",
+  "name" : "leftMenuHomeAccessoriesCategoryLinkTest",
+  "time" : {
+    "start" : 1716844045175,
+    "stop" : 1716844046028,
+    "duration" : 853
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e366bc25f6ce099",
+  "name" : "filterBySizeCheckboxTest",
+  "time" : {
+    "start" : 1716844027406,
+    "stop" : 1716844028512,
+    "duration" : 1106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7fcc8ca363871a8",
+  "name" : "activePanelFilterByAvailabilityInStockTest",
+  "time" : {
+    "start" : 1716844004504,
+    "stop" : 1716844007591,
+    "duration" : 3087
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a78c1a676edd6bd0",
+  "name" : "filterByPriceRangeTest",
+  "time" : {
+    "start" : 1716844038217,
+    "stop" : 1716844040459,
+    "duration" : 2242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13291e8e57cd9e92",
+  "name" : "filterByCompositionIsDisplayedTest",
+  "time" : {
+    "start" : 1716844034200,
+    "stop" : 1716844035073,
+    "duration" : 873
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b08c4b43b6dd856",
+  "name" : "filterByBrandIsDisplayedTest",
+  "time" : {
+    "start" : 1716844020225,
+    "stop" : 1716844021215,
+    "duration" : 990
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8660f2ce520abcbe",
+  "name" : "filterBySelectionsIsDisplayedTest",
+  "time" : {
+    "start" : 1716844046988,
+    "stop" : 1716844047724,
+    "duration" : 736
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c4b3f6b33024034",
+  "name" : "onSaleProductsSectionIsDisplayedTest",
+  "time" : {
+    "start" : 1716844011862,
+    "stop" : 1716844011886,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "344036dbc9f1af13",
+  "name" : "activePanelFilterByColorCheckboxTest",
+  "time" : {
+    "start" : 1716844009478,
+    "stop" : 1716844011324,
+    "duration" : 1846
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9f1f723656808fe",
+  "name" : "filterByClearAllBtnTest",
+  "time" : {
+    "start" : 1716844029594,
+    "stop" : 1716844032560,
+    "duration" : 2966
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7caa4e80b2ad255",
   "name" : "sortByDropdownMenuPriceDescTest",
   "time" : {
-    "start" : 1715319826163,
-    "stop" : 1715319828203,
-    "duration" : 2040
+    "start" : 1716844082715,
+    "stop" : 1716844084652,
+    "duration" : 1937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66ccdac9bb7a41ca",
+  "name" : "sortByDropdownMenuPriceDescTest",
+  "time" : {
+    "start" : 1716844078859,
+    "stop" : 1716844080685,
+    "duration" : 1826
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7ff951e56498dab",
+  "name" : "leftMenuCategoriesTest",
+  "time" : {
+    "start" : 1716844053400,
+    "stop" : 1716844054184,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ddb835120f4916c6",
+  "name" : "leftMenuCategoryLinkTest",
+  "time" : {
+    "start" : 1716844035485,
+    "stop" : 1716844036184,
+    "duration" : 699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a60469925d63d32e",
+  "name" : "leftMenuFilterByTest",
+  "time" : {
+    "start" : 1716844054186,
+    "stop" : 1716844054921,
+    "duration" : 735
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4863b97177e06c65",
+  "name" : "filterByCategoryCheckboxTest",
+  "time" : {
+    "start" : 1716844025601,
+    "stop" : 1716844026706,
+    "duration" : 1105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68b47e932df9c148",
+  "name" : "headerAccessoriesLinkTest",
+  "time" : {
+    "start" : 1716844006389,
+    "stop" : 1716844007257,
+    "duration" : 868
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c4cedf567fcf80",
+  "name" : "activePanelFilterByAvailabilityInStockTest",
+  "time" : {
+    "start" : 1716843998080,
+    "stop" : 1716844001282,
+    "duration" : 3202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dded82bc4fc22fd7",
+  "name" : "filterByCategoriesIsDisplayedTest",
+  "time" : {
+    "start" : 1716844022718,
+    "stop" : 1716844023574,
+    "duration" : 856
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac38950f9106a92a",
+  "name" : "popularProductsSectionIsDisplayedTest",
+  "time" : {
+    "start" : 1716844012471,
+    "stop" : 1716844012494,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2928445f0ce992a3",
+  "name" : "leftMenuCategoryLinkTest",
+  "time" : {
+    "start" : 1716844036884,
+    "stop" : 1716844037580,
+    "duration" : 696
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ddfcb14a192ee8b",
+  "name" : "storeLogoLinkTest",
+  "time" : {
+    "start" : 1716844017355,
+    "stop" : 1716844018772,
+    "duration" : 1417
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a230704349b78ae1",
+  "name" : "leftMenuBrandsTest",
+  "time" : {
+    "start" : 1716844049435,
+    "stop" : 1716844050184,
+    "duration" : 749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78f8b61a25ba430b",
+  "name" : "footerIsDisplayedTest",
+  "time" : {
+    "start" : 1716844005775,
+    "stop" : 1716844005798,
+    "duration" : 23
   },
   "status" : "passed",
   "severity" : "normal"
