@@ -20,6 +20,10 @@ public class BasePageTest extends Hooks {
     protected String artPageUrl = reader.getArtPageUrl();
     protected String pricesDropPageUrl = reader.getPricesDropPageUrl();
     protected String newProductsPageUrl = reader.getNewProductsPageUrl();
+    protected String userEmail = reader.getUserEmail();
+    protected String userPassword = reader.getUserPassword();
+    protected String loginPageUrl = reader.getLoginPageUrl();
+    protected String registrationPageUrl = reader.getRegistrationPageUrl();
 
     protected void waitUntilUrlContains(String url) {
         WebDriverWait wait = new WebDriverWait(WebDriverInstance.getDriverInstance(), Duration.ofSeconds(5));

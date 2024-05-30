@@ -17,6 +17,7 @@ public class MainPage extends BasePage {
     By artMenuLink = By.linkText("ART");
     By storeLogoLink = By.cssSelector(".logo");
     By searchInput = By.cssSelector(".ui-autocomplete-input");
+    By singInBtn = By.xpath("//span[contains(text(), 'Sign in')]");
     By pageNotFoundSection = By.cssSelector(".page-not-found");
     By carouselSection = By.cssSelector(".carousel");
     By activeBanner = By.cssSelector(".carousel-item.active");
@@ -55,6 +56,10 @@ public class MainPage extends BasePage {
 
     public void clickStoreLogoLink() {
         driver.findElement(storeLogoLink).click();
+    }
+
+    public void clickSignInBtn() {
+        driver.findElement(singInBtn).click();
     }
 
     public boolean pageNotFoundSectionIsDisplayed() {

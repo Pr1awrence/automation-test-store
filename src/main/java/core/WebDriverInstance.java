@@ -47,6 +47,8 @@ public final class WebDriverInstance {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
+        // Remove it manually for jenkins -> C:\Windows\System32\config\systemprofile\.cache\selenium
+        // https://github.com/bonigarcia/webdrivermanager/issues/1128
         WebDriverManager.chromedriver().clearDriverCache().setup();
 
         return driver;

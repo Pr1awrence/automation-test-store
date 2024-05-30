@@ -5,6 +5,8 @@
             <class
                     name="tests.pages.main.MainPageTest" />
             <class
+                    name="tests.pages.authentication.LoginPageTest" />
+            <class
                     name="tests.pages.product.ProductListPageTest" />
             <class
                     name="tests.pages.product.ClothesPageTest" />

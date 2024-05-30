@@ -64,4 +64,20 @@ public class ConfigReader {
     public String getNewProductsPageUrl() {
         return prop.getProperty("new.products.page.url");
     }
+
+    public String getUserEmail() {
+        return prop.getProperty("user.email");
+    }
+
+    public String getUserPassword() {
+        return prop.getProperty("user.password");
+    }
+
+    public String getLoginPageUrl() {
+        return prop.getProperty("login.page.url");
+    }
+
+    public String getRegistrationPageUrl() {
+        return prop.getProperty("registration.page.url");
+    }
 }
