@@ -2,21 +2,41 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
+      "children" : [ {
+        "name" : "registrationPageSetup",
+        "uid" : "f8e8ae8b682a3a51",
+        "parentUid" : "965c523ff6ff1519be4dcb2e2a8d396e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718236016646,
+          "stop" : 1718236016739,
+          "duration" : 93
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "965c523ff6ff1519be4dcb2e2a8d396e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
     "name" : "Product defects",
     "children" : [ {
       "name" : "expected [$15.00 - $28.00] but found [$15.00 - $29.00]",
       "children" : [ {
         "name" : "filterByPriceRangeTest",
-        "uid" : "5f583d69c354edc1",
+        "uid" : "55828e3be2f25ae5",
         "parentUid" : "03e7bbedbf021ad941e05401a25c78ef",
         "status" : "failed",
         "time" : {
-          "start" : 1718235703118,
-          "stop" : 1718235705803,
-          "duration" : 2685
+          "start" : 1718236073134,
+          "stop" : 1718236075921,
+          "duration" : 2787
         },
         "flaky" : false,
-        "parameters" : [ "pages.product.ArtPage@4c5eea09", "$15.00 - $28.00" ]
+        "parameters" : [ "pages.product.ArtPage@9178e63", "$15.00 - $28.00" ]
       } ],
       "uid" : "03e7bbedbf021ad941e05401a25c78ef"
     } ],

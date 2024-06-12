@@ -1,5 +1,5 @@
 {
-  "eccda5860fbc3f55e8f6b1582e72b11e" : {
+  "33b63325272c953fdc28fc2cbc32dda2" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,12 +9,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3c35bb930c763dc0",
+      "uid" : "94f21341679e8d0b",
       "status" : "passed",
       "time" : {
-        "start" : 1718235717806,
-        "stop" : 1718235718757,
-        "duration" : 951
+        "start" : 1718236112753,
+        "stop" : 1718236114792,
+        "duration" : 2039
+      }
+    } ]
+  },
+  "2018647c35e999762a37c75c9d378a5e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77c924e60b96e197",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236020835,
+        "stop" : 1718236024991,
+        "duration" : 4156
       }
     } ]
   },
@@ -28,12 +47,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5312e12942f97d10",
+      "uid" : "dbdd1de8c38c960c",
       "status" : "passed",
       "time" : {
-        "start" : 1718235642820,
-        "stop" : 1718235643661,
-        "duration" : 841
+        "start" : 1718235998051,
+        "stop" : 1718235999013,
+        "duration" : 962
+      }
+    } ]
+  },
+  "961bc28b83b9168c8e52ed38eaf823d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "821c3bd9e0af70a4",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
+      "time" : {
+        "start" : 1718236016808,
+        "stop" : 1718236016808,
+        "duration" : 0
       }
     } ]
   },
@@ -47,16 +86,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1391f8e9eac4e225",
+      "uid" : "e7bc71d76811b60a",
       "status" : "passed",
       "time" : {
-        "start" : 1718235681613,
-        "stop" : 1718235682726,
-        "duration" : 1113
+        "start" : 1718236037781,
+        "stop" : 1718236038907,
+        "duration" : 1126
       }
     } ]
   },
-  "88a43ef7a8eb36285ecc4643d4de1ad7" : {
+  "25b48cc36b377797025f5166ef9c2eb4" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -66,16 +105,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dd0b60271ea0bf54",
+      "uid" : "ff4289d239e6f57d",
       "status" : "passed",
       "time" : {
-        "start" : 1718235742560,
-        "stop" : 1718235744655,
-        "duration" : 2095
+        "start" : 1718236065470,
+        "stop" : 1718236066760,
+        "duration" : 1290
       }
     } ]
   },
-  "3c654be7e395484d4ab5e4c2adc0ed81" : {
+  "72378ee8436c5246a2e35f5aab2bc7cd" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -85,12 +124,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "58464f053e5511f2",
+      "uid" : "13263d3c1d539874",
       "status" : "passed",
       "time" : {
-        "start" : 1718235675316,
-        "stop" : 1718235676328,
-        "duration" : 1012
+        "start" : 1718236103261,
+        "stop" : 1718236105489,
+        "duration" : 2228
       }
     } ]
   },
@@ -104,50 +143,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2e7da47f88f3f4b5",
+      "uid" : "76979b9438dd76ce",
       "status" : "passed",
       "time" : {
-        "start" : 1718235671683,
-        "stop" : 1718235672791,
-        "duration" : 1108
-      }
-    } ]
-  },
-  "b6725acfc6ebc0281611c4c646b171fb" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c050ef9c08f1627d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235721241,
-        "stop" : 1718235722267,
-        "duration" : 1026
-      }
-    } ]
-  },
-  "9acbc2166ea0317f17af2c41a598f797" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8ac0d0f340866298",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235720086,
-        "stop" : 1718235721238,
-        "duration" : 1152
+        "start" : 1718236027468,
+        "stop" : 1718236028612,
+        "duration" : 1144
       }
     } ]
   },
@@ -161,16 +162,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d70684e9e5e74598",
+      "uid" : "784532f7a5e94e24",
       "status" : "passed",
       "time" : {
-        "start" : 1718235643532,
-        "stop" : 1718235645082,
-        "duration" : 1550
+        "start" : 1718235998415,
+        "stop" : 1718235999946,
+        "duration" : 1531
       }
     } ]
   },
-  "a9dabdc783f801c370b7073a8d976f22" : {
+  "a0e27f4c81ece46bce3440c0866f1402" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -180,16 +181,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4db2c7d3f43b82d",
+      "uid" : "9fa63f7d27459904",
       "status" : "passed",
       "time" : {
-        "start" : 1718235657869,
-        "stop" : 1718235661133,
-        "duration" : 3264
+        "start" : 1718236044381,
+        "stop" : 1718236045738,
+        "duration" : 1357
       }
     } ]
   },
-  "6f8c3899825a25b33746dbf0737d704f" : {
+  "c3c93da5bbf1c2b908185e1026f1d657" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -199,16 +200,56 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a6567c4f6251ff9a",
+      "uid" : "eb511bf981beb1c4",
       "status" : "passed",
       "time" : {
-        "start" : 1718235674062,
-        "stop" : 1718235675313,
-        "duration" : 1251
+        "start" : 1718236040880,
+        "stop" : 1718236041913,
+        "duration" : 1033
       }
     } ]
   },
-  "89dd4f495f92b0f599d75e991ec344b7" : {
+  "bafeb0983769f8b60aa478370114b05" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b93924ee44fbfd0d",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
+      "time" : {
+        "start" : 1718236016759,
+        "stop" : 1718236016760,
+        "duration" : 1
+      }
+    } ]
+  },
+  "999c375fd05bb3c9ae027b55f3f2d76" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "698c80621224220a",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
+      "time" : {
+        "start" : 1718236016784,
+        "stop" : 1718236016785,
+        "duration" : 1
+      }
+    } ]
+  },
+  "6dfd46d474d8a7f4d7d23548b2d957db" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -218,126 +259,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "42a105164854f3e1",
+      "uid" : "1b62fb70d5ea32fc",
       "status" : "passed",
       "time" : {
-        "start" : 1718235667682,
-        "stop" : 1718235670059,
-        "duration" : 2377
-      }
-    } ]
-  },
-  "41978e841dfbf7553712eea4af44fb41" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c8c110f174775630",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235678654,
-        "stop" : 1718235679543,
-        "duration" : 889
-      }
-    } ]
-  },
-  "f42d6947a57f38c4f3e0ad852097f045" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "4b17b129b6c517c7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235744657,
-        "stop" : 1718235747595,
-        "duration" : 2938
-      }
-    } ]
-  },
-  "30dbae6bbc300d39c7eb2d84bf4383e5" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d0fe416d108bb855",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235747597,
-        "stop" : 1718235749786,
-        "duration" : 2189
-      }
-    } ]
-  },
-  "1ac80f0cdb876e69cc2b3052b41e5a57" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "761e36d18b8775b7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235707891,
-        "stop" : 1718235708765,
-        "duration" : 874
-      }
-    } ]
-  },
-  "547f1b8dd9fab68101cedf337dd541a4" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8b8c4fac93d9976e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235723563,
-        "stop" : 1718235724686,
-        "duration" : 1123
-      }
-    } ]
-  },
-  "a84de3810754918d6c3aaf94fce4a6ae" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "be2bee460dd72e14",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235692542,
-        "stop" : 1718235693762,
-        "duration" : 1220
+        "start" : 1718236083743,
+        "stop" : 1718236084898,
+        "duration" : 1155
       }
     } ]
   },
@@ -351,36 +278,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7b1e1c4d5abcaa6c",
+      "uid" : "b9f838076899a67a",
       "status" : "passed",
       "time" : {
-        "start" : 1718235692279,
-        "stop" : 1718235692303,
-        "duration" : 24
+        "start" : 1718236050111,
+        "stop" : 1718236050137,
+        "duration" : 26
       }
     } ]
   },
-  "9eab476531aef2f95d77b5ba9e88f3cd" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "5f583d69c354edc1",
-      "status" : "failed",
-      "statusDetails" : "expected [$15.00 - $28.00] but found [$15.00 - $29.00]",
-      "time" : {
-        "start" : 1718235703118,
-        "stop" : 1718235705803,
-        "duration" : 2685
-      }
-    } ]
-  },
-  "96b1c751fa2e8d6546ad9912ff4519ec" : {
+  "caae6838ec95f7887333fbdce3fba60e" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -390,12 +297,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7416928cb39718e7",
+      "uid" : "6c6f4a024dd07f79",
       "status" : "passed",
       "time" : {
-        "start" : 1718235709989,
-        "stop" : 1718235711059,
-        "duration" : 1070
+        "start" : 1718236067806,
+        "stop" : 1718236070281,
+        "duration" : 2475
+      }
+    } ]
+  },
+  "6db17adf0172582861b51e52f1914d75" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bbbc843b8fc12a8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236024993,
+        "stop" : 1718236028333,
+        "duration" : 3340
+      }
+    } ]
+  },
+  "bd19cce19ae980b64295c14517321a65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36500a884df2389c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236117721,
+        "stop" : 1718236119919,
+        "duration" : 2198
       }
     } ]
   },
@@ -409,12 +354,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "15167df1c90ec154",
+      "uid" : "fb5c43a3fa939139",
       "status" : "passed",
       "time" : {
-        "start" : 1718235649880,
-        "stop" : 1718235649903,
-        "duration" : 23
+        "start" : 1718236004824,
+        "stop" : 1718236004851,
+        "duration" : 27
+      }
+    } ]
+  },
+  "50be08802154305b067f2d242d9c57c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4305e40d0178a7a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236041915,
+        "stop" : 1718236043225,
+        "duration" : 1310
       }
     } ]
   },
@@ -428,16 +392,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8597b87181c0865e",
+      "uid" : "c22b13da7dee25b6",
       "status" : "unknown",
       "time" : {
-        "start" : 1718235638696,
-        "stop" : 1718235638697,
-        "duration" : 1
+        "start" : 1718235993430,
+        "stop" : 1718235993430,
+        "duration" : 0
       }
     } ]
   },
-  "2de92fd2d058c536d191c2f458ac02e9" : {
+  "411fc80e7cf9ee0856d466a56e5ab11d" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -447,50 +411,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "87dd1c519780dde8",
+      "uid" : "ec085a9c1665b3ee",
       "status" : "passed",
       "time" : {
-        "start" : 1718235705807,
-        "stop" : 1718235706716,
-        "duration" : 909
-      }
-    } ]
-  },
-  "8c72b6bd245df15039142c1b67f05f3e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1f0a778f5383e1b2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235711062,
-        "stop" : 1718235711999,
-        "duration" : 937
-      }
-    } ]
-  },
-  "c207f40dadcd399aa4e554dbcec3186f" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7e414dda82bec932",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235670932,
-        "stop" : 1718235672091,
-        "duration" : 1159
+        "start" : 1718236056696,
+        "stop" : 1718236059962,
+        "duration" : 3266
       }
     } ]
   },
@@ -504,16 +430,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6c9fff65f6fab2d1",
+      "uid" : "8f84d84c7b203f9",
       "status" : "passed",
       "time" : {
-        "start" : 1718235661709,
-        "stop" : 1718235662767,
-        "duration" : 1058
+        "start" : 1718236016888,
+        "stop" : 1718236017734,
+        "duration" : 846
       }
     } ]
   },
-  "455e9a521160c1cfad151481f0f885d9" : {
+  "80b7b2803b891ca2f3599d01b4b9b0e5" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -523,16 +449,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "585854e1b4355129",
+      "uid" : "8bf203d2b6c7042c",
       "status" : "passed",
       "time" : {
-        "start" : 1718235722269,
-        "stop" : 1718235723561,
-        "duration" : 1292
+        "start" : 1718236066761,
+        "stop" : 1718236067803,
+        "duration" : 1042
       }
     } ]
   },
-  "24eda0da0135b16703da19f6c3ca52a1" : {
+  "c1a501ed08e2e5cb98f81ef8ea2f7ce6" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -542,16 +468,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "41ad07b54fd39783",
+      "uid" : "70894ddb47bf0e72",
       "status" : "passed",
       "time" : {
-        "start" : 1718235691354,
-        "stop" : 1718235692540,
-        "duration" : 1186
+        "start" : 1718236062198,
+        "stop" : 1718236063376,
+        "duration" : 1178
       }
     } ]
   },
-  "a136e4c1d013618eb11198f3bd83253" : {
+  "a72b0ac51dcb2881c542823848271147" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -561,12 +487,145 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c7adb36722d09be4",
+      "uid" : "8387a5c7ce9b5b0c",
       "status" : "passed",
       "time" : {
-        "start" : 1718235694755,
-        "stop" : 1718235695638,
-        "duration" : 883
+        "start" : 1718236097114,
+        "stop" : 1718236098198,
+        "duration" : 1084
+      }
+    } ]
+  },
+  "a3a73aeca585e6d85d2bf352c376214a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "420f439fe297fc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236070282,
+        "stop" : 1718236073132,
+        "duration" : 2850
+      }
+    } ]
+  },
+  "69d19a81e41e8426c20ed9acca5f50a3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e0e0b26bef7f3e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236037397,
+        "stop" : 1718236038475,
+        "duration" : 1078
+      }
+    } ]
+  },
+  "a6948f6046db1f15082db16574571b6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39948b3a4ad9b9fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236079033,
+        "stop" : 1718236080393,
+        "duration" : 1360
+      }
+    } ]
+  },
+  "b295dea98818b2800a3dfcf42b89965f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c63e10347b5be6ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236088154,
+        "stop" : 1718236089129,
+        "duration" : 975
+      }
+    } ]
+  },
+  "1967a8dddc0e90ca776d3f090e653e6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3903094df4649896",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236114794,
+        "stop" : 1718236117719,
+        "duration" : 2925
+      }
+    } ]
+  },
+  "29ff431cb83a04af3d0e786baf90fb3f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57c21faf7e70d07a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236076841,
+        "stop" : 1718236078093,
+        "duration" : 1252
+      }
+    } ]
+  },
+  "c64fec695fa4626da23c582dc8c34191" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9620f1bbd0c323a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236124972,
+        "stop" : 1718236127135,
+        "duration" : 2163
       }
     } ]
   },
@@ -580,16 +639,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c668ce2e6054598c",
+      "uid" : "8e7d8d18a22b5dc4",
       "status" : "passed",
       "time" : {
-        "start" : 1718235645679,
-        "stop" : 1718235647563,
-        "duration" : 1884
+        "start" : 1718236001159,
+        "stop" : 1718236003051,
+        "duration" : 1892
       }
     } ]
   },
-  "c4a9a0066c19914fe1ede0cb2d2bb659" : {
+  "5ccc277edd6afc5642d4d3347d04d426" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -599,50 +658,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d4e75f7098e92bf",
+      "uid" : "147ee36dcd445e77",
       "status" : "passed",
       "time" : {
-        "start" : 1718235695639,
-        "stop" : 1718235696839,
-        "duration" : 1200
-      }
-    } ]
-  },
-  "377dfa0ed45c6c594e73b586926a5a30" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3b226c1749ff3d14",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235673119,
-        "stop" : 1718235674060,
-        "duration" : 941
-      }
-    } ]
-  },
-  "e10d1003cadcbf6de025887aba6d6126" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "755804af50e2f50d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235679544,
-        "stop" : 1718235680823,
-        "duration" : 1279
+        "start" : 1718236045741,
+        "stop" : 1718236046873,
+        "duration" : 1132
       }
     } ]
   },
@@ -656,16 +677,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ee6dbca557316816",
+      "uid" : "7287652202e8fdd5",
       "status" : "passed",
       "time" : {
-        "start" : 1718235642840,
-        "stop" : 1718235642876,
-        "duration" : 36
+        "start" : 1718235997609,
+        "stop" : 1718235997677,
+        "duration" : 68
       }
     } ]
   },
-  "7270dd791a06f042e2dc84754fbf1026" : {
+  "7c37f587b2387b633b980f3963c7ce30" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -675,16 +696,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2dbd867fa15239eb",
+      "uid" : "5069226a7017942c",
       "status" : "passed",
       "time" : {
-        "start" : 1718235737340,
-        "stop" : 1718235740296,
-        "duration" : 2956
+        "start" : 1718236080395,
+        "stop" : 1718236081477,
+        "duration" : 1082
       }
     } ]
   },
-  "76bab53f99404654bde29cd3de456a77" : {
+  "69626c9be5c7244ff1507484f5271dd0" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -694,12 +715,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "25576748c32a46cf",
+      "uid" : "5a9d314b67d1ad0d",
       "status" : "passed",
       "time" : {
-        "start" : 1718235687289,
-        "stop" : 1718235690489,
-        "duration" : 3200
+        "start" : 1718236105490,
+        "stop" : 1718236107491,
+        "duration" : 2001
+      }
+    } ]
+  },
+  "3a8bb04ffb1fe8e0b6e9ab807f13e72d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "72d72043f9ec3e55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236091538,
+        "stop" : 1718236092461,
+        "duration" : 923
+      }
+    } ]
+  },
+  "f9f9adae281da67579edb3564bb70ad8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55828e3be2f25ae5",
+      "status" : "failed",
+      "statusDetails" : "expected [$15.00 - $28.00] but found [$15.00 - $29.00]",
+      "time" : {
+        "start" : 1718236073134,
+        "stop" : 1718236075921,
+        "duration" : 2787
       }
     } ]
   },
@@ -713,12 +773,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9d941f7daf0c33a6",
+      "uid" : "44e6938e0b0b34ad",
       "status" : "passed",
       "time" : {
-        "start" : 1718235658852,
-        "stop" : 1718235658876,
-        "duration" : 24
+        "start" : 1718236013928,
+        "stop" : 1718236013953,
+        "duration" : 25
+      }
+    } ]
+  },
+  "5fe5290fbe42c66029112967494ae5ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "18ed7e8bb9724784",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236093851,
+        "stop" : 1718236094915,
+        "duration" : 1064
       }
     } ]
   },
@@ -732,12 +811,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d6572d1e953df74e",
+      "uid" : "ead3bb6c708c38be",
       "status" : "passed",
       "time" : {
-        "start" : 1718235693523,
-        "stop" : 1718235694531,
-        "duration" : 1008
+        "start" : 1718236051361,
+        "stop" : 1718236052484,
+        "duration" : 1123
       }
     } ]
   },
@@ -751,12 +830,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d0b8d0d4d0014a0d",
+      "uid" : "73be98be38baf70d",
       "status" : "passed",
       "time" : {
-        "start" : 1718235684520,
-        "stop" : 1718235685332,
-        "duration" : 812
+        "start" : 1718236040782,
+        "stop" : 1718236041708,
+        "duration" : 926
+      }
+    } ]
+  },
+  "d8523629aacb519126448aef5e4e9b8c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1dc355355e4f5114",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236039769,
+        "stop" : 1718236040876,
+        "duration" : 1107
       }
     } ]
   },
@@ -770,31 +868,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "171ea2a93e6076ea",
+      "uid" : "f80cd117fd77ae6e",
       "status" : "passed",
       "time" : {
-        "start" : 1718235686177,
-        "stop" : 1718235686996,
-        "duration" : 819
-      }
-    } ]
-  },
-  "27f04d160d7437fecc57b0531efe123" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2843b438bf04d002",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235672094,
-        "stop" : 1718235673115,
-        "duration" : 1021
+        "start" : 1718236042642,
+        "stop" : 1718236043639,
+        "duration" : 997
       }
     } ]
   },
@@ -808,31 +887,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4e935f653976a567",
+      "uid" : "1da829cad2382329",
       "status" : "passed",
       "time" : {
-        "start" : 1718235664859,
-        "stop" : 1718235666634,
-        "duration" : 1775
-      }
-    } ]
-  },
-  "dc8b8003183f74483a173b31caeb3287" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "5bbb2745d048b192",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235740298,
-        "stop" : 1718235742553,
-        "duration" : 2255
+        "start" : 1718236019772,
+        "stop" : 1718236021546,
+        "duration" : 1774
       }
     } ]
   },
@@ -846,31 +906,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4a4153e010935e1b",
+      "uid" : "d58872a38a6dea40",
       "status" : "passed",
       "time" : {
-        "start" : 1718235654916,
-        "stop" : 1718235655846,
-        "duration" : 930
+        "start" : 1718236009966,
+        "stop" : 1718236010862,
+        "duration" : 896
       }
     } ]
   },
-  "edb8f6af443347773c19aa8313ad40f" : {
+  "f90d1572583aad2d298fdabe98b24bf0" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "95b8cf488f5f0a56",
-      "status" : "passed",
+      "uid" : "dc37fe703f7e0d7f",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
       "time" : {
-        "start" : 1718235697859,
-        "stop" : 1718235700282,
-        "duration" : 2423
+        "start" : 1718236016812,
+        "stop" : 1718236016813,
+        "duration" : 1
       }
     } ]
   },
@@ -884,31 +945,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f42e3355ae7e233c",
+      "uid" : "50b96c66be09a7dc",
       "status" : "passed",
       "time" : {
-        "start" : 1718235660199,
-        "stop" : 1718235661064,
-        "duration" : 865
-      }
-    } ]
-  },
-  "3d8d168cc54c67330a6007ea3bd0f616" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6ede2a7c5199b03c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235665277,
-        "stop" : 1718235667680,
-        "duration" : 2403
+        "start" : 1718236015405,
+        "stop" : 1718236016177,
+        "duration" : 772
       }
     } ]
   },
@@ -922,50 +964,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "afb56b3c1f58f6ba",
+      "uid" : "30206b1e88e4f6ae",
       "status" : "passed",
       "time" : {
-        "start" : 1718235679644,
-        "stop" : 1718235680747,
-        "duration" : 1103
+        "start" : 1718236035720,
+        "stop" : 1718236036836,
+        "duration" : 1116
       }
     } ]
   },
-  "7333881ef2efe1decf820d09c4af67b1" : {
+  "4ff6c457db9e867a073b797251f1cd8b" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f644baff0c7eeed7",
-      "status" : "passed",
+      "uid" : "90ffc5918a79f97b",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
       "time" : {
-        "start" : 1718235708766,
-        "stop" : 1718235709988,
-        "duration" : 1222
-      }
-    } ]
-  },
-  "c40f7e72240d16bdaeea60af30f1ba8a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ead4ba6c376e59ad",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235735287,
-        "stop" : 1718235737339,
-        "duration" : 2052
+        "start" : 1718236016833,
+        "stop" : 1718236016833,
+        "duration" : 0
       }
     } ]
   },
@@ -979,12 +1003,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cc5368494986e509",
+      "uid" : "1c9ce043255de997",
       "status" : "passed",
       "time" : {
-        "start" : 1718235663436,
-        "stop" : 1718235664186,
-        "duration" : 750
+        "start" : 1718236018379,
+        "stop" : 1718236019107,
+        "duration" : 728
+      }
+    } ]
+  },
+  "9cd73adc28233748ecef66136de1f247" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29735e2e97ee3b7f",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
+      "time" : {
+        "start" : 1718236016803,
+        "stop" : 1718236016804,
+        "duration" : 1
       }
     } ]
   },
@@ -998,16 +1042,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "14edb3454a9d31db",
+      "uid" : "dabb8a488bbbb31a",
       "status" : "passed",
       "time" : {
-        "start" : 1718235658154,
-        "stop" : 1718235658177,
-        "duration" : 23
+        "start" : 1718236013209,
+        "stop" : 1718236013235,
+        "duration" : 26
       }
     } ]
   },
-  "2b6dfcabfe1e3ee8da679c6579befb07" : {
+  "f126079994c8718bbaa09310a9d1b940" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1017,16 +1061,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d7a101bc816ecf03",
+      "uid" : "6630a04e0780fedd",
       "status" : "passed",
       "time" : {
-        "start" : 1718235670062,
-        "stop" : 1718235670929,
-        "duration" : 867
+        "start" : 1718236043227,
+        "stop" : 1718236044378,
+        "duration" : 1151
       }
     } ]
   },
-  "a82c701bb39250a3cab1f98318557a44" : {
+  "b8df7850353eea0fbf11837619811477" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1036,16 +1080,74 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "82764e9f9146745f",
+      "uid" : "68dad08782defe24",
       "status" : "passed",
       "time" : {
-        "start" : 1718235716732,
-        "stop" : 1718235717805,
-        "duration" : 1073
+        "start" : 1718236075924,
+        "stop" : 1718236076840,
+        "duration" : 916
       }
     } ]
   },
-  "3305560eb79bc8cba8379c165568f752" : {
+  "ae9f53ca3258fd4ee684cb285439c112" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8e8ae8b682a3a51",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
+      "time" : {
+        "start" : 1718236016646,
+        "stop" : 1718236016739,
+        "duration" : 93
+      }
+    } ]
+  },
+  "e420425a58e5275e82b340c9b18e1045" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ae5f57032b0e780",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1718235993310,
+        "stop" : 1718235993312,
+        "duration" : 2
+      }
+    } ]
+  },
+  "b9e7edc96bf68d35ac17c831e9a1ba35" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b41d644dc6c8930f",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1718235993422,
+        "stop" : 1718235993422,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4f2e12a1e775ed70c50092078e039149" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1055,16 +1157,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "97c254e47ae2bcbc",
+      "uid" : "a95114023894e881",
       "status" : "passed",
       "time" : {
-        "start" : 1718235714398,
-        "stop" : 1718235715352,
-        "duration" : 954
+        "start" : 1718236087104,
+        "stop" : 1718236088152,
+        "duration" : 1048
       }
     } ]
   },
-  "f1258479a24f386c0d91ca8996d5be42" : {
+  "70ad30739519b13b49c1ab6745b5ad12" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1074,16 +1176,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "979d7ed2c66440ca",
+      "uid" : "d0264871f7137242",
       "status" : "passed",
       "time" : {
-        "start" : 1718235726923,
-        "stop" : 1718235728000,
-        "duration" : 1077
+        "start" : 1718236052226,
+        "stop" : 1718236056692,
+        "duration" : 4466
       }
     } ]
   },
-  "8549c16cd92da6585308124006afc882" : {
+  "2de43af609a3bae80655751a64ec5ebf" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1093,12 +1195,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "629930a2f6eced95",
+      "uid" : "e7ed987147f585e2",
       "status" : "passed",
       "time" : {
-        "start" : 1718235728005,
-        "stop" : 1718235730055,
-        "duration" : 2050
+        "start" : 1718236038477,
+        "stop" : 1718236039765,
+        "duration" : 1288
+      }
+    } ]
+  },
+  "e8e32702999a5a979dc3a0b29beb6612" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c4abd1533a587cc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236090455,
+        "stop" : 1718236091534,
+        "duration" : 1079
+      }
+    } ]
+  },
+  "3286123311ac343ed8e510f42dfdedc6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca449c9e9e7099f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236082454,
+        "stop" : 1718236083740,
+        "duration" : 1286
       }
     } ]
   },
@@ -1112,12 +1252,88 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c9aa23c8e904720e",
+      "uid" : "a3e281bc5ab8c83",
       "status" : "passed",
       "time" : {
-        "start" : 1718235695716,
-        "stop" : 1718235696584,
-        "duration" : 868
+        "start" : 1718236053703,
+        "stop" : 1718236054568,
+        "duration" : 865
+      }
+    } ]
+  },
+  "795ac4cf0e2b75d8176c46f98737e0a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30aa422cc2ed3d98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236094919,
+        "stop" : 1718236095863,
+        "duration" : 944
+      }
+    } ]
+  },
+  "5a00f23df205139c993e9085477c775c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2293a048143f4e71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236049109,
+        "stop" : 1718236052225,
+        "duration" : 3116
+      }
+    } ]
+  },
+  "d65c44448344bf91c6706fe6d98f9d43" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "928024e52d074772",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236095865,
+        "stop" : 1718236097113,
+        "duration" : 1248
+      }
+    } ]
+  },
+  "177e175f0a06aa37ae5f22c9d6b5db12" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb60598782cb2b52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236110490,
+        "stop" : 1718236112752,
+        "duration" : 2262
       }
     } ]
   },
@@ -1131,12 +1347,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "baecb2b19331d96a",
+      "uid" : "1d41c56f8ed21231",
       "status" : "passed",
       "time" : {
-        "start" : 1718235649176,
-        "stop" : 1718235649200,
-        "duration" : 24
+        "start" : 1718236004154,
+        "stop" : 1718236004185,
+        "duration" : 31
+      }
+    } ]
+  },
+  "93ac2949d9294809c229c0618707b85d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6343cb90c645b87",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
+      "time" : {
+        "start" : 1718236016827,
+        "stop" : 1718236016828,
+        "duration" : 1
+      }
+    } ]
+  },
+  "3f2e799bb1d218be083e2eb843048601" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d558e11bd8d7b39e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236078094,
+        "stop" : 1718236079031,
+        "duration" : 937
       }
     } ]
   },
@@ -1150,16 +1405,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d5b026e89de8beb8",
+      "uid" : "7b98ff4369698469",
       "status" : "passed",
       "time" : {
-        "start" : 1718235675655,
-        "stop" : 1718235676791,
-        "duration" : 1136
+        "start" : 1718236031544,
+        "stop" : 1718236032648,
+        "duration" : 1104
       }
     } ]
   },
-  "852a4b032f7afcab1a4800f23616353a" : {
+  "4c4be6c1572bd2cbe404dc7af2bae0e7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "80e147e600eb90d0",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
+      "time" : {
+        "start" : 1718236016777,
+        "stop" : 1718236016777,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c7098fe79debb30be5b882963d0ca16" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1169,16 +1444,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "52694ea17c21210e",
+      "uid" : "dd3bc51ba736c72d",
       "status" : "passed",
       "time" : {
-        "start" : 1718235677596,
-        "stop" : 1718235678650,
-        "duration" : 1054
+        "start" : 1718236028336,
+        "stop" : 1718236030385,
+        "duration" : 2049
       }
     } ]
   },
-  "efa03437b1747ef0ab7b9d9f6edc01a5" : {
+  "4b40665bf3f9a41b00ebfdb4efb6afd3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "492648ed8f89e3a5",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
+      "time" : {
+        "start" : 1718236016765,
+        "stop" : 1718236016765,
+        "duration" : 0
+      }
+    } ]
+  },
+  "39e7df6aec5eb09dae794320f4941532" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1188,31 +1483,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "64a07a94c90fb20",
+      "uid" : "781a1343fbaca6d5",
       "status" : "passed",
       "time" : {
-        "start" : 1718235700639,
-        "stop" : 1718235700662,
-        "duration" : 23
+        "start" : 1718236122034,
+        "stop" : 1718236124970,
+        "duration" : 2936
       }
     } ]
   },
-  "9cd4499bc4cb31b7c9430f6beaeec8f3" : {
+  "734a73dc5146cbbecb143201f97a6cb6" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b1d06848853fd7f0",
-      "status" : "passed",
+      "uid" : "32f66f1a6a3e715e",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
       "time" : {
-        "start" : 1718235706719,
-        "stop" : 1718235707889,
-        "duration" : 1170
+        "start" : 1718236016748,
+        "stop" : 1718236016748,
+        "duration" : 0
       }
     } ]
   },
@@ -1226,16 +1522,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6c62d4f768d2b5cd",
+      "uid" : "d5592520b445cf7b",
       "status" : "passed",
       "time" : {
-        "start" : 1718235653249,
-        "stop" : 1718235654309,
-        "duration" : 1060
+        "start" : 1718236008232,
+        "stop" : 1718236009296,
+        "duration" : 1064
       }
     } ]
   },
-  "53e3d14c1a5e6cdaa523eaf22282d961" : {
+  "68c773523fd27408f5485909ff5bab7a" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1245,12 +1541,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d0e3933a6284bcad",
+      "uid" : "53646f4a20f72383",
       "status" : "passed",
       "time" : {
-        "start" : 1718235650579,
-        "stop" : 1718235653876,
-        "duration" : 3297
+        "start" : 1718236063378,
+        "stop" : 1718236064406,
+        "duration" : 1028
+      }
+    } ]
+  },
+  "efa03437b1747ef0ab7b9d9f6edc01a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "edc7fc31a0a64a47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236059199,
+        "stop" : 1718236059221,
+        "duration" : 22
+      }
+    } ]
+  },
+  "8cb98a7c5bac85fa93cf5bcf5770db5f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8866a4685478a268",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236089130,
+        "stop" : 1718236090453,
+        "duration" : 1323
       }
     } ]
   },
@@ -1264,12 +1598,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "354ae09df5a3c5e0",
+      "uid" : "dbe5ea6717b6f326",
       "status" : "passed",
       "time" : {
-        "start" : 1718235644263,
-        "stop" : 1718235645057,
-        "duration" : 794
+        "start" : 1718235999684,
+        "stop" : 1718236000524,
+        "duration" : 840
       }
     } ]
   },
@@ -1283,16 +1617,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a7b3bb99d94d5b26",
+      "uid" : "2e5097fe3e87a1b4",
       "status" : "passed",
       "time" : {
-        "start" : 1718235659518,
-        "stop" : 1718235659538,
-        "duration" : 20
+        "start" : 1718236014664,
+        "stop" : 1718236014685,
+        "duration" : 21
       }
     } ]
   },
-  "b6f1232bf875dd28015aeee3ae352b86" : {
+  "af329072a9e11e106c06aa24973586c1" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1302,16 +1636,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c7c9d91ad489b4b0",
+      "uid" : "3665778b68f0c93",
       "status" : "passed",
       "time" : {
-        "start" : 1718235700284,
-        "stop" : 1718235703116,
-        "duration" : 2832
+        "start" : 1718236085850,
+        "stop" : 1718236087103,
+        "duration" : 1253
       }
     } ]
   },
-  "f2156850fd31d28aa14652e28aa17328" : {
+  "fddb26c300d4feb96c3b4bff8f8b9570" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1321,16 +1655,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f648766ca5b2f18",
+      "uid" : "ccb4e60f9372534b",
       "status" : "passed",
       "time" : {
-        "start" : 1718235730057,
-        "stop" : 1718235733076,
-        "duration" : 3019
+        "start" : 1718236119921,
+        "stop" : 1718236122032,
+        "duration" : 2111
       }
     } ]
   },
-  "70a3c5c5b83739d10f661db0084a6b01" : {
+  "59547c410dd8b61955604d8c37de5468" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a0cbdfc2c62bca20",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
+      "time" : {
+        "start" : 1718236016817,
+        "stop" : 1718236016817,
+        "duration" : 0
+      }
+    } ]
+  },
+  "2081393e6e8ca977a01664923f43d55d" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1340,12 +1694,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "86d784da2d369dcd",
+      "uid" : "67d4d31778e6a6b4",
       "status" : "passed",
       "time" : {
-        "start" : 1718235683952,
-        "stop" : 1718235687288,
-        "duration" : 3336
+        "start" : 1718236059964,
+        "stop" : 1718236060917,
+        "duration" : 953
       }
     } ]
   },
@@ -1359,31 +1713,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8f8d2bcd5b17b52",
+      "uid" : "fe0b27f02dd0f47d",
       "status" : "unknown",
       "time" : {
-        "start" : 1718235638699,
-        "stop" : 1718235638699,
+        "start" : 1718235993428,
+        "stop" : 1718235993428,
         "duration" : 0
-      }
-    } ]
-  },
-  "ccf8f5802471eb03852c17ead8602161" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "fb7c0af76c43cd5e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235718759,
-        "stop" : 1718235720082,
-        "duration" : 1323
       }
     } ]
   },
@@ -1397,16 +1732,35 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "94b013e34f8047bb",
+      "uid" : "886138756158508f",
       "status" : "unknown",
       "time" : {
-        "start" : 1718235633128,
-        "stop" : 1718235638611,
-        "duration" : 5483
+        "start" : 1718235993427,
+        "stop" : 1718235993427,
+        "duration" : 0
       }
     } ]
   },
-  "40d412724d39026f1be159dae91f1f43" : {
+  "10851b2365bc91e92875ce38d5e171d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "591ee53b0e9b05f9",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1718235993431,
+        "stop" : 1718235993432,
+        "duration" : 1
+      }
+    } ]
+  },
+  "21f081cda2f43bcb36ffb4adb67370da" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1416,16 +1770,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "de8154f6fe515b4f",
+      "uid" : "cfbb2cddd9a335c0",
       "status" : "passed",
       "time" : {
-        "start" : 1718235712000,
-        "stop" : 1718235713267,
-        "duration" : 1267
+        "start" : 1718236092465,
+        "stop" : 1718236093849,
+        "duration" : 1384
       }
     } ]
   },
-  "51013356046d361f20b9bac2b603afd3" : {
+  "731d4ff4d6d7a278559005747451b940" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1435,16 +1789,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6a41c61d436989c2",
+      "uid" : "779fbc7850961581",
       "status" : "passed",
       "time" : {
-        "start" : 1718235696840,
-        "stop" : 1718235697857,
-        "duration" : 1017
+        "start" : 1718236084900,
+        "stop" : 1718236085848,
+        "duration" : 948
       }
     } ]
   },
-  "c827683829929d70a0ade5290015fecd" : {
+  "ed245646be19ccf5029a8b24872aa1da" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1454,12 +1808,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "72dd7683cb800c21",
+      "uid" : "64f0019f50ba1c7c",
       "status" : "passed",
       "time" : {
-        "start" : 1718235653878,
-        "stop" : 1718235657867,
-        "duration" : 3989
+        "start" : 1718236047848,
+        "stop" : 1718236049107,
+        "duration" : 1259
+      }
+    } ]
+  },
+  "e07b84c055d4f424a46058c7e5b98f18" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "70f8341ad8ae91f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236081478,
+        "stop" : 1718236082451,
+        "duration" : 973
       }
     } ]
   },
@@ -1473,31 +1846,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "11b140fb96137e75",
+      "uid" : "1693a3da2dac3b33",
       "status" : "passed",
       "time" : {
-        "start" : 1718235650576,
-        "stop" : 1718235650596,
-        "duration" : 20
+        "start" : 1718236005586,
+        "stop" : 1718236005613,
+        "duration" : 27
       }
     } ]
   },
-  "7ac3f1fd86235490993ea1ef9c14cdc1" : {
+  "4e533b5c6f2aeaef3c41dc0aad6c0e5" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5970ab524851d760",
-      "status" : "passed",
+      "uid" : "18177343800f89ae",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
       "time" : {
-        "start" : 1718235724690,
-        "stop" : 1718235725674,
-        "duration" : 984
+        "start" : 1718236016791,
+        "stop" : 1718236016791,
+        "duration" : 0
       }
     } ]
   },
@@ -1511,16 +1885,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2c0a637ddcd2b511",
+      "uid" : "12eded71c69403eb",
       "status" : "passed",
       "time" : {
-        "start" : 1718235677691,
-        "stop" : 1718235678796,
-        "duration" : 1105
+        "start" : 1718236033727,
+        "stop" : 1718236034842,
+        "duration" : 1115
       }
     } ]
   },
-  "da22b0aed7e59c08798f38c0c64d046b" : {
+  "e0c207cc84c0644edf22503e08a025b9" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1530,12 +1904,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b2f2891ab70485fd",
+      "uid" : "8d70a734cf2cb45b",
       "status" : "passed",
       "time" : {
-        "start" : 1718235733080,
-        "stop" : 1718235735285,
-        "duration" : 2205
+        "start" : 1718236064408,
+        "stop" : 1718236065468,
+        "duration" : 1060
+      }
+    } ]
+  },
+  "dccdd7edc7db80727cf07cf26b460bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51c783396c1b8250",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718236032434,
+        "stop" : 1718236034926,
+        "duration" : 2492
       }
     } ]
   },
@@ -1549,50 +1942,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "79559cc101ed2bc5",
+      "uid" : "622ffd11b34ca365",
       "status" : "passed",
       "time" : {
-        "start" : 1718235645763,
-        "stop" : 1718235648393,
-        "duration" : 2630
+        "start" : 1718236000604,
+        "stop" : 1718236003350,
+        "duration" : 2746
       }
     } ]
   },
-  "c72c3d85b93c211097b7745165737d67" : {
+  "f27db5c160f85542a556988af2236a42" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "72e502522798128f",
-      "status" : "passed",
+      "uid" : "e2baf98de7dfaccf",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
       "time" : {
-        "start" : 1718235754821,
-        "stop" : 1718235757108,
-        "duration" : 2287
-      }
-    } ]
-  },
-  "ee75f0ef69235520643df3a7aad8e7db" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b7c79e851effabae",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235751821,
-        "stop" : 1718235754819,
-        "duration" : 2998
+        "start" : 1718236016797,
+        "stop" : 1718236016798,
+        "duration" : 1
       }
     } ]
   },
@@ -1606,12 +1981,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c5240a67b8512a87",
+      "uid" : "224e392461279eff",
       "status" : "passed",
       "time" : {
-        "start" : 1718235673638,
-        "stop" : 1718235674738,
-        "duration" : 1100
+        "start" : 1718236029502,
+        "stop" : 1718236030612,
+        "duration" : 1110
       }
     } ]
   },
@@ -1625,16 +2000,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "36e5069e5a2a98d0",
+      "uid" : "a94339b86fe3cd39",
       "status" : "passed",
       "time" : {
-        "start" : 1718235651247,
-        "stop" : 1718235652621,
-        "duration" : 1374
+        "start" : 1718236006254,
+        "stop" : 1718236007595,
+        "duration" : 1341
       }
     } ]
   },
-  "d6f2fff06c3e9b407400a9372d00aa42" : {
+  "d896665f218ceb12ed0a1ad3841d9fbb" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1644,16 +2019,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "15cfca1266b726f6",
+      "uid" : "acea18eb41808d81",
       "status" : "passed",
       "time" : {
-        "start" : 1718235661135,
-        "stop" : 1718235663146,
-        "duration" : 2011
+        "start" : 1718236017539,
+        "stop" : 1718236020833,
+        "duration" : 3294
       }
     } ]
   },
-  "685fe146c29d022a664ea7238193cce0" : {
+  "629f189a438af35d33acd9771b087def" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "70d25b76d453b1cb",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
+      "time" : {
+        "start" : 1718236016754,
+        "stop" : 1718236016754,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7229f0ca0e705e4bd2e5444cbc464973" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1663,12 +2058,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a8f7ffc3b05b28fc",
+      "uid" : "53f3e7aa3400aea0",
       "status" : "passed",
       "time" : {
-        "start" : 1718235690492,
-        "stop" : 1718235691352,
-        "duration" : 860
+        "start" : 1718236034929,
+        "stop" : 1718236037394,
+        "duration" : 2465
       }
     } ]
   },
@@ -1682,16 +2077,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a745ef98f0a4b591",
+      "uid" : "27fbc0e5d87262b0",
       "status" : "passed",
       "time" : {
-        "start" : 1718235656494,
-        "stop" : 1718235657487,
-        "duration" : 993
+        "start" : 1718236011538,
+        "stop" : 1718236012569,
+        "duration" : 1031
       }
     } ]
   },
-  "6686e75ed55fa527540ae2f6d0f707c9" : {
+  "be3e5a8c301d3d837539a340db8baddd" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1701,16 +2096,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4615e3e5198b76ca",
+      "uid" : "398741fade643fdf",
       "status" : "passed",
       "time" : {
-        "start" : 1718235693763,
-        "stop" : 1718235694752,
-        "duration" : 989
+        "start" : 1718236100252,
+        "stop" : 1718236103259,
+        "duration" : 3007
       }
     } ]
   },
-  "5534767b63489f330206dd0a73a86fe6" : {
+  "daec716786b8857d508db7e94aed31ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f90bdd2568081b8b",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
+      "time" : {
+        "start" : 1718236016822,
+        "stop" : 1718236016822,
+        "duration" : 0
+      }
+    } ]
+  },
+  "44313ef9c9d4b0e533c871a066a003c2" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1720,16 +2135,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e0e40a94052d2a61",
+      "uid" : "49acefae57306a17",
       "status" : "passed",
       "time" : {
-        "start" : 1718235725676,
-        "stop" : 1718235726922,
-        "duration" : 1246
+        "start" : 1718236098201,
+        "stop" : 1718236100251,
+        "duration" : 2050
       }
     } ]
   },
-  "ec80bd96c5256ce83f2375d6df041f83" : {
+  "e8b397cc64b24f75fbd672e584b6e559" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1739,50 +2154,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "66cc96035ffc354d",
+      "uid" : "2597cd67b44d7510",
       "status" : "passed",
       "time" : {
-        "start" : 1718235749789,
-        "stop" : 1718235751819,
-        "duration" : 2030
-      }
-    } ]
-  },
-  "2cc326c89be6712c0cd100e6bb9be92a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3142cab8c1332132",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235676333,
-        "stop" : 1718235677594,
-        "duration" : 1261
-      }
-    } ]
-  },
-  "27fc1dc3616610b5646489987de628ee" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "4428a9c4a438812b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718235663148,
-        "stop" : 1718235665273,
-        "duration" : 2125
+        "start" : 1718236030386,
+        "stop" : 1718236032430,
+        "duration" : 2044
       }
     } ]
   },
@@ -1796,16 +2173,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c3dc0face5da95f2",
+      "uid" : "9c526d868769d5e6",
       "status" : "passed",
       "time" : {
-        "start" : 1718235683601,
-        "stop" : 1718235683626,
-        "duration" : 25
+        "start" : 1718236039852,
+        "stop" : 1718236039873,
+        "duration" : 21
       }
     } ]
   },
-  "a4be1e376fc524c330a7e3fa3a06b32f" : {
+  "a2dab243f138930641bb9806d9d5b89" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a858682ae94825b",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Sign in')]\"}\n  (Session info: chrome=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1cd6b5965711a0a509b9fafb2776b20f, findElement {using=xpath, value=//span[contains(text(), 'Sign in')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1cd6b5965711a0a509b9fafb2776b20f",
+      "time" : {
+        "start" : 1718236016769,
+        "stop" : 1718236016770,
+        "duration" : 1
+      }
+    } ]
+  },
+  "f09bdd95974f497e305dc27aafe747ae" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1815,16 +2212,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c19c46880276b6e",
+      "uid" : "b8bef2ad20691662",
       "status" : "passed",
       "time" : {
-        "start" : 1718235713270,
-        "stop" : 1718235714393,
-        "duration" : 1123
+        "start" : 1718236060918,
+        "stop" : 1718236062196,
+        "duration" : 1278
       }
     } ]
   },
-  "aad9b23df2cceaa54a40b7dc90a3c4c5" : {
+  "8245bfb03f93d60e06c4f921f53d8e1" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1834,16 +2231,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9d8629a6147c08e9",
+      "uid" : "4f0c998e4b197026",
       "status" : "passed",
       "time" : {
-        "start" : 1718235715354,
-        "stop" : 1718235716731,
-        "duration" : 1377
+        "start" : 1718236046874,
+        "stop" : 1718236047846,
+        "duration" : 972
       }
     } ]
   },
-  "d6ba68b1dcd95fa6b3df2d8a407f4e09" : {
+  "77c8c80ab72e92e8a3dededd78efbc89" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1853,12 +2250,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d719e686ac70eef6",
+      "uid" : "e093527377809aeb",
       "status" : "passed",
       "time" : {
-        "start" : 1718235680826,
-        "stop" : 1718235683950,
-        "duration" : 3124
+        "start" : 1718236107493,
+        "stop" : 1718236110488,
+        "duration" : 2995
       }
     } ]
   }

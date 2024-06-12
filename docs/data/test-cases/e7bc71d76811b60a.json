@@ -1,0 +1,115 @@
+{
+  "uid" : "e7bc71d76811b60a",
+  "name" : "filterBySizeCheckboxTest",
+  "fullName" : "tests.pages.product.ClothesPageTest.filterBySizeCheckboxTest",
+  "historyId" : "1abca0b051eaf48c40e917036784e905",
+  "time" : {
+    "start" : 1718236037781,
+    "stop" : 1718236038907,
+    "duration" : 1126
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1718236022646,
+      "stop" : 1718236026335,
+      "duration" : 3689
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "clothesPageSetup",
+    "time" : {
+      "start" : 1718236036838,
+      "stop" : 1718236037778,
+      "duration" : 940
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1718236043642,
+      "stop" : 1718236044759,
+      "duration" : 1117
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.pages.product.ClothesPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.pages.product.ClothesPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "filterBySizeCheckboxTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "parallel-suite"
+  }, {
+    "name" : "suite",
+    "value" : "parallel-tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.pages.product.ClothesPageTest"
+  }, {
+    "name" : "host",
+    "value" : "GalinaSM"
+  }, {
+    "name" : "thread",
+    "value" : "12304@GalinaSM.TestNG-test=parallel-tests-1(43)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "XL"
+  }, {
+    "name" : "arg1",
+    "value" : "Size-XL"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7bc71d76811b60a.json",
+  "parameterValues" : [ "XL", "Size-XL" ]
+}
