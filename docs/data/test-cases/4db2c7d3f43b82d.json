@@ -1,0 +1,96 @@
+{
+  "uid" : "4db2c7d3f43b82d",
+  "name" : "activePanelFilterByAvailabilityInStockTest",
+  "fullName" : "tests.pages.product.ProductListPageTest.activePanelFilterByAvailabilityInStockTest",
+  "historyId" : "a9dabdc783f801c370b7073a8d976f22",
+  "time" : {
+    "start" : 1718235657869,
+    "stop" : 1718235661133,
+    "duration" : 3264
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1718235647687,
+      "stop" : 1718235650565,
+      "duration" : 2878
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1718235757109,
+      "stop" : 1718235757245,
+      "duration" : 136
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.pages.product.ProductListPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.pages.product.ProductListPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "activePanelFilterByAvailabilityInStockTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "parallel-suite"
+  }, {
+    "name" : "suite",
+    "value" : "parallel-tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.pages.product.ProductListPageTest"
+  }, {
+    "name" : "host",
+    "value" : "GalinaSM"
+  }, {
+    "name" : "thread",
+    "value" : "18764@GalinaSM.TestNG-test=parallel-tests-2(44)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "pages.product.ArtPage@6daa95cf"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4db2c7d3f43b82d.json",
+  "parameterValues" : [ "pages.product.ArtPage@6daa95cf" ]
+}

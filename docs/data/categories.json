@@ -7,16 +7,16 @@
       "name" : "expected [$15.00 - $28.00] but found [$15.00 - $29.00]",
       "children" : [ {
         "name" : "filterByPriceRangeTest",
-        "uid" : "f7f99e471ea7dd9c",
+        "uid" : "5f583d69c354edc1",
         "parentUid" : "03e7bbedbf021ad941e05401a25c78ef",
         "status" : "failed",
         "time" : {
-          "start" : 1717108018831,
-          "stop" : 1717108021081,
-          "duration" : 2250
+          "start" : 1718235703118,
+          "stop" : 1718235705803,
+          "duration" : 2685
         },
         "flaky" : false,
-        "parameters" : [ "pages.product.ArtPage@52757814", "$15.00 - $28.00" ]
+        "parameters" : [ "pages.product.ArtPage@4c5eea09", "$15.00 - $28.00" ]
       } ],
       "uid" : "03e7bbedbf021ad941e05401a25c78ef"
     } ],

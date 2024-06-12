@@ -2,1180 +2,1180 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "Bug ID: 3. Should be fixed on FE side",
-    "uid" : "c2775245afe02ad3",
+    "name" : "Bug ID: 1. Should be fixed on FE side",
+    "uid" : "94b013e34f8047bb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
-      "start" : 1717107956142,
-      "stop" : 1717107961251,
-      "duration" : 5109
+      "start" : 1718235633128,
+      "stop" : 1718235638611,
+      "duration" : 5483
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Bug ID: 1. Should be fixed on FE side",
-    "uid" : "4442994bed7feadd",
+    "name" : "Bug ID: 3. Should be fixed on FE side",
+    "uid" : "8597b87181c0865e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
-      "start" : 1717107961343,
-      "stop" : 1717107961343,
-      "duration" : 0
+      "start" : 1718235638696,
+      "stop" : 1718235638697,
+      "duration" : 1
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "Bug ID: 2. Should be fixed on FE side",
-    "uid" : "bac2e88fb8c39d48",
+    "uid" : "8f8d2bcd5b17b52",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
-      "start" : 1717107961346,
-      "stop" : 1717107961346,
+      "start" : 1718235638699,
+      "stop" : 1718235638699,
       "duration" : 0
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "allNewProductsSectionIsDisplayedTest",
-    "uid" : "d34cc33319522582",
+    "name" : "singInWithInvalidPasswordTest",
+    "uid" : "5312e12942f97d10",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107965406,
-      "stop" : 1717107965448,
-      "duration" : 42
+      "start" : 1718235642820,
+      "stop" : 1718235643661,
+      "duration" : 841
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "singInWithInvalidPasswordTest",
-    "uid" : "d21d9a66f3d59fbe",
+    "name" : "allNewProductsSectionIsDisplayedTest",
+    "uid" : "ee6dbca557316816",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107965702,
-      "stop" : 1717107966526,
-      "duration" : 824
+      "start" : 1718235642840,
+      "stop" : 1718235642876,
+      "duration" : 36
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "allProductsButtonTest",
-    "uid" : "2756a63de5ff4835",
+    "uid" : "d70684e9e5e74598",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107966011,
-      "stop" : 1717107967129,
-      "duration" : 1118
+      "start" : 1718235643532,
+      "stop" : 1718235645082,
+      "duration" : 1550
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "singInWithUnregisteredEmailTest",
-    "uid" : "7050a212b31c5dda",
+    "uid" : "354ae09df5a3c5e0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107967092,
-      "stop" : 1717107967849,
-      "duration" : 757
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "bannersTest",
-    "uid" : "8fa7a39d3b4ffef8",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717107967703,
-      "stop" : 1717107969987,
-      "duration" : 2284
+      "start" : 1718235644263,
+      "stop" : 1718235645057,
+      "duration" : 794
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "singInWithValidCredentialsTest",
-    "uid" : "42a3d833deb5cf9e",
+    "uid" : "c668ce2e6054598c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107968455,
-      "stop" : 1717107970107,
-      "duration" : 1652
+      "start" : 1718235645679,
+      "stop" : 1718235647563,
+      "duration" : 1884
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "bannersTest",
+    "uid" : "79559cc101ed2bc5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235645763,
+      "stop" : 1718235648393,
+      "duration" : 2630
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "carouselIsDisplayedTest",
-    "uid" : "9fd6e54a8e61c083",
+    "uid" : "baecb2b19331d96a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107970544,
-      "stop" : 1717107970884,
-      "duration" : 340
+      "start" : 1718235649176,
+      "stop" : 1718235649200,
+      "duration" : 24
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "customTextSectionIsDisplayedTest",
-    "uid" : "8442a687725437d4",
+    "uid" : "15167df1c90ec154",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107971499,
-      "stop" : 1717107971521,
-      "duration" : 22
+      "start" : 1718235649880,
+      "stop" : 1718235649903,
+      "duration" : 23
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "footerIsDisplayedTest",
-    "uid" : "7e2f0b13adb32b37",
+    "uid" : "11b140fb96137e75",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107972112,
-      "stop" : 1717107972134,
-      "duration" : 22
+      "start" : 1718235650576,
+      "stop" : 1718235650596,
+      "duration" : 20
     },
     "flaky" : false,
     "parameters" : [ ]
+  }, {
+    "name" : "activePanelFilterByAvailabilityInStockTest",
+    "uid" : "d0e3933a6284bcad",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235650579,
+      "stop" : 1718235653876,
+      "duration" : 3297
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.ClothesPage@4d493e09" ]
   }, {
     "name" : "headerAccessoriesLinkTest",
-    "uid" : "ddbee9cf86647118",
+    "uid" : "36e5069e5a2a98d0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107972700,
-      "stop" : 1717107973584,
-      "duration" : 884
+      "start" : 1718235651247,
+      "stop" : 1718235652621,
+      "duration" : 1374
     },
     "flaky" : false,
     "parameters" : [ ]
-  }, {
-    "name" : "activePanelFilterByAvailabilityInStockTest",
-    "uid" : "4742be30655394e6",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717107973195,
-      "stop" : 1717107976324,
-      "duration" : 3129
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@50582188" ]
   }, {
     "name" : "headerArtLinkTest",
-    "uid" : "6e91c80865c2c9e1",
+    "uid" : "6c62d4f768d2b5cd",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107974138,
-      "stop" : 1717107974924,
-      "duration" : 786
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "headerClothesLinkTest",
-    "uid" : "e220dc09f61aa75d",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717107975487,
-      "stop" : 1717107976276,
-      "duration" : 789
+      "start" : 1718235653249,
+      "stop" : 1718235654309,
+      "duration" : 1060
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "activePanelFilterByAvailabilityInStockTest",
-    "uid" : "4323f2724a9a77f0",
+    "uid" : "72dd7683cb800c21",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107976331,
-      "stop" : 1717107979475,
-      "duration" : 3144
+      "start" : 1718235653878,
+      "stop" : 1718235657867,
+      "duration" : 3989
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@746cbf6f" ]
+    "parameters" : [ "pages.product.AccessoriesPage@3e5eda68" ]
   }, {
-    "name" : "onSaleProductsButtonTest",
-    "uid" : "4c7822aa328cfb4d",
+    "name" : "headerClothesLinkTest",
+    "uid" : "4a4153e010935e1b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107976852,
-      "stop" : 1717107977638,
-      "duration" : 786
+      "start" : 1718235654916,
+      "stop" : 1718235655846,
+      "duration" : 930
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "onSaleProductsSectionIsDisplayedTest",
-    "uid" : "6b8051975b44e9ab",
+    "name" : "onSaleProductsButtonTest",
+    "uid" : "a745ef98f0a4b591",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107978197,
-      "stop" : 1717107978218,
-      "duration" : 21
+      "start" : 1718235656494,
+      "stop" : 1718235657487,
+      "duration" : 993
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "activePanelFilterByAvailabilityInStockTest",
+    "uid" : "4db2c7d3f43b82d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235657869,
+      "stop" : 1718235661133,
+      "duration" : 3264
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.ArtPage@6daa95cf" ]
+  }, {
+    "name" : "onSaleProductsSectionIsDisplayedTest",
+    "uid" : "14edb3454a9d31db",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235658154,
+      "stop" : 1718235658177,
+      "duration" : 23
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "popularProductsSectionIsDisplayedTest",
-    "uid" : "7efcc29b168026f6",
+    "uid" : "9d941f7daf0c33a6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107978793,
-      "stop" : 1717107978813,
-      "duration" : 20
+      "start" : 1718235658852,
+      "stop" : 1718235658876,
+      "duration" : 24
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "saleBannerIsDisplayedTest",
-    "uid" : "b2865d110341d429",
+    "uid" : "a7b3bb99d94d5b26",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107979360,
-      "stop" : 1717107979380,
+      "start" : 1718235659518,
+      "stop" : 1718235659538,
       "duration" : 20
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "activePanelFilterByAvailabilityInStockTest",
-    "uid" : "e35b15742488c63f",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717107979477,
-      "stop" : 1717107982470,
-      "duration" : 2993
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@3644b85c" ]
-  }, {
     "name" : "searchInputEmptyValueTest",
-    "uid" : "29ce018078ca83b1",
+    "uid" : "f42e3355ae7e233c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107979943,
-      "stop" : 1717107980687,
-      "duration" : 744
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "searchInputFullWordTest",
-    "uid" : "2463989bd1cac019",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717107981282,
-      "stop" : 1717107982126,
-      "duration" : 844
+      "start" : 1718235660199,
+      "stop" : 1718235661064,
+      "duration" : 865
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "activePanelFilterByColorCheckboxTest",
-    "uid" : "2d13d7c92edf8cef",
+    "uid" : "15cfca1266b726f6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107982473,
-      "stop" : 1717107984337,
-      "duration" : 1864
+      "start" : 1718235661135,
+      "stop" : 1718235663146,
+      "duration" : 2011
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@64f6a224", "White", "Color-White" ]
+    "parameters" : [ "pages.product.ClothesPage@4ccec125", "White", "Color-White" ]
   }, {
-    "name" : "searchInputIncorrectValueTest",
-    "uid" : "ca5585b1f8c9441",
+    "name" : "searchInputFullWordTest",
+    "uid" : "6c9fff65f6fab2d1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107982735,
-      "stop" : 1717107983354,
-      "duration" : 619
+      "start" : 1718235661709,
+      "stop" : 1718235662767,
+      "duration" : 1058
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "activePanelFilterByColorCheckboxTest",
+    "uid" : "4428a9c4a438812b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235663148,
+      "stop" : 1718235665273,
+      "duration" : 2125
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.ClothesPage@5e11df7a", "Black", "Color-Black" ]
+  }, {
+    "name" : "searchInputIncorrectValueTest",
+    "uid" : "cc5368494986e509",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235663436,
+      "stop" : 1718235664186,
+      "duration" : 750
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "storeLogoLinkTest",
-    "uid" : "d4df79e559d873fb",
+    "uid" : "4e935f653976a567",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107983987,
-      "stop" : 1717107985510,
-      "duration" : 1523
+      "start" : 1718235664859,
+      "stop" : 1718235666634,
+      "duration" : 1775
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "activePanelFilterByColorCheckboxTest",
-    "uid" : "cfaddbd1d12f3270",
+    "uid" : "6ede2a7c5199b03c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107984338,
-      "stop" : 1717107986212,
-      "duration" : 1874
+      "start" : 1718235665277,
+      "stop" : 1718235667680,
+      "duration" : 2403
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@6efd3a56", "Black", "Color-Black" ]
+    "parameters" : [ "pages.product.AccessoriesPage@4c956e2b", "White", "Color-White" ]
   }, {
     "name" : "activePanelFilterByColorCheckboxTest",
-    "uid" : "df6aebea93bcece7",
+    "uid" : "42a105164854f3e1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107986214,
-      "stop" : 1717107988227,
-      "duration" : 2013
+      "start" : 1718235667682,
+      "stop" : 1718235670059,
+      "duration" : 2377
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@7e8d2caa", "White", "Color-White" ]
-  }, {
-    "name" : "activePanelFilterByColorCheckboxTest",
-    "uid" : "2efc186b30372271",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717107988231,
-      "stop" : 1717107990273,
-      "duration" : 2042
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@36e073e9", "Black", "Color-Black" ]
+    "parameters" : [ "pages.product.AccessoriesPage@730039ad", "Black", "Color-Black" ]
   }, {
     "name" : "cardBlockIsDisplayedTest",
-    "uid" : "c562e35c54898da2",
+    "uid" : "d7a101bc816ecf03",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107990278,
-      "stop" : 1717107991065,
-      "duration" : 787
+      "start" : 1718235670062,
+      "stop" : 1718235670929,
+      "duration" : 867
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@334f9160" ]
+    "parameters" : [ "pages.product.ClothesPage@c104ce9" ]
   }, {
-    "name" : "filterByCategoryCheckboxTest",
-    "uid" : "a77f4c1a391396d0",
+    "name" : "cardBlockIsDisplayedTest",
+    "uid" : "7e414dda82bec932",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107990677,
-      "stop" : 1717107991826,
-      "duration" : 1149
+      "start" : 1718235670932,
+      "stop" : 1718235672091,
+      "duration" : 1159
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.AccessoriesPage@4e87330a" ]
+  }, {
+    "name" : "filterByCategoryCheckboxTest",
+    "uid" : "2e7da47f88f3f4b5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235671683,
+      "stop" : 1718235672791,
+      "duration" : 1108
     },
     "flaky" : false,
     "parameters" : [ "Men", "Categories-Men" ]
   }, {
     "name" : "cardBlockIsDisplayedTest",
-    "uid" : "b3f338437023e723",
+    "uid" : "2843b438bf04d002",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107991068,
-      "stop" : 1717107992002,
-      "duration" : 934
+      "start" : 1718235672094,
+      "stop" : 1718235673115,
+      "duration" : 1021
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@193e07ea" ]
+    "parameters" : [ "pages.product.ArtPage@69c136a2" ]
   }, {
-    "name" : "cardBlockIsDisplayedTest",
-    "uid" : "8ac3fd9b1ab38c9",
+    "name" : "filterByAvailabilityIsDisplayedTest",
+    "uid" : "3b226c1749ff3d14",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107992005,
-      "stop" : 1717107992850,
-      "duration" : 845
+      "start" : 1718235673119,
+      "stop" : 1718235674060,
+      "duration" : 941
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@4516936c" ]
+    "parameters" : [ "pages.product.ClothesPage@5f51ca9c" ]
   }, {
     "name" : "filterByCategoryCheckboxTest",
-    "uid" : "52d39adba754c609",
+    "uid" : "c5240a67b8512a87",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107992649,
-      "stop" : 1717107993763,
-      "duration" : 1114
+      "start" : 1718235673638,
+      "stop" : 1718235674738,
+      "duration" : 1100
     },
     "flaky" : false,
     "parameters" : [ "Women", "Categories-Women" ]
   }, {
     "name" : "filterByAvailabilityIsDisplayedTest",
-    "uid" : "a65ef3e683995d15",
+    "uid" : "a6567c4f6251ff9a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107992853,
-      "stop" : 1717107993623,
-      "duration" : 770
+      "start" : 1718235674062,
+      "stop" : 1718235675313,
+      "duration" : 1251
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@5b531656" ]
+    "parameters" : [ "pages.product.AccessoriesPage@7bbccbef" ]
   }, {
     "name" : "filterByAvailabilityIsDisplayedTest",
-    "uid" : "95df0b40cadacfb5",
+    "uid" : "58464f053e5511f2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107993625,
-      "stop" : 1717107994671,
-      "duration" : 1046
+      "start" : 1718235675316,
+      "stop" : 1718235676328,
+      "duration" : 1012
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@615c5380" ]
+    "parameters" : [ "pages.product.ArtPage@246fb0ed" ]
   }, {
     "name" : "filterBySizeCheckboxTest",
-    "uid" : "a2b6f8bc8936604f",
+    "uid" : "d5b026e89de8beb8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107994555,
-      "stop" : 1717107995694,
-      "duration" : 1139
+      "start" : 1718235675655,
+      "stop" : 1718235676791,
+      "duration" : 1136
     },
     "flaky" : false,
     "parameters" : [ "S", "Size-S" ]
   }, {
-    "name" : "filterByAvailabilityIsDisplayedTest",
-    "uid" : "30d99551306a8862",
+    "name" : "filterByBrandIsDisplayedTest",
+    "uid" : "3142cab8c1332132",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107994674,
-      "stop" : 1717107995490,
-      "duration" : 816
+      "start" : 1718235676333,
+      "stop" : 1718235677594,
+      "duration" : 1261
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@620f50c6" ]
+    "parameters" : [ "pages.product.AccessoriesPage@728db7c5" ]
   }, {
     "name" : "filterByBrandIsDisplayedTest",
-    "uid" : "1cdc8e29d735d340",
+    "uid" : "52694ea17c21210e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107995494,
-      "stop" : 1717107996579,
-      "duration" : 1085
+      "start" : 1718235677596,
+      "stop" : 1718235678650,
+      "duration" : 1054
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@3c1f1a83" ]
+    "parameters" : [ "pages.product.ArtPage@24db3c48" ]
   }, {
     "name" : "filterBySizeCheckboxTest",
-    "uid" : "7fb914fca67f65ac",
+    "uid" : "2c0a637ddcd2b511",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107996514,
-      "stop" : 1717107997803,
-      "duration" : 1289
+      "start" : 1718235677691,
+      "stop" : 1718235678796,
+      "duration" : 1105
     },
     "flaky" : false,
     "parameters" : [ "M", "Size-M" ]
   }, {
-    "name" : "filterByBrandIsDisplayedTest",
-    "uid" : "749cc5e47251664",
+    "name" : "filterByCategoriesIsDisplayedTest",
+    "uid" : "c8c110f174775630",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107996582,
-      "stop" : 1717107997767,
-      "duration" : 1185
+      "start" : 1718235678654,
+      "stop" : 1718235679543,
+      "duration" : 889
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@1b1a50d" ]
+    "parameters" : [ "pages.product.ClothesPage@5cbfaddc" ]
   }, {
     "name" : "filterByCategoriesIsDisplayedTest",
-    "uid" : "1e93b5ae8fd16037",
+    "uid" : "755804af50e2f50d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107997771,
-      "stop" : 1717107998664,
-      "duration" : 893
+      "start" : 1718235679544,
+      "stop" : 1718235680823,
+      "duration" : 1279
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@31975eac" ]
+    "parameters" : [ "pages.product.AccessoriesPage@1875be9d" ]
   }, {
     "name" : "filterBySizeCheckboxTest",
-    "uid" : "91f0e6b6e76b9770",
+    "uid" : "afb56b3c1f58f6ba",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107998627,
-      "stop" : 1717107999786,
-      "duration" : 1159
+      "start" : 1718235679644,
+      "stop" : 1718235680747,
+      "duration" : 1103
     },
     "flaky" : false,
     "parameters" : [ "L", "Size-L" ]
   }, {
-    "name" : "filterByCategoriesIsDisplayedTest",
-    "uid" : "1b529e3234e151cc",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717107998667,
-      "stop" : 1717107999627,
-      "duration" : 960
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@dfde173" ]
-  }, {
     "name" : "filterByClearAllBtnTest",
-    "uid" : "97457f22b9f61c2b",
+    "uid" : "d719e686ac70eef6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717107999630,
-      "stop" : 1717108002720,
-      "duration" : 3090
+      "start" : 1718235680826,
+      "stop" : 1718235683950,
+      "duration" : 3124
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@e775812" ]
+    "parameters" : [ "pages.product.ClothesPage@54b47991" ]
   }, {
     "name" : "filterBySizeCheckboxTest",
-    "uid" : "368a87dac3376491",
+    "uid" : "1391f8e9eac4e225",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108000594,
-      "stop" : 1717108001747,
-      "duration" : 1153
+      "start" : 1718235681613,
+      "stop" : 1718235682726,
+      "duration" : 1113
     },
     "flaky" : false,
     "parameters" : [ "XL", "Size-XL" ]
   }, {
     "name" : "filterBySizeIsDisplayedTest",
-    "uid" : "8c606eed188e0d19",
+    "uid" : "c3dc0face5da95f2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108002498,
-      "stop" : 1717108002518,
-      "duration" : 20
+      "start" : 1718235683601,
+      "stop" : 1718235683626,
+      "duration" : 25
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "filterByClearAllBtnTest",
-    "uid" : "c02585b7f6f9d4df",
+    "uid" : "86d784da2d369dcd",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108002723,
-      "stop" : 1717108005783,
-      "duration" : 3060
+      "start" : 1718235683952,
+      "stop" : 1718235687288,
+      "duration" : 3336
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@1326e5f8" ]
+    "parameters" : [ "pages.product.AccessoriesPage@6014d089" ]
   }, {
     "name" : "leftMenuCategoryLinkTest",
-    "uid" : "ff84defb32ef91b5",
+    "uid" : "d0b8d0d4d0014a0d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108003233,
-      "stop" : 1717108003920,
-      "duration" : 687
+      "start" : 1718235684520,
+      "stop" : 1718235685332,
+      "duration" : 812
     },
     "flaky" : false,
     "parameters" : [ "Men", "Categories-Men" ]
   }, {
     "name" : "leftMenuCategoryLinkTest",
-    "uid" : "794b6ebeb09d9180",
+    "uid" : "171ea2a93e6076ea",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108004580,
-      "stop" : 1717108005251,
-      "duration" : 671
+      "start" : 1718235686177,
+      "stop" : 1718235686996,
+      "duration" : 819
     },
     "flaky" : false,
     "parameters" : [ "Women", "Categories-Women" ]
   }, {
     "name" : "filterByClearAllBtnTest",
-    "uid" : "4cbf5de09a7ca57b",
+    "uid" : "25576748c32a46cf",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108005786,
-      "stop" : 1717108008747,
-      "duration" : 2961
+      "start" : 1718235687289,
+      "stop" : 1718235690489,
+      "duration" : 3200
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@5dc698b7" ]
+    "parameters" : [ "pages.product.ArtPage@7c7b6635" ]
   }, {
     "name" : "filterByColorIsDisplayedTest",
-    "uid" : "3ede18a4b242c1b",
+    "uid" : "a8f7ffc3b05b28fc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108008749,
-      "stop" : 1717108009488,
-      "duration" : 739
+      "start" : 1718235690492,
+      "stop" : 1718235691352,
+      "duration" : 860
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@7a7e5679" ]
+    "parameters" : [ "pages.product.ClothesPage@4a8d5386" ]
+  }, {
+    "name" : "filterByColorIsDisplayedTest",
+    "uid" : "41ad07b54fd39783",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235691354,
+      "stop" : 1718235692540,
+      "duration" : 1186
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.AccessoriesPage@6077bef5" ]
   }, {
     "name" : "filterByPaperTypeIsDisplayedTest",
-    "uid" : "d9a44ded745bbdbc",
+    "uid" : "7b1e1c4d5abcaa6c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108009170,
-      "stop" : 1717108009197,
-      "duration" : 27
+      "start" : 1718235692279,
+      "stop" : 1718235692303,
+      "duration" : 24
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "filterByColorIsDisplayedTest",
-    "uid" : "d5bb657c32215723",
+    "name" : "filterByCompositionIsDisplayedTest",
+    "uid" : "be2bee460dd72e14",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108009489,
-      "stop" : 1717108010367,
-      "duration" : 878
+      "start" : 1718235692542,
+      "stop" : 1718235693762,
+      "duration" : 1220
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@29d27c1e" ]
+    "parameters" : [ "pages.product.AccessoriesPage@5abb32ca" ]
   }, {
     "name" : "leftMenuHomeAccessoriesCategoryLinkTest",
-    "uid" : "97a91aab8e1c26cc",
+    "uid" : "d6572d1e953df74e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108010036,
-      "stop" : 1717108010813,
-      "duration" : 777
+      "start" : 1718235693523,
+      "stop" : 1718235694531,
+      "duration" : 1008
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "filterByCompositionIsDisplayedTest",
-    "uid" : "cfaa873053cf0ec2",
+    "uid" : "4615e3e5198b76ca",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108010368,
-      "stop" : 1717108011248,
-      "duration" : 880
+      "start" : 1718235693763,
+      "stop" : 1718235694752,
+      "duration" : 989
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@6309880b" ]
+    "parameters" : [ "pages.product.ArtPage@f126b61" ]
   }, {
-    "name" : "filterByCompositionIsDisplayedTest",
-    "uid" : "6bccfeae1f4a0a6c",
+    "name" : "filterByPriceIsDisplayedTest",
+    "uid" : "c7adb36722d09be4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108011250,
-      "stop" : 1717108012007,
-      "duration" : 757
+      "start" : 1718235694755,
+      "stop" : 1718235695638,
+      "duration" : 883
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@2dc7308f" ]
+    "parameters" : [ "pages.product.ClothesPage@2087c38f" ]
+  }, {
+    "name" : "filterByPriceIsDisplayedTest",
+    "uid" : "d4e75f7098e92bf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235695639,
+      "stop" : 1718235696839,
+      "duration" : 1200
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.AccessoriesPage@49cdf972" ]
   }, {
     "name" : "leftMenuStationeryCategoryLinkTest",
-    "uid" : "d6229fa442510d4d",
+    "uid" : "c9aa23c8e904720e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108011598,
-      "stop" : 1717108012304,
-      "duration" : 706
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "filterByPriceIsDisplayedTest",
-    "uid" : "17087475da755564",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717108012010,
-      "stop" : 1717108012830,
-      "duration" : 820
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@40d026c8" ]
-  }, {
-    "name" : "filterByPriceIsDisplayedTest",
-    "uid" : "7964b33045063bab",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717108012831,
-      "stop" : 1717108013737,
-      "duration" : 906
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@757148ec" ]
-  }, {
-    "name" : "filterByPriceIsDisplayedTest",
-    "uid" : "1e4a4d3bd6c8b9b2",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717108013738,
-      "stop" : 1717108014491,
-      "duration" : 753
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@47a52430" ]
-  }, {
-    "name" : "filterByPriceRangeTest",
-    "uid" : "8440e931045c56fd",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717108014493,
-      "stop" : 1717108016568,
-      "duration" : 2075
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@48becb4d", "$19.00 - $25.00" ]
-  }, {
-    "name" : "filterByDimensionIsDisplayedTest",
-    "uid" : "9f96594ba3964d60",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717108016339,
-      "stop" : 1717108016365,
-      "duration" : 26
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "filterByPriceRangeTest",
-    "uid" : "2c4fcf30049fa5ee",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717108016569,
-      "stop" : 1717108018829,
-      "duration" : 2260
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@4318bf78", "$15.00 - $30.00" ]
-  }, {
-    "name" : "filterByPriceRangeTest",
-    "uid" : "f7f99e471ea7dd9c",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1717108018831,
-      "stop" : 1717108021081,
-      "duration" : 2250
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@52757814", "$15.00 - $28.00" ]
-  }, {
-    "name" : "filterByPropertyIsDisplayedTest",
-    "uid" : "9108eea497d38df7",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717108021092,
-      "stop" : 1717108021883,
-      "duration" : 791
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@2c435e85" ]
-  }, {
-    "name" : "filterByPropertyIsDisplayedTest",
-    "uid" : "4e75eb9608fbbbb6",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717108021888,
-      "stop" : 1717108022836,
-      "duration" : 948
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@4b6ab7ce" ]
-  }, {
-    "name" : "filterBySelectionsIsDisplayedTest",
-    "uid" : "7aed6bfa4ac9403",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717108022840,
-      "stop" : 1717108023635,
-      "duration" : 795
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@43086929" ]
-  }, {
-    "name" : "filterBySelectionsIsDisplayedTest",
-    "uid" : "3a0ac5dd6a5caf22",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717108023637,
-      "stop" : 1717108024593,
-      "duration" : 956
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@4b53b0d3" ]
-  }, {
-    "name" : "filterBySelectionsIsDisplayedTest",
-    "uid" : "a09280c8471a5e18",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717108024595,
-      "stop" : 1717108025428,
-      "duration" : 833
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@19881b1" ]
-  }, {
-    "name" : "leftMenuBrandsTest",
-    "uid" : "577895bc48bd4f78",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717108025432,
-      "stop" : 1717108026221,
-      "duration" : 789
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@4419390f" ]
-  }, {
-    "name" : "leftMenuBrandsTest",
-    "uid" : "7328681322b034e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717108026223,
-      "stop" : 1717108027145,
-      "duration" : 922
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@7ae0695" ]
-  }, {
-    "name" : "leftMenuBrandsTest",
-    "uid" : "5f3e228f1f8619ea",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717108027148,
-      "stop" : 1717108027976,
-      "duration" : 828
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@3ddd196d" ]
-  }, {
-    "name" : "leftMenuCategoriesTest",
-    "uid" : "e0f9bc887f101346",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717108027979,
-      "stop" : 1717108028735,
-      "duration" : 756
-    },
-    "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@4561b228" ]
-  }, {
-    "name" : "leftMenuCategoriesTest",
-    "uid" : "f374432a8f9d387d",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1717108028736,
-      "stop" : 1717108029604,
+      "start" : 1718235695716,
+      "stop" : 1718235696584,
       "duration" : 868
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@5b61ae8b" ]
+    "parameters" : [ ]
+  }, {
+    "name" : "filterByPriceIsDisplayedTest",
+    "uid" : "6a41c61d436989c2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235696840,
+      "stop" : 1718235697857,
+      "duration" : 1017
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.ArtPage@563e3230" ]
+  }, {
+    "name" : "filterByPriceRangeTest",
+    "uid" : "95b8cf488f5f0a56",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235697859,
+      "stop" : 1718235700282,
+      "duration" : 2423
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.ClothesPage@1f3563f1", "$19.00 - $25.00" ]
+  }, {
+    "name" : "filterByPriceRangeTest",
+    "uid" : "c7c9d91ad489b4b0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235700284,
+      "stop" : 1718235703116,
+      "duration" : 2832
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.AccessoriesPage@67b4bb5d", "$15.00 - $30.00" ]
+  }, {
+    "name" : "filterByDimensionIsDisplayedTest",
+    "uid" : "64a07a94c90fb20",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235700639,
+      "stop" : 1718235700662,
+      "duration" : 23
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filterByPriceRangeTest",
+    "uid" : "5f583d69c354edc1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1718235703118,
+      "stop" : 1718235705803,
+      "duration" : 2685
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.ArtPage@4c5eea09", "$15.00 - $28.00" ]
+  }, {
+    "name" : "filterByPropertyIsDisplayedTest",
+    "uid" : "87dd1c519780dde8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235705807,
+      "stop" : 1718235706716,
+      "duration" : 909
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.ClothesPage@2dfef229" ]
+  }, {
+    "name" : "filterByPropertyIsDisplayedTest",
+    "uid" : "b1d06848853fd7f0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235706719,
+      "stop" : 1718235707889,
+      "duration" : 1170
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.AccessoriesPage@7f086076" ]
+  }, {
+    "name" : "filterBySelectionsIsDisplayedTest",
+    "uid" : "761e36d18b8775b7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235707891,
+      "stop" : 1718235708765,
+      "duration" : 874
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.ClothesPage@77bb39b" ]
+  }, {
+    "name" : "filterBySelectionsIsDisplayedTest",
+    "uid" : "f644baff0c7eeed7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235708766,
+      "stop" : 1718235709988,
+      "duration" : 1222
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.AccessoriesPage@6bc6c3be" ]
+  }, {
+    "name" : "filterBySelectionsIsDisplayedTest",
+    "uid" : "7416928cb39718e7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235709989,
+      "stop" : 1718235711059,
+      "duration" : 1070
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.ArtPage@3679c501" ]
+  }, {
+    "name" : "leftMenuBrandsTest",
+    "uid" : "1f0a778f5383e1b2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235711062,
+      "stop" : 1718235711999,
+      "duration" : 937
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.ClothesPage@5772823" ]
+  }, {
+    "name" : "leftMenuBrandsTest",
+    "uid" : "de8154f6fe515b4f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235712000,
+      "stop" : 1718235713267,
+      "duration" : 1267
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.AccessoriesPage@59059bdd" ]
+  }, {
+    "name" : "leftMenuBrandsTest",
+    "uid" : "c19c46880276b6e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235713270,
+      "stop" : 1718235714393,
+      "duration" : 1123
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.ArtPage@5efa47fc" ]
   }, {
     "name" : "leftMenuCategoriesTest",
-    "uid" : "8770a17dec292201",
+    "uid" : "97c254e47ae2bcbc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108029605,
-      "stop" : 1717108030379,
-      "duration" : 774
+      "start" : 1718235714398,
+      "stop" : 1718235715352,
+      "duration" : 954
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@592de178" ]
+    "parameters" : [ "pages.product.ClothesPage@4dfcd439" ]
+  }, {
+    "name" : "leftMenuCategoriesTest",
+    "uid" : "9d8629a6147c08e9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235715354,
+      "stop" : 1718235716731,
+      "duration" : 1377
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.AccessoriesPage@102f4dc2" ]
+  }, {
+    "name" : "leftMenuCategoriesTest",
+    "uid" : "82764e9f9146745f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1718235716732,
+      "stop" : 1718235717805,
+      "duration" : 1073
+    },
+    "flaky" : false,
+    "parameters" : [ "pages.product.ArtPage@2c58d8f2" ]
   }, {
     "name" : "leftMenuFilterByTest",
-    "uid" : "f6620f1ed15132c0",
+    "uid" : "3c35bb930c763dc0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108030381,
-      "stop" : 1717108031140,
-      "duration" : 759
+      "start" : 1718235717806,
+      "stop" : 1718235718757,
+      "duration" : 951
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@5091847d" ]
+    "parameters" : [ "pages.product.ClothesPage@7a77c5ce" ]
   }, {
     "name" : "leftMenuFilterByTest",
-    "uid" : "2c12b65a234bde39",
+    "uid" : "fb7c0af76c43cd5e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108031142,
-      "stop" : 1717108032033,
-      "duration" : 891
+      "start" : 1718235718759,
+      "stop" : 1718235720082,
+      "duration" : 1323
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@47bfa400" ]
+    "parameters" : [ "pages.product.AccessoriesPage@1057fe6e" ]
   }, {
     "name" : "leftMenuFilterByTest",
-    "uid" : "69c2d57ea89d6207",
+    "uid" : "8ac0d0f340866298",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108032034,
-      "stop" : 1717108032795,
-      "duration" : 761
+      "start" : 1718235720086,
+      "stop" : 1718235721238,
+      "duration" : 1152
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@31136aab" ]
+    "parameters" : [ "pages.product.ArtPage@353a82d6" ]
   }, {
     "name" : "leftMenuSearchFiltersAreDisplayedTest",
-    "uid" : "71391529832c6c35",
+    "uid" : "c050ef9c08f1627d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108032798,
-      "stop" : 1717108033576,
-      "duration" : 778
+      "start" : 1718235721241,
+      "stop" : 1718235722267,
+      "duration" : 1026
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@2d846376" ]
+    "parameters" : [ "pages.product.ClothesPage@78b00171" ]
   }, {
     "name" : "leftMenuSearchFiltersAreDisplayedTest",
-    "uid" : "5a35a9f4c47efc55",
+    "uid" : "585854e1b4355129",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108033578,
-      "stop" : 1717108034439,
-      "duration" : 861
+      "start" : 1718235722269,
+      "stop" : 1718235723561,
+      "duration" : 1292
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@10d651d9" ]
+    "parameters" : [ "pages.product.AccessoriesPage@2c29bd75" ]
   }, {
     "name" : "leftMenuSearchFiltersAreDisplayedTest",
-    "uid" : "404559aef662b2df",
+    "uid" : "8b8c4fac93d9976e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108034440,
-      "stop" : 1717108035237,
-      "duration" : 797
+      "start" : 1718235723563,
+      "stop" : 1718235724686,
+      "duration" : 1123
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@39df0d1b" ]
+    "parameters" : [ "pages.product.ArtPage@2454af20" ]
   }, {
     "name" : "leftMenuSuppliersTest",
-    "uid" : "24b137ed6b6b9ead",
+    "uid" : "5970ab524851d760",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108035239,
-      "stop" : 1717108035965,
-      "duration" : 726
+      "start" : 1718235724690,
+      "stop" : 1718235725674,
+      "duration" : 984
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@21c6c3c4" ]
+    "parameters" : [ "pages.product.ClothesPage@be39999" ]
   }, {
     "name" : "leftMenuSuppliersTest",
-    "uid" : "582edecd00cb67f2",
+    "uid" : "e0e40a94052d2a61",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108035967,
-      "stop" : 1717108036846,
-      "duration" : 879
+      "start" : 1718235725676,
+      "stop" : 1718235726922,
+      "duration" : 1246
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@1ca5b63e" ]
+    "parameters" : [ "pages.product.AccessoriesPage@36a865ae" ]
   }, {
     "name" : "leftMenuSuppliersTest",
-    "uid" : "789a34de36fe3fdf",
+    "uid" : "979d7ed2c66440ca",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108036849,
-      "stop" : 1717108037638,
-      "duration" : 789
+      "start" : 1718235726923,
+      "stop" : 1718235728000,
+      "duration" : 1077
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@260c7ace" ]
+    "parameters" : [ "pages.product.ArtPage@4cbf40bc" ]
   }, {
     "name" : "sortByDropdownMenuNameAscTest",
-    "uid" : "c7cf91b7248b294b",
+    "uid" : "629930a2f6eced95",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108037641,
-      "stop" : 1717108039633,
-      "duration" : 1992
+      "start" : 1718235728005,
+      "stop" : 1718235730055,
+      "duration" : 2050
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@875ab53" ]
+    "parameters" : [ "pages.product.ClothesPage@5c3dcab5" ]
   }, {
     "name" : "sortByDropdownMenuNameAscTest",
-    "uid" : "297f82fa0ee32026",
+    "uid" : "f648766ca5b2f18",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108039635,
-      "stop" : 1717108041773,
-      "duration" : 2138
+      "start" : 1718235730057,
+      "stop" : 1718235733076,
+      "duration" : 3019
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@1066cfa1" ]
+    "parameters" : [ "pages.product.AccessoriesPage@286a6850" ]
   }, {
     "name" : "sortByDropdownMenuNameAscTest",
-    "uid" : "f74ca4cecc7d8d4c",
+    "uid" : "b2f2891ab70485fd",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108041774,
-      "stop" : 1717108043695,
-      "duration" : 1921
+      "start" : 1718235733080,
+      "stop" : 1718235735285,
+      "duration" : 2205
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@126bc58c" ]
+    "parameters" : [ "pages.product.ArtPage@75a4cfcf" ]
   }, {
     "name" : "sortByDropdownMenuNameDescTest",
-    "uid" : "ab82e45b69004f39",
+    "uid" : "ead4ba6c376e59ad",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108043698,
-      "stop" : 1717108045538,
-      "duration" : 1840
+      "start" : 1718235735287,
+      "stop" : 1718235737339,
+      "duration" : 2052
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@26cafc53" ]
+    "parameters" : [ "pages.product.ClothesPage@65327c0c" ]
   }, {
     "name" : "sortByDropdownMenuNameDescTest",
-    "uid" : "d9f05ba97c3a7d1f",
+    "uid" : "2dbd867fa15239eb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108045540,
-      "stop" : 1717108047578,
-      "duration" : 2038
+      "start" : 1718235737340,
+      "stop" : 1718235740296,
+      "duration" : 2956
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@4f16936a" ]
+    "parameters" : [ "pages.product.AccessoriesPage@97b4a0e" ]
   }, {
     "name" : "sortByDropdownMenuNameDescTest",
-    "uid" : "8c7be6b500960ed4",
+    "uid" : "5bbb2745d048b192",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108047579,
-      "stop" : 1717108049561,
-      "duration" : 1982
+      "start" : 1718235740298,
+      "stop" : 1718235742553,
+      "duration" : 2255
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@5a8b1c38" ]
+    "parameters" : [ "pages.product.ArtPage@37edf5d3" ]
   }, {
     "name" : "sortByDropdownMenuPriceAscTest",
-    "uid" : "ce08aafb7a3df53e",
+    "uid" : "dd0b60271ea0bf54",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108049563,
-      "stop" : 1717108051429,
-      "duration" : 1866
+      "start" : 1718235742560,
+      "stop" : 1718235744655,
+      "duration" : 2095
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@592b6ef" ]
+    "parameters" : [ "pages.product.ClothesPage@755ef181" ]
   }, {
     "name" : "sortByDropdownMenuPriceAscTest",
-    "uid" : "d91dd1fec167e85b",
+    "uid" : "4b17b129b6c517c7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108051431,
-      "stop" : 1717108053553,
-      "duration" : 2122
+      "start" : 1718235744657,
+      "stop" : 1718235747595,
+      "duration" : 2938
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@5af6ec25" ]
+    "parameters" : [ "pages.product.AccessoriesPage@55994712" ]
   }, {
     "name" : "sortByDropdownMenuPriceAscTest",
-    "uid" : "e8bd6d19fc3a13",
+    "uid" : "d0fe416d108bb855",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108053555,
-      "stop" : 1717108055493,
-      "duration" : 1938
+      "start" : 1718235747597,
+      "stop" : 1718235749786,
+      "duration" : 2189
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@2786528f" ]
+    "parameters" : [ "pages.product.ArtPage@1e12a2f" ]
   }, {
     "name" : "sortByDropdownMenuPriceDescTest",
-    "uid" : "abf8da676e045468",
+    "uid" : "66cc96035ffc354d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108055495,
-      "stop" : 1717108057376,
-      "duration" : 1881
+      "start" : 1718235749789,
+      "stop" : 1718235751819,
+      "duration" : 2030
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ClothesPage@1df24862" ]
+    "parameters" : [ "pages.product.ClothesPage@c447a" ]
   }, {
     "name" : "sortByDropdownMenuPriceDescTest",
-    "uid" : "eeb1bc3acbfcb657",
+    "uid" : "b7c79e851effabae",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108057378,
-      "stop" : 1717108059391,
-      "duration" : 2013
+      "start" : 1718235751821,
+      "stop" : 1718235754819,
+      "duration" : 2998
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.AccessoriesPage@67805b12" ]
+    "parameters" : [ "pages.product.AccessoriesPage@7e8bd82b" ]
   }, {
     "name" : "sortByDropdownMenuPriceDescTest",
-    "uid" : "e72c7dd70f2ff246",
+    "uid" : "72e502522798128f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1717108059393,
-      "stop" : 1717108061328,
-      "duration" : 1935
+      "start" : 1718235754821,
+      "stop" : 1718235757108,
+      "duration" : 2287
     },
     "flaky" : false,
-    "parameters" : [ "pages.product.ArtPage@474208d3" ]
+    "parameters" : [ "pages.product.ArtPage@56cc4c84" ]
   } ]
 }
