@@ -24,6 +24,7 @@ public class LoginPageTest extends BasePageTest {
         loginPage.clickSingInBtn();
 
         String currentUrl = loginPage.getCurrentUrl();
+
         Assert.assertFalse(currentUrl.startsWith(loginPageUrl));
     }
 

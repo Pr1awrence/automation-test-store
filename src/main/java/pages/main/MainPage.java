@@ -18,6 +18,7 @@ public class MainPage extends BasePage {
     By storeLogoLink = By.cssSelector(".logo");
     By searchInput = By.cssSelector(".ui-autocomplete-input");
     By singInBtn = By.xpath("//span[contains(text(), 'Sign in')]");
+    By singOutBtn = By.xpath("//a[contains(text(), 'Sign out')]");
     By pageNotFoundSection = By.cssSelector(".page-not-found");
     By carouselSection = By.cssSelector(".carousel");
     By activeBanner = By.cssSelector(".carousel-item.active");
@@ -37,7 +38,6 @@ public class MainPage extends BasePage {
         this.driver = getDriver();
     }
 
-    /* TODO: создай интернал метод click(element) и туда засунь работу с драйвером */
     public void clickClothesMenuLink() {
         driver.findElement(clothesMenuLink).click();
     }
@@ -60,6 +60,10 @@ public class MainPage extends BasePage {
 
     public void clickSignInBtn() {
         driver.findElement(singInBtn).click();
+    }
+
+    public void clickSignOutBtn() {
+        driver.findElement(singOutBtn).click();
     }
 
     public boolean pageNotFoundSectionIsDisplayed() {

@@ -11,6 +11,7 @@ public class LoginPage extends BasePage {
     By password = By.id("field-password");
     By singInBtn = By.id("submit-login");
     By authFailedMsg = By.xpath("//li[contains(text(), 'Authentication failed')]");
+    By registrationBtn = By.cssSelector(".no-account");
 
     public LoginPage() {
         this.driver = getDriver();
@@ -30,5 +31,9 @@ public class LoginPage extends BasePage {
 
     public boolean authFailedMsgIsShown() {
         return driver.findElement(authFailedMsg).isDisplayed();
+    }
+
+    public void clickRegistrationBtn() {
+        driver.findElement(registrationBtn).click();
     }
 }
