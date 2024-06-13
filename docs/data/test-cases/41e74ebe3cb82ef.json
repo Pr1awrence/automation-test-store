@@ -1,0 +1,109 @@
+{
+  "uid" : "41e74ebe3cb82ef",
+  "name" : "singInWithUnregisteredEmailTest",
+  "fullName" : "tests.pages.authentication.LoginPageTest.singInWithUnregisteredEmailTest",
+  "historyId" : "8edf8920920339666d413c37c29f3eb5",
+  "time" : {
+    "start" : 1718237133448,
+    "stop" : 1718237134300,
+    "duration" : 852
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1718237126604,
+      "stop" : 1718237131127,
+      "duration" : 4523
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "loginPageSetup",
+    "time" : {
+      "start" : 1718237132809,
+      "stop" : 1718237133447,
+      "duration" : 638
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1718237136825,
+      "stop" : 1718237136972,
+      "duration" : 147
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.pages.authentication.LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.pages.authentication.LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "singInWithUnregisteredEmailTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "parallel-suite"
+  }, {
+    "name" : "suite",
+    "value" : "parallel-tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.pages.authentication.LoginPageTest"
+  }, {
+    "name" : "host",
+    "value" : "GalinaSM"
+  }, {
+    "name" : "thread",
+    "value" : "23496@GalinaSM.TestNG-test=parallel-tests-2(44)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41e74ebe3cb82ef.json",
+  "parameterValues" : [ ]
+}

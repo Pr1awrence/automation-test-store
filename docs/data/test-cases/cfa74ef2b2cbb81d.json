@@ -1,0 +1,109 @@
+{
+  "uid" : "cfa74ef2b2cbb81d",
+  "name" : "isNewsletterCheckboxDisplayedTest",
+  "fullName" : "tests.pages.authentication.RegistrationPageTest.isNewsletterCheckboxDisplayedTest",
+  "historyId" : "f27db5c160f85542a556988af2236a42",
+  "time" : {
+    "start" : 1718237163857,
+    "stop" : 1718237163924,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "registrationPageSetup",
+    "time" : {
+      "start" : 1718237162464,
+      "stop" : 1718237163855,
+      "duration" : 1391
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1718237136973,
+      "stop" : 1718237140955,
+      "duration" : 3982
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1718237192030,
+      "stop" : 1718237192030,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.pages.authentication.RegistrationPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.pages.authentication.RegistrationPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "isNewsletterCheckboxDisplayedTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "parallel-suite"
+  }, {
+    "name" : "suite",
+    "value" : "parallel-tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.pages.authentication.RegistrationPageTest"
+  }, {
+    "name" : "host",
+    "value" : "GalinaSM"
+  }, {
+    "name" : "thread",
+    "value" : "23496@GalinaSM.TestNG-test=parallel-tests-2(44)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cfa74ef2b2cbb81d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,115 @@
+{
+  "uid" : "bd2c69c9f64d2ad1",
+  "name" : "invalidFirstAndLastNamesTest",
+  "fullName" : "tests.pages.authentication.RegistrationPageTest.invalidFirstAndLastNamesTest",
+  "historyId" : "4c4be6c1572bd2cbe404dc7af2bae0e7",
+  "time" : {
+    "start" : 1718237156443,
+    "stop" : 1718237157911,
+    "duration" : 1468
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "registrationPageSetup",
+    "time" : {
+      "start" : 1718237155195,
+      "stop" : 1718237156441,
+      "duration" : 1246
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1718237136973,
+      "stop" : 1718237140955,
+      "duration" : 3982
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1718237192030,
+      "stop" : 1718237192030,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.pages.authentication.RegistrationPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.pages.authentication.RegistrationPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "invalidFirstAndLastNamesTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "parallel-suite"
+  }, {
+    "name" : "suite",
+    "value" : "parallel-tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.pages.authentication.RegistrationPageTest"
+  }, {
+    "name" : "host",
+    "value" : "GalinaSM"
+  }, {
+    "name" : "thread",
+    "value" : "23496@GalinaSM.TestNG-test=parallel-tests-2(44)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "John.Adam"
+  }, {
+    "name" : "arg1",
+    "value" : "Smith.Jr."
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd2c69c9f64d2ad1.json",
+  "parameterValues" : [ "John.Adam", "Smith.Jr." ]
+}
