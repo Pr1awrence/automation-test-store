@@ -1,0 +1,96 @@
+{
+  "uid" : "384cbac8abfc29b0",
+  "name" : "filterByCompositionIsDisplayedTest",
+  "fullName" : "tests.pages.product.ProductListPageTest.filterByCompositionIsDisplayedTest",
+  "historyId" : "3f38fca4f4e39e34879496d206525036",
+  "time" : {
+    "start" : 1718237630946,
+    "stop" : 1718237632095,
+    "duration" : 1149
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1718237581784,
+      "stop" : 1718237584758,
+      "duration" : 2974
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1718237694118,
+      "stop" : 1718237695234,
+      "duration" : 1116
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.pages.product.ProductListPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.pages.product.ProductListPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "filterByCompositionIsDisplayedTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "parallel-suite"
+  }, {
+    "name" : "suite",
+    "value" : "parallel-tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.pages.product.ProductListPageTest"
+  }, {
+    "name" : "host",
+    "value" : "GalinaSM"
+  }, {
+    "name" : "thread",
+    "value" : "24752@GalinaSM.TestNG-test=parallel-tests-1(43)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "pages.product.ArtPage@36f19a05"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "384cbac8abfc29b0.json",
+  "parameterValues" : [ "pages.product.ArtPage@36f19a05" ]
+}

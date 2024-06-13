@@ -1,0 +1,61 @@
+{
+  "uid" : "9aa14e34bff07335",
+  "name" : "Bug ID: 3. Should be fixed on FE side",
+  "fullName" : "tests.pages.main.MainPageTest.allNewProductsButtonTest",
+  "historyId" : "6a043f528091ffcd3c8bf9e38568fbd3",
+  "time" : {
+    "start" : 1718237546603,
+    "stop" : 1718237552149,
+    "duration" : 5546
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.pages.main.MainPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.pages.main.MainPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "allNewProductsButtonTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "parallel-suite"
+  }, {
+    "name" : "suite",
+    "value" : "parallel-tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.pages.main.MainPageTest"
+  }, {
+    "name" : "host",
+    "value" : "GalinaSM"
+  }, {
+    "name" : "thread",
+    "value" : "24752@GalinaSM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9aa14e34bff07335.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,96 @@
+{
+  "uid" : "38992ef0ae5866ab",
+  "name" : "sortByDropdownMenuPriceDescTest",
+  "fullName" : "tests.pages.product.ProductListPageTest.sortByDropdownMenuPriceDescTest",
+  "historyId" : "86cc0787a58efd64ce7604f286a57f5c",
+  "time" : {
+    "start" : 1718237688941,
+    "stop" : 1718237691829,
+    "duration" : 2888
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1718237581784,
+      "stop" : 1718237584758,
+      "duration" : 2974
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1718237694118,
+      "stop" : 1718237695234,
+      "duration" : 1116
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.pages.product.ProductListPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.pages.product.ProductListPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "sortByDropdownMenuPriceDescTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "parallel-suite"
+  }, {
+    "name" : "suite",
+    "value" : "parallel-tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.pages.product.ProductListPageTest"
+  }, {
+    "name" : "host",
+    "value" : "GalinaSM"
+  }, {
+    "name" : "thread",
+    "value" : "24752@GalinaSM.TestNG-test=parallel-tests-1(43)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "pages.product.AccessoriesPage@4aed16b2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38992ef0ae5866ab.json",
+  "parameterValues" : [ "pages.product.AccessoriesPage@4aed16b2" ]
+}

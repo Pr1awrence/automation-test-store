@@ -1,0 +1,61 @@
+{
+  "uid" : "ae44342ac925f96e",
+  "name" : "Tech ID: 1. Temporary users are not being deleted now",
+  "fullName" : "tests.pages.authentication.RegistrationPageTest.validFirstAndLastNamesTest",
+  "historyId" : "e420425a58e5275e82b340c9b18e1045",
+  "time" : {
+    "start" : 1718237552266,
+    "stop" : 1718237552266,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.pages.authentication.RegistrationPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.pages.authentication.RegistrationPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "validFirstAndLastNamesTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "parallel-suite"
+  }, {
+    "name" : "suite",
+    "value" : "parallel-tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.pages.authentication.RegistrationPageTest"
+  }, {
+    "name" : "host",
+    "value" : "GalinaSM"
+  }, {
+    "name" : "thread",
+    "value" : "24752@GalinaSM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae44342ac925f96e.json",
+  "parameterValues" : [ ]
+}

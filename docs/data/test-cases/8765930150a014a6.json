@@ -1,0 +1,96 @@
+{
+  "uid" : "8765930150a014a6",
+  "name" : "leftMenuSuppliersTest",
+  "fullName" : "tests.pages.product.ProductListPageTest.leftMenuSuppliersTest",
+  "historyId" : "b9aed0d2446961c76b75ec55eca23d2c",
+  "time" : {
+    "start" : 1718237662878,
+    "stop" : 1718237664193,
+    "duration" : 1315
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1718237581784,
+      "stop" : 1718237584758,
+      "duration" : 2974
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1718237694118,
+      "stop" : 1718237695234,
+      "duration" : 1116
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.pages.product.ProductListPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.pages.product.ProductListPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "leftMenuSuppliersTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "parallel-suite"
+  }, {
+    "name" : "suite",
+    "value" : "parallel-tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.pages.product.ProductListPageTest"
+  }, {
+    "name" : "host",
+    "value" : "GalinaSM"
+  }, {
+    "name" : "thread",
+    "value" : "24752@GalinaSM.TestNG-test=parallel-tests-1(43)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "pages.product.AccessoriesPage@68d496f0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8765930150a014a6.json",
+  "parameterValues" : [ "pages.product.AccessoriesPage@68d496f0" ]
+}
