@@ -10,11 +10,12 @@ import tests.pages.BasePageTest;
 import utils.RegistrationDataProvider;
 
 public class RegistrationPageTest extends BasePageTest {
-    private final MainPage mainPage = new MainPage();
+    private MainPage mainPage;
     private RegistrationPage registrationPage;
 
     @BeforeMethod
     public void registrationPageSetup() {
+        mainPage = new MainPage();
         mainPage.clickSignInBtn();
         LoginPage loginPage = new LoginPage();
         loginPage.clickRegistrationBtn();
@@ -42,6 +43,7 @@ public class RegistrationPageTest extends BasePageTest {
         String currentUrl = registrationPage.getCurrentUrl();
 
         Assert.assertEquals(currentUrl, mainPageUrl);
+
         mainPage.clickSignOutBtn();
     }
 
@@ -64,6 +66,7 @@ public class RegistrationPageTest extends BasePageTest {
         String currentUrl = registrationPage.getCurrentUrl();
 
         Assert.assertEquals(currentUrl, mainPageUrl);
+
         mainPage.clickSignOutBtn();
     }
 
@@ -92,6 +95,7 @@ public class RegistrationPageTest extends BasePageTest {
         String currentUrl = registrationPage.getCurrentUrl();
 
         Assert.assertEquals(currentUrl, mainPageUrl);
+
         mainPage.clickSignOutBtn();
     }
 
